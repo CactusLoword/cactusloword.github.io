@@ -1,0 +1,199 @@
+/*
+red: rgb(255,70,100)
+background blue: rgb(160,220,255)
+blue: rgb(100,100,255)
+new blue: rgba(60,100,225,0.75)
+purple: rgb(150,110,255)
+*/
+
+*{
+}
+
+body {
+  background-color: rgb(160,220,255);
+  margin:0;
+  width: 100%;
+}
+
+h1 {
+  color:rgb(255,70,100);
+  text-decoration: overline;
+  text-shadow: 1px 2px rgba(0,0,0,0.3);
+  font: 300% Georgia, serif;
+}
+
+h2{
+  color:rgb(100,100,255);
+  text-decoration: overline;
+  text-shadow: -1px -2px rgb(0,0,0,0.3);
+  font: 200% Verdana, sans-serif;
+  margin-bottom: 1%;
+}
+
+h3{
+  color:rgb(150,110,255);
+  font:150% Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+h4{
+ padding:2px 4px;
+ margin:0 0 10px 0;
+}
+
+a.link:link, a.link:visited{
+  color:rgba(255,70,100);
+}
+
+a.link:hover{
+  color:rgb(100,100,255);
+}
+
+img{
+  height:200px;
+  /* background-color:blue; deleted, I honestly don't know why this exists, I'll see if I remember later*/
+}
+
+a, li, .p, p{
+  color:rgb(80,100,255);
+  font: 100% Verdana, sans-serif;
+}
+
+/* section.leftback{
+  background-color: rgba(90,100,225,0.75);
+  position:fixed;
+  height:10%;
+  width:20%;
+} */
+
+ul.nav{
+  width:100%;
+  list-style-type:none;
+  padding:0;
+  background-color:rgba(60,100,225,0.75);
+  margin:0;
+  overflow:auto;
+  box-shadow: 0px 1px 5px;
+}
+
+a.nav{
+  color:white;
+  display:block;
+  text-decoration:none;
+  padding:10px 7px;
+  margin:0;
+
+}
+
+li.nav:hover:not(.current){
+  background-color: rgb(150,110,255);
+}
+
+li.current{
+  background-color: rgb(255,70,100);
+}
+
+li.nav{
+  /* display:inline; */
+  float:left;
+  margin:0 1px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  padding:0 10px;
+}
+
+ul.leftbar{
+  position:fixed;
+  width:20%;
+  height:100%;
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  background-color:rgba(90,100,225,0.75);
+  overflow: auto;
+  box-shadow: 1px 4px 5px;
+}
+
+a.leftbar{
+  color:white;
+  display:block;
+  text-decoration:none;
+  padding:2px 4px;
+  margin:0;
+}
+
+a.leftbar:hover{
+  background-color:rgb(255,70,100);
+}
+
+
+main{
+  margin:1%;
+}
+
+.textright{
+  margin-left:21%;
+}
+
+li.leftbar{
+  color:white;
+  padding:0;
+}
+
+/* page 2 */
+/* pop up */
+.popup{
+  position:fixed;
+  width:25%;
+  height:15%;
+  bottom: 0;
+  padding:0;
+  /* margin:80% 0 0 0; */
+  background-color:#cfcfcf;
+  border: 2px dashed #888888;
+  overflow: auto;
+}
+
+.popuptxt{
+  color:#000
+}
+
+.cross{
+  float:right;
+  color:#f00;
+  background-color: #fff;
+  display: block;
+  border:thin solid black;
+  padding:0px 2px;
+  margin:0;
+  text-decoration: none;
+}
+
+/* .word{
+  width:100%;
+  word-wrap: break-word;
+} */
+
+.emote{
+  width:25%;
+  height:50px;
+  margin:0 12%;
+  border-width: 1.5px;
+}
+
+#angry{
+  background-color: #d11;
+  font:200% monospace;
+}
+
+#happy{
+  visibility: hidden;
+  float:right;
+  background-color: #fd5;
+  font: 200% monospace;
+}
+
+.pic{
+  width: 48%;
+  height: auto;
+  margin: 5px 5px;
+}

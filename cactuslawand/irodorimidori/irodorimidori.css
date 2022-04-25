@@ -1,0 +1,193 @@
+
+
+#cactus{
+  left:30%;
+  height:40%;
+}
+
+#backbotback{
+  height:60%;
+  background-image: url("boards.png");
+  background-size: 5%;
+  image-rendering:pixelated;
+  background-color: #d9be93;
+}
+
+#backtop{
+  height:40%;
+  background-color: #7d9175;
+  border-bottom: 1px solid #47452c;
+}
+
+
+/*scrollbar background*/
+#viewer::-webkit-scrollbar-track {
+  background:#f6f6f8;
+}
+
+/*scrollbar handle*/
+#viewer::-webkit-scrollbar-thumb {
+  background: #c8cde0;
+}
+
+#viewer::-webkit-scrollbar-thumb:hover {
+  background: #b8bdd0;
+}
+
+#viewer{
+  /* background-color: #6bf; */
+  background-color: #8bf;
+  border-color: #40517f;
+}
+
+/*contentsAnime*/
+
+#contentsAnime::-webkit-scrollbar-track {
+  /* background: #fba; */
+  background:#fbbed0;
+}
+
+#contentsAnime::-webkit-scrollbar-thumb {
+  background: #bbe4f6;
+}
+
+#contentsAnime::-webkit-scrollbar-thumb:hover {
+  background: #71b836;
+}
+
+#contentsAnime{
+  background-color: #f7e79a;
+  border-color: #663b2a;
+}
+
+#contentsAnime .story{
+  background-color: #d6bfd3;
+  color:#47485d;
+  border-color: #817e91;
+}
+
+#contentsAnime .story:hover{
+  background-color: #f0bb85;
+}
+
+/*contentsMusic*/
+
+#contentsMusic::-webkit-scrollbar-track {
+  /* background:#9da; */
+  background: #afccc8;
+  background: #e3bc5d;
+  background: #ea9fbe;
+}
+
+#contentsMusic::-webkit-scrollbar-thumb {
+  background: #b092c8;
+}
+
+#contentsMusic::-webkit-scrollbar-thumb:hover {
+  background: #61405b;
+}
+
+#contentsMusic{
+  background-color: #3f6cc9;
+  border-color: #640618;
+}
+
+#contentsMusic .story{
+  background-color: #ec578e;
+  color:#1b0862;
+  border-color: #1b0862;
+}
+
+#contentsMusic .story:hover{
+  background-color: #ef156c;
+}
+
+
+
+
+#back{
+  background-color:#ad7;
+}
+
+#contentsButt{
+  background-color: #d98;
+}
+
+.contentsButts{
+  border-radius: 1vh;
+  border-width:0.5vh;
+}
+
+#contentsButtAnime{
+  bottom:48%;
+  right:80%;
+  background-color: #8bf;
+}
+
+#contentsButtMusic{
+  bottom:48%;
+  right:45%;
+  background-color: #ef156c;
+}
+
+
+#storyTitle,#storyText,.storyText,#storyName,.storyName{
+  color:#347;
+}
+
+#storyTitle::selection,#storyText::selection,.storyText::selection,#storyName::selection,.storyName::selection{
+  /* color:#943; */
+  background:#7d9175;
+  background: #9db195;
+}
+
+/*works*/
+#storyNameAnime, #storyNameMusic{
+  position: static;
+}
+
+/*doesn't work ???*/
+/* .storyName{
+  position:static;
+} */
+
+
+#storyNameAnime{
+  color: #943e3f;
+  color:#721937;
+  color:#b2456c;
+}
+
+#storyNameMusic{
+  color:#640618;
+}
+
+
+.storyImg{
+  border-color: #40517f;
+}
+
+#coverAnime{
+  height:30%;
+  width:10.9%;
+  left:7%;
+  top:3%;
+}
+
+#coverMusic{
+  height:30%;
+  width:10.9%;
+  left:42%;
+  top:3%;
+}
+
+.cover img{
+  height:100%;
+  width:auto;
+  left:0;
+  top:0;
+}
+
+/* #library{
+  border:solid;
+} */

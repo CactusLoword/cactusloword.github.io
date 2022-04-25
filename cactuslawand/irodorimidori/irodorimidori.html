@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="icon" href="cactus.png"> -->
+  <link rel="stylesheet" href="../cactuslawand.css">
+  <link rel="stylesheet" href="../stories.css">
+  <link rel="stylesheet" href="irodorimidori.css">
+  <script type="module" src="irodorimidori.js" defer></script>
+  <script src="../elementClick.js" ></script>
+  <!-- <script src="pearstall.js"></script> -->
+</head>
+
+<body>
+  <div id="gamescreen">
+    <div id="backbotback"></div>
+    <div id="backtop"></div>
+  <main id="irodorimidori">
+    <a href="https://www.wattpad.com/story/300911562-irodorimidori-anime-review" id="coverAnime" class="cover"><img src="anime/cover.jpg"></a>
+    <a href="https://www.wattpad.com/story/288017406-irodorimidori-review-saga" id="coverMusic" class="cover"><img src="music/cover.jpg"></a>
+
+    <img id="cactus" src="../cactus.png" draggable="false">
+    <button id="contentsButtAnime" onclick="contentsShow('contentsAnime')" class="contentsButts">Contents</button>
+    <button id="contentsButtMusic" onclick="contentsShow('contentsMusic')" class="contentsButts">Contents</button>
+    <button id="back" onclick="location.assign('../cactuslawand.html')">back</button>
+    <button id="contentsExit" class="exitButt" onclick="closeContents()"><img class="xit" src="../x.png" draggable="false"></button>
+    <div id="contentsAnime" class="contents">
+      <ul id="animelist" class="lists">
+        <h2 id="storyNameAnime" class="storyName"></h2>
+      </ul>
+    </div>
+    <div id="contentsMusic" class="contents">
+      <ul id="musiclist" class="lists">
+        <h2 id="storyNameMusic" class="storyName"></h2>
+      </ul>
+      </div>
+
+    <button id="viewerExit" class="exitButt" onclick="closeElement(this.id,'viewer')"><img class="xit" src="../x.png" draggable="false"></button>
+    <div id="viewer">
+      <h2 id="storyTitle"></h2>
+      <div id="storyText" data-copy="false"><p id="storyText0"></p></div>
+    </div>
+    </div>
+  </main>
+</div>
+  <div id="blackscreen"></div>
+
+<!-- <script src="pearstall.js"></script> -->
+
+</body>
+</html>

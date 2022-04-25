@@ -71,9 +71,9 @@ var sizes={
 var positions=posOutside;
 
 var doorLocations={
-  "peardoor":"pearstall/pearstall.html",
-  "librarydoor":"library/library.html",
-  "irodorimidoori":"irodorimidori/irodorimidori.html",
+  "peardoor":"pearstall",
+  "librarydoor":"library",
+  "irodorimidoori":"irodorimidori",
   "workingdoor":"",
 }
 

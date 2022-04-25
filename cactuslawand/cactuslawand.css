@@ -45,6 +45,11 @@ body,html{
   border:1px solid black;
 }
 
+#controlsBack{
+  height: 100%;
+  width:100%;
+}
+
 #up, #down{
   left:50%;
   right:50%;

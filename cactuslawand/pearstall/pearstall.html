@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="icon" href="cactus.png"> -->
+  <link rel="stylesheet" href="../cactuslawand.css">
+  <link rel="stylesheet" href="../stories.css">
+  <link rel="stylesheet" href="pearstall.css">
+  <!-- <script type="module" src="../stories.js" defer></script> -->
+  <script type="module" src="pearstall.js" defer></script>
+  <script src="../elementClick.js" ></script>
+  <!-- <script src="pearstall.js"></script> -->
+</head>
+
+<body>
+  <div id="gamescreen">
+  <div id="backbotback"></div>
+  <!-- <img id="backbot" src="sand.png" draggable="false"> -->
+  <div id="backtop"></div>
+  <main id="pearstall">
+    <div id="standShadow" class="shadow"></div>
+    <div id="standpost"></div>
+    <div id="standpostleft"></div>
+    <div id="standpostright"></div>
+    <div id="standback"></div>
+    <a href="https://www.wattpad.com/story/288018929-sam-p%27s-pears" id="cover"><img src="pearcover.jpg"></a>
+
+    <img id="cactus" src="../cactus.png" draggable="false">
+    <button id="contentsButt" data-contentsid="contents" onclick="contentsShow(this.dataset.contentsid)">Contents</button>
+    <button id="back" onclick="location.assign('../cactuslawand.html')">back</button>
+
+    <!-- <div id="clickBlocker"></div> -->
+
+    <button id="contentsExit" class="exitButt" onclick="closeElement(this.id,'contents')/*;document.getElementById('contentsButt').style.visibility='visible'*/"><img class="xit" src="../x.png" draggable="false"></button>
+    <div id="contents">
+      <ul id="list" class="lists">
+        <h2 id="storyName" class="storyName"></h2>
+      </ul>
+    </div>
+    <button id="viewerExit" class="exitButt" onclick="closeElement(this.id,'viewer')"><img class="xit" src="../x.png" draggable="false"></button>
+    <div id="viewer">
+      <h2 id="storyTitle"></h2>
+      <!-- <p id="storyText" data-unselectable="unselectable content">Hello again. I know that there wasn't a planned review for today, but the last 3 nights I have spent writing, so without doing something now I feel lost. After sustaining myself with evening consumables, I hungered for a sweet-tasting food, to end my feast. I pondered for some time, before I realised what sat on the table, waiting fo<img src="../cactus.png" class="storyImg" style="position:static;" draggable="false">r me to vore it: Sam P's Pear. Not only would it nourish my tastebuds, it would also suckle my craving of review writing</p> -->
+      <div id="storyText" data-unselectable="unselectable content"><p id="storyText0"></p></div>
+    </div>
+  </main>
+</div>
+  <div id="blackscreen"></div>
+
+<!-- <script src="pearstall.js"></script> -->
+
+</body>
+</html>

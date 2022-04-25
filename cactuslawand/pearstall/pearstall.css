@@ -1,0 +1,149 @@
+
+/* #pearstall{
+  visibility: visible;
+} */
+
+#gamescreen{
+  /* overflow: auto; */
+}
+
+#cactus{
+  left:30%;
+  height:40%;
+}
+
+#backbotback{
+  height:60%;
+}
+
+#backtop{
+  height:40%;
+}
+
+#contents,#viewer{
+  /* background-color: #ae715c; */
+  background-color: #d98;
+  border-color: #610;
+}
+
+#viewer{
+
+}
+
+/*scrollbar background*/
+#contents::-webkit-scrollbar-track,#viewer::-webkit-scrollbar-track {
+  /* background: #fba; */
+  background:#d89888;
+}
+
+/*scrollbar handle*/
+#contents::-webkit-scrollbar-thumb,#viewer::-webkit-scrollbar-thumb {
+  background: #b76;
+}
+
+/*scrollbar handle on hover*/
+#contents::-webkit-scrollbar-thumb:hover,#viewer::-webkit-scrollbar-thumb:hover {
+  background: #943;
+}
+
+.story{
+  /* background-color:#7a9a51; */
+  background-color: #ad7;
+  color:#250;
+  border-color: #250;
+}
+
+.story:hover{
+  /* background-color:#7a9a51; */
+  background-color: #8b5;
+}
+
+#viewer{
+
+}
+
+#back{
+  background-color:#ad7;
+}
+
+#contentsButt{
+  background-color: #d98;
+}
+
+#storyTitle,#storyText,.storyText,#storyName{
+  color:#610;
+}
+
+#storyTitle::selection,#storyText::selection,.storyText::selection,#storyName::selection{
+  color:#943;
+  background:#ad7;
+}
+
+.storyImg{
+  border-color: #610;
+}
+
+#cover{
+  height:30%;
+  width:10.9%;
+  right:10%;
+  top:21%;
+  transform: rotate(10deg);
+  /* border:solid; */
+}
+
+#cover img{
+  height:100%;
+  width:auto;
+  left:0;
+  top:0;
+}
+
+#standback{
+  height:32%;
+  width:12%;
+  top:20%;
+  right:9.5%;
+  background-color: #743;
+  transform: rotate(10deg)
+}
+
+
+#standpost,#standpostleft,#standpostright{
+
+
+
+  background-color: #743;
+
+}
+
+#standpost{
+  height:28%;
+  width:1.5%;
+  top:22%;
+  right:5%;
+  transform: rotate(-15deg)
+}
+
+#standpostleft{
+  height:36%;
+  top:18.07%;
+  right:21%;
+  transform: rotate(10deg);
+  width:1.5%;
+}
+
+#standpostright{
+  height:36%;
+  top:21.9%;
+  right:8.5%;
+  transform: rotate(10deg);
+  width:1.5%;
+}
+
+#standShadow{
+  height:10%;
+  width:20%;
+  top:45%;
+  left:78.5%;
+}

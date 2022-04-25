@@ -1,0 +1,17 @@
+
+Pear 30
+
+<img src="pear30a.png">
+<img src="pear30b.png">
+
+
+Pear 31
+
+<img src="pear31a.png">
+<img src="pear31b.png">
+
+
+
+Yinyang
+
+<img src="pearyingyang.png">

@@ -1,0 +1,38 @@
+Wahoo, Chemistry revision. This topic is Module 2, Chapter 6, called Shapes of molecules and intermolecular forces
+
+To start off is the shape of molecules. There are 5 basic shapes: linear, trigonal planar, tetrahedral, trigonal bipyramidal, and octahedral. Here's some pics, as it would be hard to explain.
+
+<img src="chap6a.png">
+There we go, that cleared everything up. To work out how to draw it, and the angles, you find get the base element of a molecule e.g. N in NH4. You count the electrons in the outer shell of that, and then for every other element, add one. That is the number of outer shell electrons, so to find the bonding pairs, you divide that by 2. You next need to find how that corresponds to number of atoms. If there are more pairs than atoms, that means there are some lone pairs. The number of bonding pairs will determine the base shape, but the actual shape name will be different, which is shown in the picture below. The bond angles are also changed by the lone pairs. This is because normally the bonds repel each other, so they are equally as far apart. However, a lone pair is more repulsive (is stronger), so it pushes the other bonds slightly closer together.
+
+<img src="chap6b.png">
+Of course, you can't draw them with just straight single lines, as then that wouldn't show how it's 3D. A straight single line shows a bond on the same plane as the paper, a dashed line show one going behind the paper plane, and a wedge is coming out.
+
+
+The next part is about electronegativity and polarity.
+Electronegativity explains how an atom attracts a pair of electrons into a covalent bond. This is measured with the Pauling scale. As you go up and right on the periodic table, electronegativity, so Fluorine is the most electronegative, whilst Francium is the most electronegative. The 3 factors that affect electronegativity are atomic charge, atomic radius and shielding. Atomic charge just means that there's a stronger charge in the nucleus, so more protons, so this increases electronegativity, as there will be a bigger difference in charges. Atomic radius and shielding are a bit similar, and both decrease electronegativity. Atomic radius is when the distance between the electrons and nucleus is bigger, so the electrons are more easily lost. With shielding, since there are more energy shells, it decreases the attraction between the nucleus and electrons, so again they are more easily lost. Electronegativity difference can show the type of bond. (Non polar) covalent have a diff of 0, polar covalent is <1.8 but >0, and ionic is >1.8. Ionic has the most electronegativity because the difference is so big, and the electrons are attracted to such an extent that they are stolen. This is opposed to covalent bonds, which have a more similar electronegativity, so the electrons are shared.
+
+<img src="chap6c.png">
+
+In non-polar bonds (AKA Pure covalent bonds), the difference is so similar (or the same) that electrons are equally shared
+In a polar bond, the electron pair is shared unequally. As polarity is a vector, there will be an overall dipole.
+
+Non-polar solutes are generally more soluble in non-polar solvents, and polar with polar
+
+
+Ok, intermolecular forces.
+The first one is London (induced dipole-dipole interactions). It is also sometimes called Van Der Walls' forces, but not in this syllabus. It happens between all molecules, and also is the weakest (so has the lowest boiling and melting points. This force happens by the random fluctuation if electron on each side, resulting in a partial negative charge. This then repels the electrons in the next molecule along, resulting in a chain reaction.
+
+
+Permanent dipole-dipole interaction- this happens between polar molecules. This is stronger as the molecules overall polarity attracts the other end of the next molecule, and the polarity attraction will be stronger than random fluctuation of electrons. If there is a greater dipole, there is a greater permanent dipole-dipole interaction, so the higher the melting/boiling point.
+
+Hydrogen bonding is still an intermolecular force, despite the name. This is the strongest intermolecular force. It requires an electronegative atom with a lone pair attached directly to a hydrogen atom. An example is ammonia, or water.
+
+Simple molecular substances are made up of small discrete molecules which are covalently bonded. They are held together by weak intermolecular forces, but the covalent bonds within the molecule are strong. They have low boiling/melting points, and as solids form simple molecular lattices. They don't conduct electricity because there are no free moving charges
+
+Water is less dense as a solid than as a liquid, as the lattice has large holes in it.
+
+Substances are soluble if the intermolecular forces between the solvent and solute overcome the intermolecular forces between of the solute.
+
+Ok good luck
+

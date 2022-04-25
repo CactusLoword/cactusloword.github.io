@@ -1,0 +1,90 @@
+
+Languages
+
+Low level:
+
+-Not Portable
+
+Assembly- Uses mnemonics
+
+Machine code- Is in binary or hex. Communicates directly to the computer
+
+High level:
+
+-Portable
+
+-Uses the English language, so is easier to read and write with
+
+
+
+IDEs
+
+Integrated Development Environment
+
+Features:
+
+-Translator- translates a higher level language to machine code, which the computer can read. For high level languages, there are 2 translators: the compiler and interpreter. The interpreter runs a program line by line, whereas a compiler takes all the code in at once (compiles it), and then runs it. For assembly language, it is translated by the assembler
+
+-Editor- provides a place for you to enter in code.
+
+-Runtime Environment- runs your code. Place for you to see it.
+
+-Debugger- error detection, allows you to step into program, breakpoints
+
+
+
+Parameter passing
+
+Passing a parameter by reference mean that rather than sending the actual value, a pointer to the memory location is sent. This allows the sub-routine to modify the data (alternative to global var)
+
+Passing a parameter by value means that a copy of the original data is sent, which uses more RAM, but any changes to this copy won't take affect outside the sub-program 
+
+
+
+Variables
+
+Local- has a scope local to the subroutine it was defined in
+
+Global- can be used anywhere in a program
+
+A constant is a memory location which can't be changed
+A constant is a memory location which can't be changed. It could also be an unnamed literal constant, like just a number or string on its own. 
+
+
+
+Function/procedure- A procedure doesn't return a value, a function does
+
+
+
+Modular design
+
+-Sub-routines
+
+-Importing programs
+
+-Library
+
+
+
+Abstraction- Removing unnecessary detail
+
+Thinking ahead- Pipelining, preconditions
+
+Problem Decomposition- IDK why this is a thing we study, it seems quite self explanatory
+
+Computational thinking- just write code
+
+
+
+Caching
+
+Cache is an area where data/files are temporarily stored for fast retrieval later (cache hit) This data might be the result of a previous computation or data request or prefetching
+
+Web caching pages- More frequently or recently used web pages are cached, so if they are accessed again they are stored offline on the computer, which is quicker than accessing the page through the internet again
+
+DNS cache- When you access a website, the URL is converted to an IP address. The DNS cache stores the IP address of recently accessed addresses, which means that the computer doesn't need to access the DNS to convert the URL
+
+CPU caching- The cache in the CPU is a small form of RAM which stores frequently used data or prefetched data/instructions or the result of a previous computation. There are 3 levels of cache, with L1 having the fastest access speeds but having the lowest storage, and L3 being the opposite.
+
+HDD cache- Memory hardwired to the hard disk, doesn't involve mechanical parts. 
+

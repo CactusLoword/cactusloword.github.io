@@ -1,0 +1,55 @@
+Hello, revision time again. This time it is for a test on Monday 24th Jan 2022. Before I began this review, I thought I would just basically have to write about Logs and that's it. However, when I was looking at the AQA a-level specs, I found that exponentials were a bigger chunk than I thought. I'm not completely sure how to explain them, but I will try.
+
+
+Ok so first we need to know about aˣ, and what it looks like as a graph. This is just your standard exponential graph, which is a curved graph, but where x gets bigger, y gets significantly bigger (so the line starts more horizontal, and gets more vertical. Also fun fact: the exponential is the power of a number, e.g. 3 in 2³. This is information I probably should've known, but now I finally do. We also need to know about eˣ. e is an irrational number (like pi), which is 2.7somethingblahblahetc. I don't completely know what's so special about e, I think it's something about factorials, but I don't think we need to know that. But in the case of eˣ, it makes a curve which is quite nice. I'm sure there's a more specific way to explain it, but it just looks like the nicest exponential graph, so all the other exponential graphs are either steeper (bigger a) or less steep (smaller a).
+
+
+Unfortunately, here's one bit I'm not sure about. Apparently, the gradient of eᵏˣ is equal to the gradient of keᵏˣ, which I don't think we've done.
+
+
+Yay, it's log time
+
+The most basic thing about logs about what they are in relation to exponentials. Logarithm is the inverse of exponentials, so it is how you could find the exponential of a number, if you have an answer. Here is an example of how this could be written:
+
+2ˣ=4 → log₂(4)=x, which can be put in a calculator for an answer of 2.
+
+Note: I did get a bit confused when it said logs were the opposite of exponentials, as I thought roots were the opposite. However, I looked it up and found an answer. Basically, rooting is the inverse of the base number, i.e. if x²=4→x=√4→x=2. For this, we were trying to find the base of the exponent, so the number which is being exponentiated. However, if we are trying to find the exponent, and we have the base, like the example I gave earlier, we use logs. Hope that clears it up for you, if you needed it.
+
+
+Also something to remember is if you see log() on it's own without a base, it is assumed to be log₁₀()
+
+<img src="explog1.png">
+
+
+Laws of logs:
+
+logm+logn=log(mn)
+
+logm-logn=log(m/n)
+
+-log(m)=log(1/m)
+
+nlog(m)=log(mⁿ)
+
+logₘ(m)=1 [because m¹=m]
+
+<img src="explog2.png">
+There are some complicated maths questions involving logs, which will undoubtedly be served up. They will use these laws, although in much harder ways.
+
+
+Another thing you will probably see is ln(). This is called the natural log, and is the same as saying logₑ() [with e being the Euler's constant]
+
+<img src="explog3.png">
+
+
+That isn't the end of the topic though. This is A-level, of course there are graphs. Some graphs you might have to draw are y=kxⁿ, or y=abˣ, and they could give you a table of values (of x and y). For these, you will need to use the laws of logs to turn the above equations into the form of y=mx+c.
+
+Lets do the first one together. You can log both sides (any log or ln will work, just be consistent), to get log(y)=log(kxⁿ). Then, we can separate log(kxⁿ) into log(k) +log(xⁿ) [using the laws], and then again to get log(k)+nlog(x). With the equation log(y)=nlog(x)+log(k), you can plot it, with log(y) being the y axis values plotted, and log(x) being the x axis values plotted. Then, n will be the gradient, and log(k) is the y-intercept. If you need to find k, remember the first thing about logs, and rearrange it to get 10^the y-intercept=k.
+
+<img src="explog4.png">
+<img src="explog5.png">
+For y=abˣ it's pretty similar, and the equation you end up with is log(y)=log(b)x+log(a). This time you don't plot the log of x, and log(b) is the gradient and log(a) the y-intercept
+
+<img src="explog6.png">
+Overall, logs aren't too bad. Hopefully the test isn't too bad either. It was still useful to keep a log of it for future reference though (lol). Now I'm going to have a panini.
+

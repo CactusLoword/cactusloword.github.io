@@ -1,0 +1,70 @@
+What is up my fellow Chemists, today we are going over the electron Chemistry stuff, before the mock tomorrow afternoon. I also have a Computing exam in the morning, so will need to balance my time well. I am also strangely hyped for the next exams after blasting through the maths one, but I definitely still need to do much revision.
+
+
+
+We know electrons orbit the nucleus in shells, however, now we need to know about orbitals, which make up shells. It's not as simple as 2,8,8 anymore. Each orbital can hold 2 electrons which have opposite spins. The 4 orbitals are called s, p, d, and f. 
+
+S is the first type, and is spherical. Every shell from n=1 (so basically every shell) has 1 s-orbital. This means that each s-subshell can hold 2 electrons in total.
+
+Next up is the P orbitals. There are 3 types of this one, which are shaped like dumb-bells. Each shell from n=2 contains 3 p-orbitals, so a p-subshell can fit 6 electrons in total.
+
+Now is d. Luckily we don't need to know the shape of this, as I think it's confusing. Each shell from n=3 has 5 d orbitals, meaning a d-subshell can contain 10 electrons.
+
+Lastly is f orbitals. Again, we don't need to know the shape, but we do need to know that each shell from n=4 contains 7 f-orbitals, so an f-subshell can fit 14 electrons in total.
+
+On a periodic table, different sections can be named for the end subshell. The left 2 columns are the s block, the transition metals are the d block, the right section is the p block, and the 2 rows underneath the periodic table is the f block. They are called this because it is is the highest energy subshell in the atom. Also, a tip which is useful to know is that the number of columns in each block tell you the amount of electrons in each sub-shell. E.g. the s block has 2 columns, p block has 6 columns, d block has 10 and f has 14.
+
+
+
+So now we have an understanding of the subshells, we need to know how to write it down. Here is the longest one we would have to go up to (up to 4f):
+
+1s²2s²2p⁶3s²3p⁶4s²3d¹⁰4p⁶4f¹⁴
+
+The number at the start is the principle quantum number, which is the overall shell. The letter shows the type of subshell, and the superscript number is the amount of electrons in each subshell.
+
+Wait, but why is 4s before 3d. Well, I'm glad you asked that question. The order above is actually showing it in order of increasing energy. This means that 4s is a lower energy than 3d. Even though 4s is more outer than 3d, it still fills first. Subsequently, a transition metal will have it's s subshell filled before it's d orbitals. However, the 4s subshell also empties before the 3d subshell, making it extra confusing. This means that some transition metal ions won't have 4s in the configuration, as it lost those electrons. It could be written as 4s⁰, but you can just omit it.
+
+
+
+When writing the electronic configuration, the first step is just remembering the way to write it, and the order of the subshells. Then when you get to the subshell of the block of the element, on the right shell num of course, you just have to think about what number you write at the end. All you have to do is think about the electrons or count the columns up to it, and write that in. A shorthand to write the configuration is to write the nearest noble gas before your element in square brackets, an then do the configuration like normal from there. Here are some e.g.s:
+
+Na=1s²2s²2p⁶3s¹, or [Ne]3s¹
+
+Ca=1s²2s²2p⁶3s²3p⁶4s²
+
+Ti= [Ar]4s²3d²
+
+
+
+But now we know how to write the configuration, we also need to draw it as well. For this you use the same thinking method as with writing it, but it's in a visual form. It consists of boxes (representing orbitals), which if full has an up and down arrow, representing the up and down spins. The rules from before are also relevant as well, so boxes fill from the lowest energy first. Also, empty boxes fill before boxes before electrons in it, so fill the boxes along a subshell with up arrows, and then go back to do the downs.
+
+
+
+Cool so that's all done, but we still have some stuff about bonding to do. I have already written stuff about bonding in the next review chapter-wise, but before chronologically, but I think this is important info maybe.  First up is ions.
+
+Ionic bonding is the electrostatic attraction between positive and negative ions. If you wanted another word for charged ions, cations are positive ions, and anions are negative ions. Ok, there is a lot of dot and cross info here, which we mostly know I think.
+
+ An ionic compound is known as a giant ionic lattice. An example is NaCl. In the giant ionic lattice, each Na+ ion is surrounded by 6 CL- ions, and each Cl- ion is surrounded by 6 Na+ ions. Each ion is surrounded by oppositely charged ions, forming the ionic lattice. The smaller the ions and the greater the charge, the stronger the attraction. Ionic compounds have high melting and boiling points, as it has strong electrostatic attractions, and a strong difference in electronegativity. 
+
+Many ionic compounds are also soluble in water. However, if the charge of an ion is too strong, then the electrostatic attraction will be stronger, so the water will find it harder to break down a compound. When dissolved in water, the ions are separated, and the solution can conduct electricity, as it can pass through the ions. 
+
+
+
+Secondly and penultimately is covalent bonding, which is the strong electrostatic attraction between a shared pair of electrons and the nuclei of the bonded atoms. This happens with elements with similarish electronegativity (between 2 non-metals, rather than metal and non-metal). The attraction is localised, acting only between the shared electrons and nuclei of the 2 bonded atoms. This results in a molecule.
+
+Ok there's lots of confusing info on double bonds and stuff in the textbook, which I am too tired for. I'll just ignore it.
+
+A dative covalent bond is where the shared pair of electrons has been supplied by only one of the bonding atoms.
+
+
+
+A giant covalent structure doesn't have intermolecular forces, only covalent bond, so there is a high melting boiling point.
+
+
+
+Some last facts about metallic structures. It has a high melting point because there are strong attractive forces between the nucleus of each metal nucleus and its electrons. Metal conducts electricity because there are delocalised electrons (from the outer shells). It can be bent easily as the metal atoms are arranged in layers, which slide over each other. Alloys are different, but I don't think that's on this topic, so I'll just leave it out.
+
+
+
+There we go, I have reviewed the 5th chapter. Now all I need to do is more revision, and then bed. 
+

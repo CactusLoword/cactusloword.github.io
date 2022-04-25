@@ -1,0 +1,43 @@
+There's another Physics test tomorrow (Monday 8th November 2021), so there's another review to write. This is on the Quantum Physics topic of Quarks and Leptons. I will be following the checklist obtained from the Physics checklist on teams, and will be using the information from my book and mind. As always, as a disclaimer, my brain is known to be wrong from time to time, so this info is just the stuff I think I know, which I hope is right.
+
+
+
+The first point is to describe the properties of quarks and antiquarks in terms of charge, baryon number, and strangeness. This isn't too bad, as the only quarks we need to know are the up, down and strange quark. These properties are also listed on the data sheet, so you don't even need to know them I'll still list them here though, as it is useful to know.
+Up: Q=+2/3, B=+1/3, S=0
+Down: Q=-1/3, B=+1/3, S=0
+Strange: Q=-1/3, B=+1/3, S=-1
+
+For the antiquark versions, the property is just the opposite charge, or *-1, e.g. the charge of antiup is -2/3. The symbols of the quarks (q) are also u, d, and s respectively, with the antiquark having a horizontal line above the letter.
+
+
+
+Ok, now it's explaining the combinations of quarks, to describe the consistency of hadrons. First, for baryons, they are made up of 3 quarks, which we can see with the baryon number, as with 3 quarks with a Baryon num of 1/3, you get a num of 1, so you have a baryon. Neutrons are made up of udd, and a proton is uud. You can also work this out with the charges of the quarks, as a proton's quarks need to add up to a charge of +1, and a neutron 0. For an antibaryon, it is made up of 3 antiquarks, so will have a baryon number of -1, and an opposite charge. The quarks for the 2 antibaryons we need to know are just the antiquark versions.
+
+
+
+Now it's the composition of the mesons, which is a bit more tricky, which is funny considering there are less quarks. A meson is made up of a quark and an antiquark, sometimes called a quark-antiquark pair. The 2 mesons we do are pions and kaons, of which there is a positive, negative and neutral particle of each. These are quite interesting, as the antiparticle version of a meson is just the opposite charge of it. I could try to explain it more, but honestly fuck that, I'll just include this image, as it explains it much better.
+
+<img src="quarks1.png">
+Ok, there we go. Kaons are always strange, and when making one, you need to think about the charge, to make sure it adds up right.
+
+
+
+Ok, now you need to show to decay of a neutron. For this, you would just draw beta minus decay I'm pretty sure. The neutron decays into a proton, emitting a W^- particle, which decays into an electron and an anti (electron) neutrino. Again, this is much better explained with an image. I'll also show beta plus decay as well, just because you need to know that as well.
+
+<img src="quarks2.png">
+Also one thing of note is that with the decay of a neutron, it might instead want to show you the quark decay, which incidentally is the next question. With beta minus, a down quark decays into an up quark, emitting a W^- boson, which decays to an electron and an anti electron neutrino. With Beta plus, an u decays to a d, emitting a W+ which decays to a positron and electron neutrino. Pic:
+
+<img src="quarks3.png">
+Now it's conservation time. For this, in a particle interaction you need to test the conservation of charge, baryon number, lepton number and strangeness (QBLS). The overall number on each side needs to be equal, or the interaction isn't possible. Charge isn't that hard, as you can tell the charge from the symbol, and it's not hard to add up. For the baryon number, you need to know your baryons, which will be neutrons and protons. Antibaryons have a B.num of -1, and baryons +1. Then you add them up, and see if it equals. A similar thing happens for the lepton number, as leptons have a lepton number of +1, and antileptons -1, and you make sure it adds up. E.g.s of leptons are electrons, muons, neutrinos, and taus. Strangeness is where it gets a bit strange, as it can change by 1 in weak interactions. This is just something to watch out for. More pics for clarification:
+
+<img src="quarks4.png">
+<img src="quarks5.png">
+Ok for the last tick it is confusing, as we haven't done this. The question is "Can you recognise that energy and momentum are conserved in interactions?", and so I guess the answer is no. This confuses me, but I guess we know what energy and momentum are, so we'll be ok. Since it says can you recognise, maybe you don't need a too developed knowledge on it. We did do energy conservation last topic though, so perhaps it just touches on that.
+
+
+
+One other thing of note is that the 3 quark model is just u d and s, so it's pretty much just how the syllabus doesn't include the t, b and c quarks. Subsequently, if a question asks about the 3 quark model, it isn't talking about baryons, and how they have 3 quarks, as that would be worded differently, like "what particle is made up of 3 quarks", rather than "explain the 3 quark model".
+
+
+There we go. Considering the mechanics topic, I don't think this is too bad. In fact, I don't want to jinx it, but it might even be bordering on easy. With the knowledge of all the stuff above, it isn't too hard, as it's mostly knowledge recall, and simple addition sums, as opposed to mechanics, which was just a mess. As well as the knowledge above I also think that fundamental forces might pop up as well, as the particle interactions happen because of one of the forces (I'm pretty sure at least). I think I'm confident for tomorrow, although it'll probably not pan out as I hoped, but oh well, I'm happy with that revision, so I'll just leave it there.
+

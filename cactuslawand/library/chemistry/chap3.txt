@@ -1,0 +1,44 @@
+What is this substance we are measuring the amount of? I don't know about that, but I do know that this topic is a bit random, and mostly sets up skills useful for future chemistry. For this reason, I didn't do a review for this in the first place. But it is on the mock for tomorrow, so I thought I might as well go back and review it. 
+
+
+
+
+
+The first section is all about moles. Wait, you mean those little underground mammals. Please, just no. Moles are a way of measuring the amount of substance (I guess I've just solved the name of the topic). It is all to do with Avogadro's constant, 6.02*10²³. Avogadro's constant is the amount of atoms/molecules in a mole of something. We rarely get questions on that though, and the number is in the data sheet. The main use of it is with the equation number of moles=mass/RFM. This means that 12g of Carbon-12 is one mole. This is all GCSE stuff though, it is just to remind you that it is still very relevant.
+
+
+
+Just some quick formula bits here. The molecular formula is the common one we are used to, which shows the number of each atom in a molecule. The empirical formula is a simplified version, which shows the smallest ratio. The general formula shows the algebraic expression for the numbers of each atom. Think KS2 sequences, with the nth term and whatnot.
+
+
+
+Relative atomic mass is the average mass of an atom on a scale where carbon-12 has a mass of 12 units.
+
+
+
+Hydrated salts is something covered in like year 9, which everyone has forgotten, but we are still expected to remember. Basically, a hydrated salt has water trapped inside its crystals, called water of crystallisation. If a salt is anhydrous it doesn't have this. 
+
+
+
+Ok, here we have an equation, which links quite a few values together. The equation is pV=nTR. p is pressure/Pa, V is volume/m³, n is the amount of gas molecules/mol, R is the ideal gas constant (8.31Jmol⁻¹), and R is the temperature/K (of course, 0 C=273K). This is an equation which needs remembering, but it has ntr in it, so it isn't too hard.
+
+
+
+wtf, apparently balancing equations is called stoichiometry. Not that you need to know that, but I have never heard of that.
+
+
+
+To finish, we have 2 last things, both related to percentages.
+
+Percentage yield is a way to calculate how much of a product is actually formed. By looking at a chemical equation, it looks easy enough, but in reality that isn't the case. This could be because of incomplete reactions, side reactions, or other stuff like error, or just life. Percentage yield=(actual yield/theoretical yield)*100.
+
+Atom economy looks at a reaction to see how much of the products are actually useful. In some reactions, there may be undesired products, so this measures the percentage of the molecular mass which goes towards the product you actually want. Atom economy=(desired products' molar mass/total products' molar mass)*100. Of course, remember that in an equation the products total molar mass=reactants total molar mass, if that is useful. Atom economy could also be 100% if there is only one product, which is useful.
+
+These 2 might seem similar, but they are distinct. In the past I have had an exam question on how the 2 are kind of unrelated. Atom economy is to do with the theoretical equation, and looks at how efficient the reaction is at getting products you want. Percentage yield looks at real life, and how efficient the reaction is at actually making the product wanted. Because of this, you could have a low % yield and high atom economy, if you have more useful products in the equation, but in reality the reaction has many side reactions, or is just bad. The inverse also works of course.
+
+
+
+
+
+Well done, we have now found the amount of substance of this topic. It wasn't too much, and as I said before it is mostly skills, and knowledge which is applied to other areas of chem. There are also parts, like moles, which I know off by heart. There are also parts like percentage uncertainty which probably should be known off by heart, which is why this review was quite useful.
+

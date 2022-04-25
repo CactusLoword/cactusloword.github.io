@@ -1,0 +1,104 @@
+Yippee yapoo, it's mechanics time again. There is a test on Thursday, which I am thrilled about. Tbh this one isn't the worst, as it's mostly equations and graphs, which is easier than forces in equilibrium. Even if I don't especially like much of mechanics, look on the bright side, at least the test isn't on moments. Although I have a dreaded feeling that a moments question will creep up on my in the test, when I least expect it. Putting those fears aside, lets get moving!
+
+Edit from the future- I gave up on this originally, and am resurrecting it for the mock exams coming up.
+
+
+
+
+
+Here are some terms which might be useful for graphs, or in general.
+
+Instantaneous speeds- speed at a specific moment (you need to find the tangent of the point)
+
+Average speed- speed over the whole section (just do ∆y/∆x over the whole time period)
+
+Uniform acceleration is when it velocity is constant, and non-uniform is when it isn't.
+
+
+
+
+
+A lot of this topic is equations, which are also luckily all in the data sheet. In fact, I will just write them all here
+
+velocity and acceleration 
+
+𝑣 = ∆𝑠/ ∆𝑡
+
+ 𝑎 = ∆𝑣/ ∆𝑡 
+
+equations of motion 
+
+𝑣 = 𝑢 + 𝑎t
+
+𝑠 = ((𝑢 + 𝑣) /2)𝑡 
+
+𝑣²= 𝑢² + 2𝑎𝑠
+
+s= 𝑢t + ½𝑎t²
+
+OK fine, you got me, I copied it from the datasheet. 
+
+
+
+Those equations are possibly some of the easier parts, as it is just plugging numbers into them, and rearranging. Of course, a basic knowledge of velocity and acceleration is needed, but that would be pre-GCSE stuff. I will say that s is displacement though, and u is initial velocity and v is final velocity.
+
+
+
+
+
+Graph time! Graph time! Just because, I thought I might as well mention graphs, and what you can get from them.
+
+Displacement-time:
+
+Gradient=velocity
+
+Positive gradient means it is going away from the initial point, negative mean coming back.
+
+
+
+Velocity-time:
+
+Gradient=acceleration
+
+Area under graph=displacement
+
+Above graph (above x-axis)- Positive gradient= increasing velocity, negative=decreasing velocity
+
+Under graph- +gradient=increasing negative v, -gradient=decreasing -v
+
+Straight horizontal line means v is constant
+
+
+
+Acceleration-time:
+
+Gradient=rate of change of acceleration
+
+Area under=velocity
+
+Above graph +gradient=acceleration, -gradient=deceleration
+
+Below negative acceleration/deceleration for +/- gradients
+
+Straight line is constant velocity
+
+
+
+
+
+Projectile motion:
+
+One thing of note is that some values might depend on the direction. First I will go through vertical movement. A falling object has an acceleration of 9.81ms^-2, and one thrown up has an acceleration of -9.81, which sounds weird, but in the equations it works out to a positive answer. A dropped object's initial velocity is 0, and a thrown upwards object's final velocity is 0 (as it stops momentarily until it falls back down). 
+
+On the other hand, horizontal doesn't have any default values. Acceleration and final and initial velocity will all need to be given in the question, unless you need to work them out. The wording could also be different, like saying something starts at rest, so initial velocity would be 0.
+
+Ahh, but what if something is going curved, so not straight forward/back or down/up. Well don't worry, sweet child of mine. in this case, you just need to consider the components of the direction. There will be a vertical and horizontal component you can split it up into. This might seem confusing and not what makes sense, but it works, as you just need to think about the velocity, acceleration and displacement of the horizontal separate to the velocity, acceleration (9.81) and displacement of the vertical. The time will be for both of them, as I don't think time vector calculations will be on any tests any time soon.
+
+Here is an example, which is another confusing concept, but it very important to understand.  If an object is projected off a height, and another is dropped from the same height, they reach the ground at the same time, as the vertical component is the same for both. This is potentially mind-blowing, but it does make sense if you consider the next sentence. The one projected horizontally will reach the ground with a higher speed, which accounts for the more distance it has to travel. Also of course, for this air resistance is negligible.
+
+
+
+
+
+After the brain-busting info I have just given you, I will give your clever head a little rest. Also I have reached the end of the review surprisingly fast, these usually take much more time, sometimes days to complete. It is also my first sub-1000 word review in a while, but I'm not disappointed, as I think I covered everything well and concisely. There is still more mechanics to write about though, which will all be done in due time.
+

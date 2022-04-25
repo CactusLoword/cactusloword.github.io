@@ -1,0 +1,52 @@
+My next mock is on maths, so I will do a review on maths. I will be referring to graphs and functions knowledge quite a lot during this, which I think I might do a review on, but I just haven't got round to it yet. Differentiation seems to be its own little section though, so I thought it would belong in its own chapter.
+
+
+
+The equation for a line can be written as y=x, or f(x)=x. This shows the equation with nothing done to it. However, differentiation changes the equation to work out different aspects of a line. The first derivative is written as f'(x) or dy/dx. This is how you find the gradient function. 
+
+To find the derivative, there is an easy way, however you do need to know the longer version. I'm not sure if you need to know the equation off by heart though. Here it is: 
+
+<img src="differentiation1.png">
+To differentiate, you just have to simplify the equation above, after substituting in the function. Then, as h is approaching 0, it is negligible, so you can just act like it's 0. This gives you the gradient function.
+
+However, there is an easier and less time consuming way to differentiate. To do this, you have to times each number by the power of x it is to, and then minus one from the power of x. That sounds complicated, so here's an example. If f(x)=2x²+3x+5, then f'(x)=4x+3. You do 2*2*x^2-1 to get 4x. 3x=3x¹, so 3*1x^1-1=3x⁰=3*1=3. 5 vanishes because you could imaging it as 5x⁰, so 5*0*x^0-1=0x^-1, so it is just 0 now.
+
+<img src="differentiation2.png">
+If it is a line graph like y=mx+c, then differentiation will result in m, as the gradient is constant. However, with a curved graph, like y=mx^2, the gradient isn't constant. Differentiating it will mean you get 2mx, which when you substitute the x coordinate of a point into it, you can find the the tangent of the curve at that point. If the polynomial degree is more, you do the same thing.
+
+Another thing of note is that sometimes in a question you might be told the gradient, and you need to find the x coordinate. For this you find the derivative, and make it equal to the gradient, and solve that. You might have a quadratic to solve, but by now we know how to do that. If the point is stationary, the gradient will be 0, but we'll get onto more of that later. 
+
+
+
+Next in my book is a little bit on indices stuff, but we already know those rules. It does make it seem a bit more complicated, but when you know what you're doing it's alright. It's basically knowing that √x=x^½, and 1/x=x^-1
+
+Ok, finding the normal. This is the perpendicular line to a tangent. To find the normal of a point on a curve, you first differentiate the equation, and then put x into the gradient function, to find the gradient of the tangent. You can then construct the equation, so if we say the point is (a, b), the equation will be y-b=m(x-a). Then to find the tangent, you find the negative reciprocal of the gradient, so do -m^-1 (flip the fraction and times by -1), and put that into m of the equation. The equation might be asked of in a different form, like ax+by=c, so just rearrange it.
+
+<img src="differentiation3.png">
+Ok, I've got something interesting written down here. It says about increasing and decreasing functions, which isn't too bad to remember. If the gradient is positive, then the function is increasing, and if it's negative then its decreasing. Written in another way, if f'(x)≥0, then it is increasing. However, it's the next bit I'm not sure about. It says "if a question is asking to prove a function is increasing, complete the square". I find this quite interesting, as I have no idea what that is on about, or why it is. After research, I either found irrelevant things, or very confusing things, so idk.  I think it might be an alternative to differentiation in this context, but again, idk
+
+
+
+Before we move on the more good stuff, would you like to hear some key definitions? The point of inflection is where a curve changes from convex to concave or vice versa. This could also be a stationary point, but not necessarily. The stationary point can also be called the saddle point.
+
+Yeah, we're finally at second derivatives. For this, you do the same method as the first derivative, but you just do it twice. This is notated as f''(x) or d²y/dx². With this, you can find if a stationary point is the max or min. If f''(x)>0, the point is a local min. If f''(x)<0, the point is a local max. If f''(x)=0, it could be either, so you need to do another method. One method would be to trial and error different values for x into f''(x), to see if it is -ve then +ve, so min, or +ve then -ve, so max.
+
+<img src="differentiation4.png">
+
+
+Ok, here's where it gets super confusing, and I'm still not sure if I completely get it. This is sketching a differentiation graph for an equation. Yeah, I know. Yep. Of course. Absolutely. Mmm hmm. Couldn't agree more. Well, that's a bit of an exaggeration. Woah, no need for that kind of language. Anyway, it is mostly learning and experience, but there are some tips. The first thing to look for is if the graph will have a positive or negative gradient. If it is pos, then the differentiation graph will be above the x axis, so y will be +ve. If it is -ve, then the line will be below the x axis. The next thing of note is if the gradient is getting nearer 0, or further away. If the gradient is 0, the differentiation graph will touch the x axis, where y=0. This means that if the gradient is getting less steep, the the differentiation graph will get nearer y=0. If it is steepening, it will get further away from the x axis. 
+
+      
+<img src="differentiation5.png">
+<img src="differentiation6.png">
+<img src="differentiation7.png">
+
+
+
+The last part of this topic is optimisation. This part is quite interesting, as it is mixing the differentiation knowledge to solve other problems. The way a question could be laid out is that it gives you a shape, and tells you either volume or surface area (or the 2D version), and labels the side of the shape as x or something. To work it out, you need to have 2 variables, like x and y. Sometimes you might have to put y in yourself. You need 2 as you will construct 2 equations, and substitute one into the other, leaving you with 1 variable in an equation. The question should tell you what you need to find out, e.g. an equation for the volume. Using the number they give you in the question, you can make an equation to represent that number, like SA=2x+y. You would then construct an equation for the other one, V in this example, as substitute y into it, leaving you with an equation with only x in it. The next part of the question could then ask you to find the minimum V or something like that, and then you would use differentiation. You can then prove if it is the min/max using the second derivative. Yes, I know that was badly explained, but oh well.
+
+<img src="differentiation8.png">
+
+
+You have reached the end of this review. This section is a bit tricky, but luckily it isn't too hard to get your head around, which can't be said about other things. Ok thanks for reading bye, I need to finish off my revision for tonight
+

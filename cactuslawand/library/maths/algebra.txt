@@ -1,0 +1,80 @@
+Hello, I am back for more, before the maths mock. This topic at first from the name looks like stuff we already know, but it does include the discriminant, so that's something to know. There also isn't any harm in going over the other stuff.
+
+
+
+First up is the laws of indices. This is all to do with powers and stuff. I'll just list all the laws below. 
+
+aˣ * aʸ= aˣ⁺ʸ
+
+aˣ / aʸ= aˣ-ʸ
+
+(aˣ)ʸ= aˣʸ
+
+a⁰=1
+
+a⁻ˣ=1/aˣ
+
+aˣᐟʸ=ʸ√aˣ
+
+
+
+Well that's over, but don't rest yet; we've got surds now. Here's some more rules:
+
+√a *√b=√ab
+
+√a*√a=a
+
+√a /√b=√a/b
+
+√a/√a=1
+
+a√b *c√d=ac√bd
+
+a√b +c√b=(a+c)√b
+
+a√b -c√b=(a-c)√b
+
+To simplify a surd, you have to see if a factor of it is a square number. If it is, then you separate it into 2 surds, then root the square num, to have an integer*surd. E.g. √20=√4√5=2√5
+
+The last thing about surds is probably how to rationalise the denominator. This needs doing when you have a surd as the denominator, which isn't preferable. All you need to do is times the denominator by the same surd, to get a rational number. Remember to then times the numerator by the surd as well. e.g. 2/√5 =2√5 /5. Sometimes, you have a denominator with a surd and a rational number. Here you need to expand brackets, and find the difference of 2 squares. E.g. 4/√2 +1=4(√2 -1)/ (√2+1)(√2-1)=4√2 -4 /1 (in this case it then simplifies to 4√2 -4, which isn't in a fraction)
+
+
+
+We know how to do quadratic stuff, and solve them. You either factorise, use the equation, or pop it in the calculator (except Sam P can't do the latter). Anyway, the discriminant thing is b²-4ac. This is a part of the quadratic equation, the bit usually in the root. However, this equation can be used to see about the roots of the graph. 
+
+if b²-4ac<0, there are no real roots (the graph is above the x-axis)
+
+if b²-4ac=0, the roots are equal, so there is only one root (the base touches the x-axis)
+
+if b²-4ac>0, there are 2 distinct real roots, which is what we are normally used to.
+
+<img src="algebra1.png">
+One thing to note about b²-4ac<0 is that in the quadratic equation, this result in an error/ weird i thing, as there would be a negative number inside a square root.
+
+
+
+However, the discriminant can also be used to find one of the values of b, a or c. A question might describe the roots as one of the above 3, and in the quadratic it could be like x²+px+p. For this you would use the discriminant, and show a range of values, e.g. -3<x<5. To find the range you might need to draw a quick sketch, just to check it.
+
+
+
+There is also stuff on completing the square. This shows the turning point of a quadratic, with x being in the bracket*-1, and y being outside the bracket. I'm not going to explain completing the square.
+
+Although this is technically for the next topic, I'll just put it here. The new equation for a line we've learnt is y-y₁=m(x-x₁). At first this seemed harder than y=mx+c, but I think now it's actually easier, as you only have to work out the gradient, and plop that and some coordinates into the equation. Rearranging isn't too bad either.
+
+Parallel lines share the same gradient
+
+Perpendicular lines' gradients are the negative reciprocal of each other
+
+
+
+I think that is everything. If there is anything else, it's boring so I'm not going to write now. Unless I've forgotten something important, which would be unfortunate. Bye, good night.
+
+
+
+
+
+
+
+Woah a bonus pic.
+
+<img src="algebra2.png">

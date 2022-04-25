@@ -1,0 +1,116 @@
+"We've finished the topic" says the teacher. At first, I am filled with a sense of accomplishment. However, a realisation sets in, and I rest my forehead on the table in despair. "We have a test on Monday [23rd Jan 2022]". Sigh. But with another test comes another review, and another opportunity to make sure my revision and learning techniques are actually working. I will be using my book and textbook to write down information, and using a checklist to make sure I am covering specific sections. 
+
+
+
+
+
+To begin is the basic wave terminology, which I will list below:
+
+-Wave- a disturbance by which energy is transferred without the transfer of matter
+
+-Amplitude- the maximum height (or displacement) of a wave
+
+-Frequency- number of waves that pass a point per second, Hz
+
+-Period- the time taken for a wave to complete a cycle (a wavelength), s
+
+-Wavelength- the distance between one point on a wave and the same point on the next wave along (e.g. peak to peak), m
+
+-Speed- how fast a wave is travelling, ms⁻¹
+
+Some equations to link some of the above are v=λf, and t=1/f (t being period)
+
+
+
+Now I'm going to jump to the types of waves. There are 2 categories, which are longitudinal and transverse. With a longitudinal wave, the oscillations are parallel to the direction of energy transfer, whereas with transverse it is perpendicular. Transverse waves don't need a medium to travel through, whereas longitudinal waves do (so transverse waves can travel through a vacuum). An example of a transverse wave is EM waves, and an e.g. of longitudinal is sound. Longitudinal waves have compressions and rarefactions.
+
+Not sure where to fit this in but EM waves travel at the same speed in a vacuum.  Radio waves have a longer wavelength and lower frequency, and gamma rays have short wavelength and high frequency. 
+
+      
+<img src="waves1.png">
+<img src="waves2.png">
+Polarisation is when waves are filtered so only oscillations on a certain plane can pass through. If a wave is unpolarised, it vibrates on multiple planes. If an unpolarised wave passes through a polarising filter, only waves vibrating parallel to the direction allowed by the filter is let through, so the wave is plane-polarised. 
+
+However, we need to know what happens when another filter is brought into the equation (I think it's safe to say there will certainly be a question on it). If the 2 filters are parallel/ at 0° to each other, the light intensity is the same as if there were only one filter, as the waves are polarised parallel to the first filter, and as the second is at the same angle, the waves are let through that one too. As you turn the second the second filter, the light intensity is reduced, until you get to 90°, where no light is let through, as that filter is now perpendicular to the waves (and the first filter).
+
+A use of polarisation is sunglasses, to reduce light intensity for the eyes, to protect them.
+
+A point on the checklist is that polarisation can be used as evidence for the nature of transverse waves. Looked it up, and it is basically to with how longitudinal waves can't be polarised, which is because the oscillations are parallel to wave direction. Because a transverse wave's vibrations are perpendicular to direction of energy transfer, the vibrations can be at different orientations.
+
+<img src="waves3.png">
+
+
+
+
+
+
+I hope this next section doesn't phase you, because otherwise you'll have some trouble with your more complex wave equations (especially for the part after this). A phase is a fraction of a wave cycle, which can be used to specify a part of the wave in relation to the wave. Phase difference is difference in phase of 2 points. This could be the difference between the phases of 2 particles vibrating at the same frequency, if that was a question. Also for some more terms, if 2 points are a wavelength (λ) apart, they are in phase. If 2 points are ½λ apart, they are in antiphase.
+
+<img src="waves4.png">
+<img src="waves5.png">
+However, putting the answer as a fraction of a wavelength won't suffice. Yep, phase diff is measured in degrees and radians. Degrees aren't too hard to manage, as 1λ=360°. Radians is where it gets a bit more complicated, mostly because they are new to me. Once you get to know them I guess they're not too bad. Although I haven't met them in maths yet, so I won't get too comfortable. Anyway, 360°=2π. For ° →ᶜ, /180 *π, and for  ᶜ→°, /π *180. 
+
+<img src="waves6.png">
+Also something of note: phase difference is weird for standing waves, because of the particles oscillating back and forth. We'll get to that later though.
+
+
+
+
+
+
+
+
+
+So, in the text and my book there's a bit about reflection, refraction and diffraction, but it's not on the checklist, so I'll leave it for later. Ok I'm back. These are some examples of wave properties. One important new term is wavefronts, which is a line perpendicular to the wave direction, so shows the points of equal phase (e.g. peaks) of the wave.
+
+Reflection is first up, and the one which most people hopefully have a basic understanding of. There is also a law of reflection, which is: angle of reflection=angle of incidence, also written as θᵢ=θᵣ. The angle is measured from the normal to the reflective surface, so the law basically says what makes sense if you think about it.
+
+Refraction is when light is bent by going through a different substance. It happens because of a change in density, resulting in a change of speed. The more dense something is, the more it bends towards the normal.
+
+Diffraction is when waves are spread out. In the waves topic, we look at waves going through slits, and the waves curve. Diffraction is maximised when the gap size equals the wavelength.
+
+<img src="waves7.png">
+
+
+
+
+
+
+Who's your favourite hero? Because personally, mine is Superposition. The principle of superposition is that when 2 waves meet, the total displacement at a point is equal to the sum of the individual displacements at that point. This means that if 2 waves (with the same amplitude) are in antiphase,  the resultant displacement will be 0, and this is destructive interference. If the waves are in phase, or anything in-between which isn't destructive, the interference is constructive. A crest and crest or trough and trough meeting is called a supercrest or supertrough (respectively).
+
+<img src="waves8.png">
+
+
+Take out your pens and pencils, and get up onto your feet, because we're now onto stationary, AKA standing, waves. This can be set up when a progressive wave passes through another progressive wave. This could happen if a progressive wave is reflected upon itself. With progressive waves, energy is transferred, however with stationary waves energy is stored. This links to how particles oscillate up and down, rather than across like with a progressive wave. On a standing wave, we label the parts of maximum displacement as antinodes, and the points of 0 displacement as nodes, which is where waves are in antiphase, in line with the principle of superposition, the waves have destructive interference.
+
+<img src="waves9.png">
+With progressive waves, all particles vibrate at the same frequency, which is the same for stationary waves except for at nodes. Amplitude for progressive is the same for all particles, and on stationary it varies from 0 at nodes to max at antinodes. Ok, here's the bit about phase difference between 2 particles. For progressive waves, it is what you would expect, which can also be written as (2πd)/λ, with d being the distance apart. This does sound more complicated that way, but d/λ is the phase diff as a fraction, and 2π is a wave cycle in radians (=360°). However, for standing waves the phase diff =mπ, with m being the number of nodes between the 2 particles. Again, sounds complicated. But If you think about the phase diff of an antinode to the next antinode, it would be ½λ=180°=πᶜ, and since there is 1 node between them if you did it the mπ way, it would result in also πᶜ. The thing which is most confusing to me is how the phase diff of 2 point which are less than ¼λ away is 0°, but using mπ, it makes a bit more sense (as there isn't a node between them, so it is 0).
+
+<img src="waves10.png">
+
+
+So now you are an expert on stationary waves, we move onto the harmonics. This basically looks at stationary waves with different wavelengths, in a set length. The first, or fundamental, harmonic is ½λ, so has 2 nodes and an antinode (a way to find out what number harmonic you have is to count the antinodes). If we say the length is l, then λ₁=2l. From then, the second harmonic is a full wavelength (2 antinodes), so λ₂=l. From then you can probably work it out, but an equation would be λₙ=2l/n.
+
+<img src="waves11.png">
+
+
+
+
+
+
+
+
+Yay, now we're onto the final part. This uses the equation v=√(T/μ), where T is tension/N, and μ is the mass per unit length/kgm⁻¹. This is in the data sheet, but it's written a bit different, as it's specifically about the first harmonic. It is f=(1/2l)√(T/μ), which incorporates the wave speed equation, and as in the 1st harmonic λ=2l that is why that is there. I guess for this it might just be easier to remember the first equation, or let the data sheet one remind you of the first, as that one can be used for other harmonics. Lastly, you might need to work out the mass per unit length of the string, but that would just be mass/length.
+
+<img src="waves12.png">
+
+
+
+
+
+
+And with that, at 1600 words and 20 minutes to 1, I am done (it's sleep time now). Still have some more maths logs to do though. I'm glad I managed to fit in some puns. There isn't much more to say, so I guess bye *waves goodbye*.
+
+<img src="waves13.png">
+bonus pic
+

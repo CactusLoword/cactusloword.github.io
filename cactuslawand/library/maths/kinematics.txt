@@ -1,0 +1,98 @@
+Oh no, mechanics in maths. This was something I did not realise was in the maths a level until I had started the course. Actually, now that I think about it, I didn't check out any of the a level courses before I chose them. I probably should've done that. Oh well, I don't regret choosing any of them. I'm probably exaggerating the difficulty of the topic, it just needs practice. This is also one of the easier mechanics parts, at least easier than a specific topic which is on the maths a level (can't wait for the moment that happens). Also, I have double the revision for mechanics, as it is a significant part of physics. Because of this, this review will be mostly copy and pasted from my Physics Mechanics in motions review. I will edit some bits though.
+
+
+
+Here are some terms which might be useful for graphs, or in general.
+
+Instantaneous speeds- speed at a specific moment (you need to find the tangent of the point)
+
+Average speed- speed over the whole section (just do ∆y/∆x over the whole time period)
+
+Uniform acceleration is when it velocity is constant, and non-uniform is when it isn't.
+
+
+
+A lot of this topic is equations, which are also luckily all in the data sheet. In fact, I will just write them all here
+
+velocity and acceleration
+
+𝑣 = ∆𝑠/ ∆𝑡
+
+𝑎 = ∆𝑣/ ∆𝑡
+
+equations of motion
+
+𝑣 = 𝑢 + 𝑎t
+
+𝑠 = ((𝑢 + 𝑣)/2)𝑡
+
+𝑣²= 𝑢² + 2𝑎𝑠
+
+s= 𝑢t + ½𝑎t²
+
+OK fine, you got me, I copied it from the datasheet.
+
+Those equations are possibly some of the easier parts, as it is just plugging numbers into them, and rearranging. Of course, a basic knowledge of velocity and acceleration is needed, but that would be pre-GCSE stuff. I will say that s is displacement though, and u is initial velocity and v is final velocity.
+
+
+
+
+
+Graph time! Graph time! Graphs are significant in maths, so I couldn't get away without mentioning graphs, and what you can get from them.
+
+Displacement-time:
+
+Gradient=velocity
+
+Positive gradient means it is going away from the initial point, negative mean coming back.
+
+Velocity-time:
+
+Gradient=acceleration
+
+Area under graph=displacement
+
+Above graph (above x-axis)- Positive gradient= increasing velocity, negative=decreasing velocity
+
+Under graph- +gradient=increasing negative v, -gradient=decreasing -v
+
+Straight horizontal line means v is constant
+
+Acceleration-time:
+
+Gradient=rate of change of acceleration
+
+Area under=velocity
+
+Above graph +gradient=acceleration, -gradient=deceleration
+
+Below negative acceleration/deceleration for +/- gradients
+
+Straight line is constant velocity
+
+
+
+
+
+One thing which I'm not sure we need AS, but I think we need for the full a level, is to be able to derive the SUVAT equations. For this, we start off with a velocity-time graph. If we picture just one line, we can find the equation of this line. Acceleration is the gradient, and the initial velocity will be the y-intercept, and with the velocity on the y axis and time on the x, we get v=at+u, which is the first suvat equation. This equation can also be found by rearranging the acceleration equation, a=(v-u)/t. The next equation is to find displacement, which will be the area under the graph. One way to do this would be to split up the journey into triangles and rectangles, but the equation is easier, as you just put numbers into it. You might notice that the equation s=((u+v)/2)t is the equation to find the equation of a trapezium (A=((a+b)/2)h). The last 2 equations are found from the above 2 equations, as you have all 5 suvat values. Just rearrange one of the equations to make the value you don't need to subject, the substitute that into the other equation.
+
+
+
+
+
+Projectile motion:
+
+One thing of note is that some values might depend on the direction. First I will go through vertical movement. A falling object has an acceleration of 9.81ms^-2, and one thrown up has an acceleration of -9.81, which sounds weird, but in the equations it works out to a positive answer. A dropped object's initial velocity is 0, and a thrown upwards object's final velocity is 0 (as it stops momentarily until it falls back down).
+
+On the other hand, horizontal doesn't have any default values. Acceleration and final and initial velocity will all need to be given in the question, unless you need to work them out. The wording could also be different, like saying something starts at rest, so initial velocity would be 0.
+
+Ahh, but what if something is going curved, so not straight forward/back or down/up. Well don't worry, sweet child of mine. in this case, you just need to consider the components of the direction. There will be a vertical and horizontal component you can split it up into. This might seem confusing and not what makes sense, but it works, as you just need to think about the velocity, acceleration and displacement of the horizontal separate to the velocity, acceleration (9.81) and displacement of the vertical. The time will be for both of them, as I don't think time vector calculations will be on any tests any time soon.
+
+Here is an example, which is another confusing concept, but it very important to understand. If an object is projected off a height, and another is dropped from the same height, they reach the ground at the same time, as the vertical component is the same for both. This is potentially mind-blowing, but it does make sense if you consider the next sentence. The one projected horizontally will reach the ground with a higher speed, which accounts for the more distance it has to travel. Also of course, for this air resistance is negligible.
+
+
+
+
+
+That is all for kinematics. Also I didn't mention it, but I guess kinematics in maths is the same as mechanics in motion in physics. It is a better name. There are still more mechanics in maths, like Newton's laws, and moments, but we haven't done that yet (in maths). 
+

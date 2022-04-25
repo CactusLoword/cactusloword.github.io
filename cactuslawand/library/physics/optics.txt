@@ -1,0 +1,60 @@
+Eye can see you. Just kidding, that is the best I can for an intro. We don't do about eyes anyway, I guess that is saved for biology (ew). Although we don't learn about penis in Physics or Chem, so that is an advantage to doing bi. Though studying bi would give you more insight into cock. Oops went on a tangent there, onto optics. This topic is mainly about light. Let's shine a light on this knowledge.
+
+
+
+Just as a note, there is a bit about reflection, refraction and diffraction in my waves review, which I probably won't repeat. This topic goes much more in depth into the concepts, so that was like a little taster of what was to come. Except reflection, I guess that was all there was to know.
+
+
+
+As we know, refraction is when light is bent when it goes through a different substance, meaning the light is angled closer to the normal. Now we have equations and calculations to do with it! First, we have a way to indicate how refractive a substance is. Refractive Index is a measure of the ratio of the speed of light in comparison with a vacuum. This is absolute RI, whereas relative RI compares 2 substances. We usually use absolute RI. Refractive index can be found with the equation n=c/cₛ, where n is the RI, c is the speed of light (3*10⁸), and cₛ is the speed of light in the substance for which the RI is being found. RI doesn't have any units, because you are dividing speed by speed, so ms⁻²/ms⁻²=0. An example of this is RI of air, which is useful to know anyway (you might need to, not sure. You'll soon realise it is very easy to remember). We say the speed of light in air is 3*10⁸, as it is very close to in a vacuum. That means that the RI is 3*10⁸/(3*10⁸), which is 1. RI of air is 1. This is the smallest possible RI, as if the RI is smaller than 1, you have done something wrong. This is because that would mean that light travels faster through the substance than in a vacuum, which isn't possible. So any RI bigger than 1 travels slower in a substance than air.
+
+But measuring speed of light through a substance would be very hard to do. Luckily, Snell came along to make everything easier. Snell's law is n₁sinθ₁=n₂sinθ₂. n₁ is the RI of the first substance, with n₂ being the RI of the second substance. θ₁ is the angle of incidence, and θ₂ is the refracted angle. With this, as long as you know 3 of the values, you can work out the last one. The most common use will be to work out an n, usually the second one. However, you could always work out  an angle if you have 2 RIs and the other angle.
+
+
+
+We know about normal refraction, where light is bent. However, if the angle of incidence≥ an angle called the critical angle (θ꜀(that is supposed to be a subscript c, but subscript characters are limited)), TIR occurs. Total internal reflection is when light is reflected back inside a medium. When demonstrating this, a semi-circle glass block is used, because the curve reduces the initial refraction of air to glass (as the angle of incidence in the air is 0 all along the curve, so there is no refraction). If θᵢ<θ꜀, there isn't TIR. If θᵢ=θ꜀, the ray is reflected along the boundary. If θᵢ>θ꜀, then the ray is refracted back into the glass (TIR).
+
+We can work out the critical angle using snell's law. For this, n₁ will be the glass/substance TIR happens in, and n₂ is air/substance on the other side. At the critical angle, the ray is refracted along the boundary, meaning θ₂=90. sin(90)=1, so the equation to find the critical angle will be θ꜀=sin⁻¹(n₂/n₁).
+
+There are 2 requirements for TIR. The first is that the angle of incidence must exceed the critical angle (θᵢ>θ꜀), which we covered above. The other is that the RI of the first medium must be bigger than the RI of the second (n₁>n₂). This is just a fact, but can also be shown with the critical angle equation above, as if n₁ is smaller, the you be trying to inverse sine a number bigger than 1, which isn't possible.
+
+
+
+Fibre optics, the fastest networks speeds in town. But did you know the science behind them? It is unlikely if you aren't a physics student, even Computing doesn't cover it. But it is covered in physics. I don't know if it is something you get questioned on, but I will do my best to explain it. Fibre optics utilises TIR to transmit data in a rapid way, as light is faster than an electric current. The core is where most light is reflected through. However, there is a chance that the critical angle isn't met, so light wouldn't  be TIRed. To prevent this, cladding surrounds the core.
+
+Cladding gives light a second chance at TIR. If light was lost, this would mean data is lost. Having cladding also reduces the critical angle, as there is a smaller n₂ than if it was air surrounding the core. A reduced critical angle increases the chance of TIR, as there is more of a range of angles the light can go in at. Also, if you had 2 fibre optic wires without cladding near each other, the light could pass across wires, making the data insecure.
+
+Fibre optic wires also have a casing/coating to protect the wire, and preserve the light inside.
+
+Modal dispersion is when light enters the wire at multiple different angles, so they take different paths. This means that light rays taking a more direct route will arrive quicker than rays taking a longer reflected path. To reduce this, use a narrower core,
+
+Material dispersion is when light rays of multiple wavelengths (like white light) it shone through. Violet light travels slower through glass than red light, so red wavelength rays will arrive first, making the signal dispersed, weakening it. To reduce this, use monochromatic light (light if one wavelength)
+
+
+
+Before we move onto even harder stuff, coherent light is when the waves are in phase. When we move onto the next bit, monochromatic coherent light is used, so a single wavelength in phase.
+
+Now we move into the last big part of this topic. This is an experiment, but not a required practical, so I think we actually need to know how to do it. I don't think we need to know the background of it, but if you were interested, it was a guy called Young who invented the double slit experiment. In this experiment, we have a monochromatic, coherent light source (like a laser), which we shine through 2 slits. As we know, when light passes through a small gap, it is diffracted, so the waves are spread out. We have a screen on the other side, and we can see that there are bright spots and gaps. The reason for this is that at the bright spots, there is constructive interference, where waves are in phase, and at gaps there is destructive interference, where waves are out of phase (this relates back to superposition, from waves the waves topic). 
+
+Path difference is what we call the difference of the distance travelled by waves, so it a bit like another way of measuring phase difference. At the central fringe (the middle bright spot), the path difference is 0. Then, at the next bright spots, the path difference is nλ, with n=0 being the central fringe, n=1 being the fringes either side, etc.
+
+Ok, now we have some terminology to help describe the above circumstances. Fringes are what we call the bright spots, we use the fringe spacing (distance between fringes) in an equation later on (notated as w). The other values are s, the slit separation (it is specified that the distance is measures from the centre of each slit), and D, which is the distance from the slits to the screen (where the fringes are viewed). the equation we end up with is w=(λD)/s. If you need to find the wavelength, you can rearrange it to (ws)/D=λ. How did we get there though? Well, a lot of trig. We first have a triangle with w as the opposite and D as the adjacent, and that means tanθ=u/D. We then have another triangle, with s as the hypotenuse, and the path difference (λ in this case) as the opposite, so sinθ=λ/s. Then, we get the trig identity (I didn't expect identities to pop up in physics) tanθ=sinθ/cosθ, and as θ is tiny, we assume cosθ=1, so w/D=λ/s, which rearranges to the above equation.
+
+New equation! This one is to do with the width of the central fringe, which is always twice as wide as the outer fringe. W=(2λD)/a, where a is the slit width, and W is the central fringe width. It looks quite similar to the one above, but don't confuse them.
+
+
+
+A diffraction grating has lots of slits. With this, the interference pattern becomes more clear, as you have more slits. With this, we have another equation. I swear this is the last one. This one is dsinθ=nλ, where d is the grate spacing, θ is the angle of diffraction, and n is the order (like the n for the path diff). This equation is found in a similar way to the one about fringe spacing. 
+
+Just some bits about the fringes to add. To find the number of bright spots, do 2n+1, with n being the max order (if you have it). You could also do the inverse of this to help find the max order, if you have the number of fringes. Also, for a way to find the max n is by doing d/λ. I guess this is found by rearranging the equation, and using 90 as the angle of diffraction. If you get a decimal for the max order, always round down. 
+
+
+
+No we have done 2 slits, and then many slits, now we're going back to one slit. With a slit, the bigger the λ, the bigger the diffraction. A useful way to think about this is by picturing a rainbow, as red has the largest λ, so has the most diffraction (as is at the top of the rainbow), and violet has the smallest λ therefore the smallest diffraction. Also with increasing λ, the fringe separation increases. This also means that if monochromatic light isn't used, to for example you use white light, on the screen the colours will separate out, as the different λ have different fringe separations.
+
+Another way diffraction can be maximised is by making the slits smaller in width. In the first place, the slit needs to be the same width as the slit for significant diffraction, but as you decrease the width, diffraction increases, and fringe separation increases. 
+
+
+
+There we go, we have finished optics. That also brings an end to the fun side of the physics AS (I think), which is sad in a way. This side of physics has had more stuff to learn, but it has been a bit easier than mechanics. Although I think I am getting better at mechanics. But anyway, thanks for reading. And Eye will see you later...👁👁
+

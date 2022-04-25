@@ -1,0 +1,215 @@
+Intro
+
+
+
+OS
+
+OS kernel- responsible for managing the computer's hardware including:
+
+-Memory management
+
+-CPU scheduling
+
+-Handling interrupts (ISR)
+
+The OS manages hardware, provides a UI, and also provides security
+
+
+Memory Management
+
+Paging- memory is split into equal sections called pages. It is none contiguous. 
+
+Segmenting- memory is split into differently sized segments
+
+Virtual memory
+
+
+Scheduling
+
+Round robin- a task is given a set time, if it hasn't finished it's sent to the end
+
+First come, first served- starvation
+
+Shortest job first- starvation
+
+Shortest time remaining- starvation
+
+Multi-level feedback queue- priorities
+
+
+Interrupts
+
+Polling- system constantly checks peripherals, not effective
+
+After a cycle, checks if an interrupt has been sent. If it has, the contents of the registers is put on a stack in memory. ISR runs. If higher priority interrupt, the previous interrupt is put on stack, new interrupt is handled. After interrupt has been dealt with, the stack data is restored, and program continues.
+
+ISR- Interrupt Service Routine
+
+
+OS types
+
+Distributed- Multiple separate computers are connected to each other. Tasks are split between all the nodes to each process a part, and this OS coordinates the communication between them.
+
+Embedded- This is a simplified OS, specialised for a certain use
+
+Real time- This gives a response within a guaranteed time frame, so processes data as fast as possible. This results in less flexibility, but a very fast response time
+
+Multi-tasking- Manages memory and CPU access (scheduling) so that it seems like tasks are happening at the same time. A single core CPU can't process more than one line at a time, but this switches quickly through programs.
+
+Multi-user- Allows multiple users to use the same system at the same time
+
+
+
+Libraries
+
+Software library- a collection of programs that are made available for use within a programming language
+
+-Saves you the time and effort of writing code which has already been written
+
+-Collaborative
+
+-Works to everyone's strengths
+
+-Re-usable, can be shared with other programs at run-time
+
+-Improves readability (makes code neater)
+
+-Has already been debugged, less error prone
+
+-Open-source
+
+-Can be written in other languages
+
+
+
+BIOS (Basic Input/output System) is software stored in the ROM. When a device is booted up, it first checks all the hardware, like inputs/outputs, memory, secondary storage, CPU (the POST). The boot loader then loads the OS kernel (the core part, which has programs like scheduling, interrupts, memory management) from secondary storage to RAM.
+
+A device driver is storage which tells the OS how to communicate with a peripheral (hardware). OSs will have a general device driver to tell how to communicate with generic peripherals like mice and keyboards, but for more complex inputs you might need to download a device driver from the internet.
+
+System Software- manages hardware I.e. OS and utility software
+
+
+Utility Software
+
+-System software with a single purpose to do with system maintenance
+
+Compression- Compression reduces file size, either temporarily or permanently. There are 2 types: Lossy and Lossless.
+
+Lossy permanently compresses a file. This reduces file size more than lossless, but the quality is permanently reduced. E.g. jpeg
+
+Lossless temporarily compresses a file. This doesn't reduce file size as much as lossy, but when you open the file the quality is as good as the original. E.g. zip
+
+Compression means that files will take up less storage and bandwidth.
+
+Backups- A backup is a copy of a set of files, stored on a separate device or in a separate area to the originals. This means that if the original files are corrupted or accidentally deleted or modified, you have a copy of them, meaning your data isn't deleted forever. There are 2 types of backups: Full and Incremental.
+
+A full backup backs up the whole set of files every time a backup is made.
+
+An incremental backup backs up only the new files made in the set.
+
+A full backup will take up more storage than the incremental, as you will have multiple copies of files which are the same. If you were setting up a system for backups, you would probably do a full backup, and then do incremental.
+
+Disk Defrag- This manages storage of a computer to utilise the space. When a file is created, it takes up sequential segments, and as more are created, they fill up the space next to the previous file. If a file is deleted, that leaves a space in storage. New files will be split up into pieces to fill up the spaces, which takes more time to find. Defrag rearranges data to make it all run contiguously, which improves read/write speed and therefore performance. This can only happen on a HDD, not SSD.
+
+Antivirus- This scans files of a device, and compares the bit pattern with that of known viruses from a database. If a virus is detected, the file can be flagged, quarantined or deleted. Antiviruses can also scan specified files and folders if you want it to. They can also scan just downloaded files.
+
+This is important as viruses can corrupt files, slow down a computer, spread, and share personal details.
+
+File manager- This provides an interface to organise your files. It allows you to edit, move, delete and rename files, and make folders/directories to put them into.
+
+
+
+Open/closed source
+
+Open source software is usually free, has the source code available, and is allowed to be modified.
+
+Closed source/proprietary is usually paid for, compiled, and is not allowed to be modified.
+
+Application software- A program designed to perform specific function(s) to meet a user's needs
+
+
+
+Translators
+
+Interpreter, Compiler
+
+<img src="software1.png">
+Assembler- translates assembly language to machine code. With assembly language, each instruction represents on machine code instruction, so it is an easier job to translate than high to low language, where one line can represent multiple instructions 
+
+
+
+Virtual machines
+
+A virtual machine emulates the functionality of a physical machine. 
+
+Some uses include:
+
+-Emulate an older OS
+
+-Have a safe environment to test programs, mess around with settings and download dodgy files
+
+-To translate high level language to intermediate code, which is compiled (alternative to interpreter) 
+
+Advantages:
+
+-Easy to backup and duplicate
+
+-Allows software to run on machines which would otherwise be incompatible
+
+-Using it to translate to intermediate code avoids disadvantages of interpreter
+
+
+
+But what is intermediate code? Source code is compiled into intermediate, which is still portable. The intermediate code is then interpreted by a VM to native machine code. This means that it is portable, and the source code is compiled, so essentially unreadable.
+
+
+
+Software development
+
+
+Feasibility study
+
+- This judges whether a project is worth doing, as the negatives outweigh the benefits. The project can then be stopped before it wastes time and money, instead of starting it and giving up
+
+- It could be economically feasible if it's over budget, or just costs too much for what it's worth
+
+- It could not be legally feasible, like if a project breaks laws about data protection and privacy
+
+- It could be not technically feasible if it is too ambitious for current hardware
+
+Requirements Specification
+
+- The requirements will be a set of instructions or functions the client wants the software to do
+
+- This could sometimes be tricky if the customer has a clear idea but can't explain it well, but then the manufacturers will have to constantly re-work the software to the point it's frustrating
+
+- After the Requirements Spec is made. It goes through acceptance testing. This is where the client signs off, and the developers confirm they are able to do it.
+
+
+Testing
+
+- Takes place continuously through the coding process, to check it works as planned
+
+-Included destructive testing, where testers try to crash it, or behave unexpectedly
+
+-When most big bugs are found, it goes through alpha testing, where other people from the same company who haven't seen the code test it
+
+-Beta testing is when exterior? (other company) people test the code
+
+-Acceptance testing also happens at the end, to make sure the software meets the requirements
+
+
+Documentation
+
+- Technical documentation describes the code, to allow future software engineers to read it easier
+
+- User documentation tells the user how to use the software. This can often be in the form of a user manual 
+
+
+
+Software Development Methodologies 
+
+Testing
+
+
+

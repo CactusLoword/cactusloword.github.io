@@ -1,0 +1,76 @@
+Enthalpy? Isn't that from Tenet? I guess yeah, as it is a sci-fi, and not fantasy. But did Tenet mention anything about Hess cycles? Thankfully not, as that would have decreased my enjoyment of the film. But enthalpy is real, and something we need to learn about. Overall the topic is mostly about concepts, and there isn't much to memorise like definitions and experiments and stuff. Unfortunately that does make it harder to write about, but better to remember. We'll see how it goes at the end. You can be the judge of whether Tenet or this topic is more confusing. 
+
+
+
+
+
+
+
+Enthalpy is basically to do with heat energy. The enthalpy of a system is the heat energy of it. It is also sometimes seen as the energy stored in the bonds of a molecule, which is useful for later on. A common use of enthalpies is to work out the enthalpy change (∆H) of a reaction. Here we have a simple equation, which luckily isn't too hard:
+
+∆H=H(products)-H(reactants)
+
+This basically shows the resultant amount of heat energy left in the system, whether is is positive or negative. That leads us nicely onto exothermic and endothermic. This was covered at GCSE, but it is important to know, and was confusing to learn at first (I have the hang of it now). Exothermic is when energy is released from the system (exits). This results in the reaction feeling hot, because energy is transferred to the surroundings. However, the ∆H is negative, as the system loses energy to the surroundings, so the products have less enthalpy than the reactants. Most reactions are exothermic. Endo on the other hand is the opposite, so energy is absorbed by the system. This results in the reaction feeling cold, as energy is transferred from the surroundings. ∆H is positive, as the system takes energy in, so the products have more energy than the reactants.
+
+A way this enthalpy change can be shown is with a energy profile. Remember those?  The concept of these is basically what I explained before, it is just a nice visualised way of seeing the enthalpy change. One aspect of an energy profile which doesn't affect ∆H is the activation energy. This is the minimum energy required for the reactions to happen, as it is the min energy for bonds to be broken. 
+
+<img src="chap9a.png">
+
+
+Here we take a small tangent from enthalpies. Don't worry though- it is all relevant, and in fact necessary to know for this topic. For enthalpies measurements, the results could vary depending on variables outside the experiment. Because of this, standard conditions are used, to get more accurate results, and results in line with other people's. The symbol to show a standard enthalpy change is ∆H°(the circle is supposed to be ⦵, which there isn't a superscript character for). The units are kjmol⁻¹.Here are the conditions:
+
+Standard pressure- 100kPa. Also one atmosphere is 101kPa, which is quite close.
+
+Standard temperature- room temperature, or 25°. Of course, in SI units this would be 298K
+
+Standard concentration- 1moldm⁻³
+
+Standard state- whatever the state of the element/molecule is at standard conditions (so at room temp)
+
+
+
+If enthalpy changes aren't found with standard conditions, it could result in inaccurate results. There are also other reasons for inaccuracies, like:
+
+-Heat loss to the surroundings
+
+-Incomplete combustion
+
+-Evaporation
+
+The bottom 2 are related to an experiment. It is a required practical, so I think you are supposed to know it, but usually in a test they explain the practical. Just in case, I'll give a brief desc. Basically a spirit burner filled with a specific fuel is lit, and heats up water for a set temperature change. Then, an equation (stated below) is used to find the heat energy transfer. Evaporation of the water would happen if you let the water heat to over boiling temp. Heat loss is reduced with draught shields, but it can still happen. 
+
+
+
+That all leads us onto an equation. The unfortunate part is that we have to actually remember this one. Here it is: q=mc∆T. In that equation, m is mass, c is specific heat capacity (of the surroundings- could often be water), ∆T is change in temp, and q is the energy. I don't know why energy is q, I don't think there is anything wrong with E, but we have q just for this one. Maybe it is because it is heat energy, idk. But that equation is used to find the energy change in a reaction. If you struggle to remember that, here is something that kind of helps me: the equation reminds me of kumquat (it's a fruit). You could see the equation like the word, maybe like qmct (q=mc∆T. You could also rearrange it to make it cmqT (cm=q/∆T). Hope that helped.
+
+
+
+
+
+Now for what this has all been leading up to: Bond enthalpies. This is to do with the breaking and making of bonds, and with these you can work out the overall enthalpy change of an equation. To work this out you are given average bond enthalpies of each bond, e.g. C-C  has an average bond enthalpy of 413kJmol⁻¹. Do keep in mind this is an average, so the actual bond enthalpy might be slightly bigger and smaller, depending on the overall molecule. 
+
+Also, we use the thermodynamic knowledge from earlier here. Breaking bonds is endothermic, so has a +∆H. Making bonds is exothermic, so has a -∆H. With this, you can work out enthalpy changes. A good starting point is to look at the displayed structure, and count all the different bonds. Then, add them up for each side. Remember, breaking bonds is endo, so the reactants' enthalpy will be +, and making is exo, so the products' enthalpy is -. Then, do maths.
+
+
+
+Time to move onto the next part, which does relate to the last section, as it is to do with enthalpies of a reaction (although I guess that is basically the whole topic). Don't be hessitant, it is time to ride the Hess cycle. Hess' law says that the enthalpy change of a reaction is the same regardless of the route taken. This means that even if a reaction happens indirectly, so other reactions happen before you get the products, the enthalpy change is the same. This is easier pictured, as you can see the triangle, but I'll try explaining with words.
+
+First though, we need to go through the different types of enthalpy change. I skipped this from earlier to explain it all together. The first which we've already covered, is enthalpy of reaction, AKA ∆ᵣH°. This is just the overall enthalpy of an equation, which I have (possibly incorrectly) said as ∆H earlier. Same thing, probably. Also remember this is enthalpy of reaction per mole. This means that if the question is to find the ∆ᵣH° of a reaction which forms a mole of product, then you need to balance the equation to have a mole of the product, even if all the reactants have fractions have fractions of moles and it would seem to make more sense if you had whole numbers. However, if you multiply that, you will also be multiplying the answer, so it will be wrong.
+
+<img src="chap9b.png">
+The next is enthalpy of formation, AKA ∆Hf° (the f is supposed to be subscript, but that doesn't exist). This is the ∆H for a mole of a compound to be formed from its elements. The way to work out the overall enthalpy is different for this (and the next), as you are given the enthalpy of formation for the different compounds in the reaction. ∆Hf° for single elements is 0, as you can't form it from its elements, as it is its elements, if that makes sense. Thinking about Hess' law, this enthalpy shows the enthalpy to make every compound in the equation, so to visualise it at the bottom you split up all the elements. If you imagine the Hess cycle, for this the arrows point upwards, away from the single elements at the bottom. This is because you are forming the compounds from the elements, so it makes sense the arrow goes that way. This means that the overall enthalpy of formation will be the products' enthalpy take away the reactants' enthalpy (∆Hf°=∆Hf°(products)-∆Hf°(reactants)). This is similar to normal enthalpy, but remember they aren't the same thing. If you aren't sure which to take away, think about vectors, so if you are going against a line's direction, it is negative (though don't forget minus a minus is a plus).
+
+<img src="chap9c.png">
+This one sounds more exciting than it actually is. The enthalpy change of combustion, ∆Hc°(no subscript c), is the ∆H for a mole of a substance to react completely with oxygen. An example of this is with a fuel, which a mole of which be completely burned with oxygen. If you think about the complete combustion equation (I wrote about this in my Chapter 12 review), the products are water and carbon dioxide. This means in the Hess cycle, H₂O and CO₂ go at the bottom. The arrows then point down, as these are the products of the combustion of the compounds in the equation. Because of this, ∆Hc°=∆Hc°(reactants)-∆Hf°(products) (opposite of the formation).
+
+<img src="chap9d.png">
+There is one last enthalpy, which I don't think has a Hess cycle. This is enthalpy of neutralisation, which is the ∆H for a mole of H₂O to be formed from an acid and a base. There isn't much about this in the textbook, and we didn't do it at all in lesson, so I think that is really all I can say on the subject.
+
+
+
+
+
+
+
+At last, the endtthalpy of the enthalpy topic. It is quite confusing, but with practice I'm sure it becomes easier. To link back to the intro, which was better, Tenet or this? Well, Robert Pattinson wasn't in this topic, and Christopher Nolan didn't direct chapter 9 of the textbook, so that is an automatic win for Tenet. I don't think that surprises anyone though. A movie is more entertaining than Chemistry? Wow, who'd've guessed. Also I don't even know if they talked about enthalpy in tenet, I looked it up and it was entropy, which is perhaps the same thing, let's just say it hypothetically is for this review. If it is different, oh well, I already wrote in the joke so I'm not changing it. 
+

@@ -1,0 +1,123 @@
+Hello, here is my first review of computing. Due to the layout of the term and teaching, I have been unable to write a review for a test. On one hand, this means we haven't had frequent full length exams, which is good, however I haven't had a necessity to write this. For this review, I was thinking I could include the whole of the course so far, as it's mostly been definitions and comparisons. As I've already got most of the definition typed out of the Notebook, I will copy and paste from there to save time and effort, but will edit it to make it more cohesive. I'll also split it into separate parts.
+
+
+Input/output
+
+An input device sends data into the computer. An output device receives data, and displays it.
+
+
+Von Neumann:
+
+<img src="hardware1.jpg">
+
+
+Features of the Von Neumann architecture:
+
+-Has FDE cycles
+
+-Contains registers
+
+-Has one system bus, consisting of 3 buses
+
+-Runs sequentially (only runs one instruction at a time)
+
+-Multi-core CPUs aren't strictly Von Neumann
+
+
+
+Registers
+
+<img src="hardware2.png">
+Program counter (PC): Holds the address of the next instruction to be executed by the processor.
+
+Current instruction register (CIR): Holds the current instruction that the processor is executing.
+
+Memory address register (MAR): Temporarily holds the address of the memory location that the processor needs to access, either to read from or write to
+
+Memory data register (MDR): Temporarily holds the data (data values or instructions) that are read from or written to the main memory.
+
+Accumulator: Stores the result of a calculation processed by the ALU
+
+
+
+Buses
+
+<img src="hardware3.png">
+The address bus carries the memory location of data and instructions, which are sent from the CPU to the RAM, so it knows what to read and write. It is unidirectional
+
+The data bus carries data and instructions, which are written to or read from RAM. Is bidirectional.
+
+The control bus carries control signals, to tell components what to do. It could be sent from the CU, telling the other buses to read or write. It could be a clock signal, sent from the clock to say when something should happen. This represents the clock speed, with a signal telling something when an FDE cycle should happen. It could also be an interrupt.
+
+Each bus has a bus width, which is the amount of bits it can transport in one go.
+
+
+
+Pipelining is where the output from one process is used as input into the next process and/or processed occur in overlapping time periods simultaneously.
+
+
+
+Von Neumann vs Harvard
+<img src="hardware4.png">
+
+
+
+CISC and RISC
+
+RISC (Reduced Instruction Set Computer)- an instruction set which has a limited number of instructions which are simple
+
+CISC (Complex Instruction Set Computer)- an instruction set which supports a wider range of instructions which are more complex in nature
+
+<img src="hardware5.png">
+
+
+
+GPU
+
+The Graphics processing unit is a specialised processor containing circuitry designed to carry out operations on graphics (isn't restricted to graphics though). A GPU can carry out a single instruction on multiple data (SIMD) at the same time e.g. pixels can be shaded in parallel, transforming vertices, and loading data this makes it much faster to process graphics.
+
+Uses of GPU:
+
+-Data mining and machine learning
+
+-Bioinformatics
+
+-Facial recognition
+
+-Brute force searches in cryptography
+
+-Forecasting e.g. weather
+
+-Audio processing
+
+<img src="hardware6.png">
+
+
+
+Factors affecting CPU performance
+
+Cache
+
+Cores
+
+Clockspeed
+
+Memory
+
+<img src="hardware7.png">
+
+
+
+Secondary Storage
+
+Magnetic- Data is stored with magnetised and demagnetised sections on a disk. The sections represent bits, with magnetised representing a 1 and demagnetised a 0. Needles scan back and forth along the platters, reading/writing data.
+
+<img src="hardware8.png">
+
+
+
+Virtual Storage
+
+Virtual storage, AKA the cloud, is Internet-based storage where files and software can be stored and accessed from anywhere.
+
+<img src="hardware9.png">

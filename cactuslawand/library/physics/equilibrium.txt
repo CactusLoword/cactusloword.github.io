@@ -1,0 +1,50 @@
+With there being a test tomorrow (or later today to be more specific), on Thursday 14th October 2021, I thought it might be useful to write another review for my physics revision, as I think it helped before. This will also be my 3rd review today, which is a lot, so I feel like it's possible I might fall asleep part way through, but I will try to persevere. I've also found a checklist which I got in the lesson, so I'll follow the order of that. Also apparently this section is called Forces in Equilibrium.
+
+Disclaimer: who knows what I'm talking about, I probably don't. I just wrote some stuff, it might all be made up, I don't know. Hopefully there's some truth to it.
+
+First, we start off with something more simple, which is about scalars and vectors. Scalars have a magnitude, whereas vectors have a magnitude and direction. Examples of Scalars are distance, speed and mass. Examples of vectors are displacement, velocity and force. As an example of the difference, if a hedgehog walked forwards 1m and then back 1m, there will have been a distance of 2m, but no displacement, as the hedgehog is where it started.
+
+The next point is to be able to add vectors by calculation and scale drawing. This would probably be easier to draw, but this is a written review, so I will try to explain it. If the 2 forces act at a right angle to each other, you can use Pythagoras to find the resultant force, and trig to find the angle. If it isn't a right angle, you could draw a scale diagram with a ruler and protractor, to find the resultant force.
+
+Ok, turns out the I might have explained this point in the last one, but then they seem to mean the same thing, so I'll move on. Actually before that I'll say if something is acting east with 5N, and something else is acting westwards with 6N, the resultant force is 1N West.
+
+Can I solve problems using resolved forces or a closed triangle? Hopefully. I think again this one might be just Pythagoras and trig.
+
+Ah yes, the conditions for equilibrium for 2 or 3 coplanar forces acting on a point. Hmm. Is this simpler than I think it is. If it is simple, then in equilibrium the forces balance each other out, so the object is either still, or at constant speed. (F=ma, so if f=0, then a=0, as m can't really be 0). If the answer is more complicated, then I don't know.
+
+wtf this is basically the same question, I think?
+
+moment=force*distance
+
+Apparently a couple is a pair of equal and opposite and coplanar forces. Nice to know. I think that might be for moments.
+
+A couple is a pair of forces of equal size acting parallel, but opposite to each other. They don't produce any linear force, but they do produce a moment, depending on the size.
+
+Ok, is this messing with me? This has to be the same as the one before the previous one. "moment of couples=force*perpendicular distance between the lines of action of the forces". What are the lines of action!?! Ok after research I think the line of action is just what the 2 opposite forces are acting on. Is this the thing where moment on one side=moment on the other? idk
+
+The principle of moments: If an object is at equilibrium, "the sum of clockwise moments= the sum of anticlockwise moments". I think this is just the "moment on one side=moment on other side" thing. I also found more info about couples, which I will add above.
+
+The centre of mass is the point of an object where all of its weight acts through.
+
+A single force on a body through its centre of mass will have no turning effect.
+
+If an object is symmetrical, the centre of mass is at its centre. If the object isn't symmetrical, the centre of mass has to be found be doing an experiment. I think this experiment was the paper one, to one where me and Sam played hide and seek with a rubber, whilst Michael did the paper bit. I did draw a face on the paper though.
+
+You know what could be fun? If I listed all the forces! I don't actually know if you need to know them all, but maybe they'll be useful:
+
+Support force- force arising when an object rests against another object
+
+Drag or air/water resistance- resistant force acting on an object travelling through fluid
+
+Tension- force within a stretched cable or rope
+
+Upthrust (lol)- upward buoyancy force acting on an object when it is in a fluid
+
+Friction- force arising when 2 objects rub against each other
+
+Weight- gravitational force acting on an object through its centre of mass
+
+Well that was fun. Overall, I think I'm mostly fucked.
+
+-Dylan
+

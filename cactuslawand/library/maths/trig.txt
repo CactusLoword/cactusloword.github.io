@@ -1,0 +1,42 @@
+Disclaimer: sorry about this one, I wasn't motivated, so it didn't turn as so well.
+
+I unfortunately have time to spare, with me stuck in school, so I might as well write a maths review. It's on trig and vectors.
+
+
+I'm kind of stuck in the LRC, as at this time, it probably isn't worth walking home, as it would end up wasting my time journeying, as after going for lunch, I'll have to come back to retrieve the test, which I can't do as there is currently a class going on. It probably isn't even worth doing this, as we're doing the test at home. Oh well, I'm bored.
+
+
+Looking through my book, it is now apparent that we've done hardly anything. To start, I'll do the identities. To do this, you need to know trig, which is just SOHCAHTOA.
+
+There are 3 trig identities, which lead on to each other. The first is x²+y²=1. This is around the sides of the triangle, and uses Pythagoras theorem. It basically describes a situation where the hypotenuse is 1, so the other sides are labeled as x and y.
+The second is sin²θ+cos²θ=1. This labels the 2 sides sinθ and cosθ, replacing the x and y. These are because of normal trig, as if we take θ as one of the angles, to find a side it would be sin(θ)*1, which simplifies to sinθ. The same is for the cos side.
+The third identity is tanθ=sinθ/cosθ. This is found using the trig of tan, using the knowledge of finding the inverse trig. t=o/a, and as o is sinθ and a is cosθ, it makes sense.
+
+<img src="trig1.png">
+
+
+You also need to know the graphs. Sin and cos are both the same wave graph, but on sin when x=0, y=0, and for cos when x=0, y=1. Tan is a bit more tricky, but it's basically just a bunch of stretched "N"s, with the centre being every 180. It's important to know that it doesn't touch the 90°.
+
+For the identities, you can substitute them into questions to make it a quadratic. You then solve the quadratic. It might say to use values on a scale of angles, e.g. 0-360°. For this you need to use the graph. It might also say for example sin(4x). For this, don't divide by 4 until you have all the values from the graph.
+
+<img src="trig2.png">
+
+
+Equation quickround!:
+*Quadratic equation (I'm not writing it)*
+sinA/a=sinB/b (sine rule)
+a²=b²+c²-2bcCosA (cosine rule)
+½abSinC (area of a triangle)
+
+
+
+Ok, vectors now.
+A vector is arranged like a fraction without a line, with brackets around it. It can also be written as i+j, with i being the x coordinate change and j being y.
+
+To work out the overall vector of some vectors, just work it out.
+
+There's also a position vector.
+
+Well that was a waste of time. I didn't even need to write it, and I didn't even really feel motivated to, but I guess I did it anyway.
+-d
+

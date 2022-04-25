@@ -1,0 +1,281 @@
+
+
+#cactus{
+  left:30%;
+  height:40%;
+}
+
+#backbotback{
+  height:60%;
+  background-color: #004;
+}
+
+#backtop{
+  height:40%;
+  background-color: #404;
+  border-bottom: 1px solid #d0d;
+}
+
+
+/*scrollbar background*/
+#viewer::-webkit-scrollbar-track {
+  background:#fae;
+}
+
+/*scrollbar handle*/
+#viewer::-webkit-scrollbar-thumb {
+  background: #b6a;
+}
+
+#viewer::-webkit-scrollbar-thumb:hover {
+  background: #948;
+}
+
+#viewer{
+  /* background-color: #6bf; */
+  background-color: #d8c;
+  border-color: #504;
+}
+
+/*contentsPhys*/
+
+#contentsPhys::-webkit-scrollbar-track {
+  /* background: #fba; */
+  background:#adf;
+}
+
+#contentsPhys::-webkit-scrollbar-thumb {
+  background: #69b;
+}
+
+#contentsPhys::-webkit-scrollbar-thumb:hover {
+  background: #367;
+}
+
+#contentsPhys{
+  background-color: #bbf;
+  border-color: #610;
+}
+
+#contentsPhys .story{
+  background-color: #8bf;
+  color:#149;
+  border-color: #250;
+}
+
+#contentsPhys .story:hover{
+  background-color: #69e;
+}
+
+/*contentsChem*/
+
+#contentsChem::-webkit-scrollbar-track {
+  /* background:#9da; */
+  background: #8c9;
+}
+
+#contentsChem::-webkit-scrollbar-thumb {
+  background: #596;
+}
+
+#contentsChem::-webkit-scrollbar-thumb:hover {
+  background: #263;
+}
+
+#contentsChem{
+  background-color: #485;
+  border-color: #250;
+}
+
+#contentsChem .story{
+  background-color: #8c9;
+  color:#250;
+  border-color: #250;
+}
+
+#contentsChem .story:hover{
+  background-color: #4a6;
+}
+
+/*contentsComp*/
+
+#contentsComp::-webkit-scrollbar-track {
+  /* background: #fba; */
+  background:#4cd;
+}
+
+#contentsComp::-webkit-scrollbar-thumb {
+  background: #489;
+}
+
+#contentsComp::-webkit-scrollbar-thumb:hover {
+  background: #067;
+}
+
+#contentsComp{
+  background-color: #4bb;
+  border-color: #033;
+}
+
+#contentsComp .story{
+  background-color: #4de;
+  background-color: #6df;
+  color:#046;
+  border-color: #033;
+}
+
+#contentsComp .story:hover{
+  background-color: #0be;
+}
+
+/*contentsMaths*/
+
+#contentsMaths::-webkit-scrollbar-track {
+  background:#7cf;
+}
+
+#contentsMaths::-webkit-scrollbar-thumb {
+  background: #49c;
+}
+
+#contentsMaths::-webkit-scrollbar-thumb:hover {
+  background: #27a;
+}
+
+#contentsMaths{
+  background-color: #5ad;
+  border-color: #004;
+}
+
+
+#contentsMaths .story{
+  background-color: #8df;
+  color:#047;
+  border-color: #004;
+}
+
+#contentsMaths .story:hover{
+  background-color: #4ae;
+}
+
+
+
+
+#back{
+  background-color:#ad7;
+}
+
+#contentsButt{
+  background-color: #d98;
+}
+
+.contentsButts{
+  border-radius: 1vh;
+  border-width:0.5vh;
+}
+
+#contentsButtPhys{
+  bottom:48%;
+  right:80%;
+  background-color: #8bf;
+}
+
+#contentsButtChem{
+  bottom:48%;
+  right:45%;
+  background-color: #596;
+}
+
+#contentsButtComp{
+  bottom:48%;
+  right:20%;
+  background-color: #4de;
+}
+
+#contentsButtMaths{
+  bottom:20%;
+  right:20%;
+  background-color: #5ad;
+}
+
+
+
+#storyTitle,#storyText,.storyText,#storyName,.storyName{
+  color:#404;
+  color:#615;
+}
+
+#storyTitle::selection,#storyText::selection,.storyText::selection,#storyName::selection,.storyName::selection{
+  /* color:#943; */
+  background:#b6a;
+}
+
+/*works*/
+#storyNamePhys, #storyNameChem, #storyNameComp,#storyNameMaths{
+  position: static;
+}
+
+/*doesn't work ???*/
+/* .storyName{
+  position:static;
+} */
+
+
+#storyNamePhys{
+  color: #525;
+}
+
+#storyNameChem{
+  color:#031;
+}
+
+#storyNameComp{
+  color: #034;
+}
+
+#storyNameMaths{
+color:#004;
+}
+
+.storyImg{
+  border-color: #404;
+}
+
+#coverPhys{
+  height:30%;
+  width:10.9%;
+  left:7%;
+  top:3%;
+}
+
+#coverChem{
+  height:30%;
+  width:10.9%;
+  left:42%;
+  top:3%;
+}
+
+#coverComp{
+  height:30%;
+  width:10.9%;
+  left:7%;
+  top:3%;
+}
+
+#coverMaths{
+  height:30%;
+  width:10.9%;
+  left:42%;
+  top:3%;
+}
+
+.cover img{
+  height:100%;
+  width:auto;
+  left:0;
+  top:0;
+}
+
+/* #library{
+  border:solid;
+} */

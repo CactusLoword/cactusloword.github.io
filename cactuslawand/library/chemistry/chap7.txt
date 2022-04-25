@@ -1,0 +1,60 @@
+Yay more chem. I think at this point I have decided I will drop this subject, but I'll still try to get the best grades I can in the mocks, and hopefully have some fun along the way. This chapter is about periodicity, which really seems like a made up word. I think the test tomorrow is short though, and most is stuff we've done before, so fingers crossed this won't take long. I am eager to finish this, and I've barely begun. As usual I'll follow the textbook (whist using my notes). Most of the new stuff is later on in the chapter, so I'll try to breeze past the first bit.
+
+
+
+
+
+Ok, we know all about groups and periods, and how the periodic table is ordered by atomic number. We've learnt about electron configurations and the orbital blocks, and I covered it in my Chap 5 review. 
+
+Here we go, a definition. Periodicity is the trend of properties of elements. Some property examples are electron configuration, ionisation energy, structure and melting points. Also, as we know, Mendeleev's periodic table was the first to account for property organisation.
+
+Oh dear, some more vocab. We know the names of some groups, e.g. halogens. But now, group 5 is called the Pnictogens, and group 6 the Chalogens. Doesn't roll off the tongue as well as noble gas, but that's how it is.
+
+
+
+
+
+New stuff! Ionisation energy is a measurement of how easily an atom loses electrons, to form a positive ion. It is measured in KJmol⁻¹. Fist ionisation energy is the energy required to remove one mole of electrons from one mole of gaseous atoms. This is basically the energy needed to remove an electron from each atom of a mole of atoms of an element, resulting in a mole of 1+ ions. 
+
+Factors affecting ionisation energy:
+
+-Atomic radius- the further the outer electrons are from the (positive)nucleus, the less the attraction, so they are easier to lose
+
+-Electron shielding- outer electrons are repelled by inner shell electrons, so easier to lose
+
+-Nuclear charge- the more protons in the nucleus, the stronger the attraction between that and the outer electrons, so the harder to lose
+
+
+
+We don't just have one ionisation energy though. The second ionisation energy is the energy required to remove a mole of electrons from a mole of positive 1+ ions, which would form 2+ ions. From this, you can probably see how the pattern goes with ionisation energy.
+
+From looking at successive ionisation energies of an element, you can guess what group it is in. If there is a big jump in ionisation energy, you can tell that electron is being removed from a different shell. For example, if there is a big jump between the 7th and 8th ionisation energy, you can see it is in group 7, as it has 7 electrons in its outer shell, which are easier to remove than inner shells (less radius, less shielding, stronger attraction).
+
+You can also compare first ionisation between different elements, which you need to know. That would be hard to write here though, so look it up or something. Or look at this badly drawn graph:
+
+<img src="chap7a.jpg">
+The reasons for this is the factors from above, but also the orbitals and sub-shells. If there is an outer subshell jump between elements, then the ionisation energy changes as electrons from higher energy orbitals are easier to remove. Also, if an orbital is paired, the electrons are easier to remove as the pair repels each other.
+
+
+
+
+
+Now it is the trends in bonding and structure. Luckily for me, I went through most of that in my Chapter 5 review, which gives me some rest now. Just to clarify though, from weakest to strongest (therefore from smallest to largest melting points):
+
+monatomic- only London forces
+
+<simple molecular- only London, but bigger molecules (more overlap)
+
+<metallic- metallic bonds, delocalised electrons. Aren't too hard to melt, but very hard to boil (because of delocalise electrons)
+
+<giant covalent- only covalent bonds, very strong
+
+So to look at the trend of melting/boiling points, just think about the bonds and structure. This is probably something you might need to memorise (type for each element). Metallic is quite self-explanatory, and Noble gases are monatomic. Carbon and Silicon are both giant covalent. The other non-metals are mostly simple. Boron is a bit weird, as it is kind of metallic and giant covalent I think.
+
+<img src="chap7b.jpg">
+
+
+
+
+Fuck yeah I've finished! Ok I'm done now, bye bye. No, but I think this was actually quite a good review in the end. Normally, if I was reluctant to do a review, it would turn out bad, but this was actually alright. But I am seriously going to go now, it is rest time.
+

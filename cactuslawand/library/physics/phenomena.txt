@@ -1,0 +1,55 @@
+Here we are, a day away from the Physics mock (on Monday 6th December 2021, at 8:30). This is the last topic I have yet to review so far, so I thought to revise it could be a good thing to go over what we've done. Overall what we need to learn seems a bit overwhelming, but splitting it into smaller parts makes it more manageable. The exams have creeped up on me though, so I guess I just need to make sure I know all of what's in these reviews for tomorrow.
+
+
+
+First of all is the Photoelectric effect. This effect can be shown well with an electroscope, which is shown below:
+
+<img src="phenomena1.png">
+In the experiment, the electroscope is first charged. This causes the gold leaf to rise (as the leaf and metal stem are both negatively charged with electrons, so they repel). When UV light is directed at the zinc plate, the gold leaf lowers. This is because the photon's energy is absorbed by the electrons. These photoelectrons then travel to the surface, and escape. This means the leaf and stem get less charged, so repel less.
+
+There are 2 equations which are necessary to this theory. The first is E=hf. This is used in this case to find the energy of the UV photons. h is Planck's constant, and f is the frequency. If you don't have the frequency, but have wavelength and wave speed, then you'll need c=λf (rearranged to c/λ=f). The other equation is E=Φ+Eₖ. This is showing that the overall energy= the work function (the energy needed to produce photoelectrons)+the kinetic energy, which will just be any left over energy. The good thing is that these equations are on the data sheet, so we just need to know how to apply them. Although I wrote them down from heart anyway, but I guess it's safe just to check.
+
+With the equations, it is used to show that the energy of the photon equals the energy after. You can also substitute hf into E in the equation to directly show that. An important part is that the energy of the wave has to be at least the work function. The threshold frequency is defined as the minimum frequency needed to provide the work function, or produce photoelectrons. If this isn't met, so if the frequency isn't high enough, photoelectrons won't be produced, so the leaf won't lower. This is why UV is used for the experiment, as visible light or anything lower on the EM spectrum has too low of a frequency. If the freq of the wave is exactly the threshold freq, then hf=Φ, as there is no leftover energy. If the freq is higher than the minimum needed, then there will be kinetic energy.
+
+Note: for this I think you might need to know how plot a graph, and get further results from that. Given the energy and freq, plotting shouldn't be too hard, but you need to take into account the hf=Φ+Eₖ equation, if you need to find out the other values. Putting energy on the y-axis and freq on the x, you could rearrange the equation to make it like y=mx+c, so Eₖ=hf-Φ. This would mean Planck's constant will be the gradient, and the work function will be the y-intercept*-1 (as it is -Φ)
+
+
+
+Ok, onto energy levels now. Before we go onto all the learning content, we need to know how to convert J to eV. I explained it in my review on Matter and radiation, but I'll go over it again. To get from J to eV, you divide it by 1.6*10^-19 (the energy of an electron). The opposite is just the opposite (/).
+
+Ok, now get excited, because it's excitation! Excitation is when an electron absorbs energy, and subsequently moves to a higher energy shell (its excited state). This differs from ionisation, where an electron receives at least enough energy to escape from the atom. The ground state of an atom is the lowest energy shell. Excitation can be drawn in a special diagram, which represents the energy shells. Numbers on the sides refer to the shell energies, relative to the highest energy shell (ionisation level). This means the outer shell is noted as 0eV, whereas ground state will be -_eV. 
+
+ This can happen because of 2 occurrences: collisions or photons. With collisions, if a gas atom absorbs kinetic energy from colliding electrons, it can get excited. The other cause is when electrons absorb photons. Excitation can only happen when the energy shell difference is exactly equal to the received energy. The excitation energy is the energy needed for an electron to move to a higher level. For a photon, this is where E=hf comes in again, which will be described more later about line spectra. If you were perhaps interested in a badly-drawn diagram, then here you go:
+
+<img src="phenomena2.png">
+Ok, after getting so excited, we need to wind down, and de-excite ourselves. Ok, after excitation there is a vacancy left in a shell. To stabilise the atom, an electron falls back to that place, which emits a photon. This is de-excitation. There are 2 ways the electron can get back down, which is directly or indirectly. If it goes down directly, the electron returns straight down to the level, which emits a photon of the excitation energy. This photon will also be identical in frequency and wavelength to the one that was absorbed (if that was the case). If an electron moves indirectly, then it moves down shells in steps. It can even travel down one step diagonally, so in multiple directions until it gets to its destination. In this case, more than one photon will be emitted. Each photon will be the energy difference between the shell it goes down.
+
+<img src="phenomena3.png">
+
+
+
+
+Fluorescence. At GCSE you probably know this as glowy stuff, but for A level we go a bit further than that. It's basically all to do with excitation and de-excitation. An atom absorbs UV light, making electrons excited. When they get de-excited, electrons could either go back directly or indirectly. If it's directly, UV is emitted, which isn't visible so that doesn't change the view of it. However, if it is indirectly, then multiple photons of higher wavelength will be emitted. This is visible light, so to us it looks like the material is glowing. For florescent lights, they will contain a white powder, which has been made or chosen as it will emit a specific light under UV. How? Well, read on to find out...
+
+<img src="phenomena4.png">
+
+
+Line spectra are mini graphs of sort, which show sections of light, depending on its use. A continuous spectrum is the full range of visible light. For electrons to be excited, only certain frequencies and wavelengths of photons can be absorbed, as an electron needs the exact amount of excitation energy to move up to a specific level. If the full continuous spectrum is shone through a gas of an element, some wavelengths will be absorbed, and some will just pass through. The absorption spectrum represents this, with black lines where for the absorbed wavelengths. Later, the electrons get de-excited, so photons are emitted. This is viewed on an emission spectrum, which only shows the emitted wavelengths, so the rest of the spectrum is black space. 
+
+The wavelength of the lines on the spectrum are characteristic to a specific element. This is because energy shells are unique to each element, which means that the wavelengths of the photons which can be absorbed are unique to that element (E=hc/λ). This means that a spectrum can be used to identify an element.
+
+<img src="phenomena5.png">
+
+
+Last, but probably least, is De Broglie wavelength. Here is where I would usually explain it, but I'm going to be honest; I have no idea what this is. We have an equation for it, λ=h/p, so λ=h/mv. This equation is on the data sheet. Tbh I don't even know if there's an equation we need to learn of by heart, which we aren't given.
+
+Oh dear I nearly forgot wave-particle duality. We didn't write much about this in lesson, we only watched that Dr Quantum video or whatever it was called. This is when something acts as a particle or a wave at different times.
+
+The first example is light. Light acts in a wave-like nature with diffraction. When light passes through a narrow slit, it spreads out as it emerges from the slit, just like water. Light acts as a particle during the photoelectric effect. When the light is directed at a metal surface, the electrons absorb photons, and if the photon energy exceeds the work function, the electron can escape.
+
+The second example is matter, like electrons. Electrons act like a particle when they are deflected by a magnetic field. They also act like a wave, which I think is to do with the de Brogolie thing. Electrons also act like a wave in the double-slit experiment.
+
+
+
+Well there we go, I'm pretty sure that's everything about Quantum phenomena. I hope so at least, not only so I know everything for the exam, but this is one of my longest reviews, if not my longest review yet. I spend a significant amount of time on it, but at least it was revision. I also still need to revise the other stuff for physics, like the other quantum stuff, and of course (unfortunately) mechanics as well. I don't even know if what I've written has even sunk in. I guess we'll see tomorrow. I also need a good night's sleep, as apparently that's good for you.
+

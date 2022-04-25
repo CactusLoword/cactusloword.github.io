@@ -1,0 +1,59 @@
+Well, this is the second Chemistry test in the last week. It would also be the second test in the last 2 days if I actually did the maths test yet. I'd say that means we won't have any tests in the near future, but the mocks are coming up. This is also the second revision review I'm doing today. This one will be of better quality that the maths one, as I have more motivation. With the last one I was just bored, which subsequently affected my mood and therefore the tone, but now I am pumped to do my homework, and I hope the tone will be more optimistic with this one. This test is on Tues, and will be on Chapter 4 of the test book: Acids and Redox. Basically it's titrations and stuff.
+
+
+
+The first bit is about acids, bases and neutralisation.
+An acid is below a pH of 7. When dissolved in water, it releases H+ ions (which are just protons). A strong acid fully dissociates, so releases all its hydrogen atoms as H+ ions. A weak acid partly dissociates.
+
+A base can neutralise an acid, to form a salt. Not every base is soluble. An alkali is a base which dissolves in water to release OH- ions. This means that alkali is a child of the base (base is a higher classification). Some examples of bases are Metal Oxides, Metal Hydroxides, Metal Carbonates, and ammonia, however out of those only Metal Hydroxides and Ammonia are alkalis. You can work this out just by looking at the formulas, as those 2 are the only bases out of the 4 which contain Hydrogen, which is needed to produce OH- ions.
+
+In neutralisation reactions, the base depends on what is released alongside the salt. Here are some reactions:
+Metal Oxide + acid → salt + water
+Metal Hydroxide + acid → salt + water
+Metal Carbonate + acid → salt + water + carbon dioxide
+
+Note: these are all neutralisation reactions. None of these are redox reactions. Metal + acid → salt + hydrogen is a redox reaction.
+
+
+
+Titration time! Titration is a method used to find the concentration of an acid or base, when one of them is known, through neutralisation. I think we need to know the method, so I'll go through the separate stages. I won't explain every single detail, e.g. what a burette is, as that would take too long, and we should already know that anyway.
+
+Notes for conciseness (these will be applicable for everything):
+-Distilled water is used instead of tap water (generally when I refer to the use of water, it will be distilled)
+-All the equipment is rinsed with distilled water
+-When measuring up to a line, the bottom of the meniscus is measured.
+
+The first step is making up a standard solution. This will be the known concentration. You weigh the solid, and dissolve it in a bit of distilled water (enough to dissolve it, but less than the volume you want). This solution is put in a volumetric flask, which is very accurate. Rinse the beaker also into the volumetric flask, to get it all in. Also a funnel will probably be needed to transfer liquids into the flask, unless you are extremely steady and accurate at aiming. You fill it up with water to near the line, and invert the the flask several times to mix it all up (which from experience might be the most fun part). Then accurately fill it up, and again invert it. Congratulations, you have your standard solution!
+
+Now, you need to set up the equipment, with the burette on the clamp on the stand, with a tile underneath and a conical flask on hand. With a pipette suck up a measured amount of the standard solution (up to the line), and transfer it to the conical flask. A pipette is used as it is supposedly very accurate, although personally I would dispute that, as the sucking function isn't that reliable. Put a couple of drops of indicator in.
+
+What kind of indicator used will vary, as even universal indicator could be used (neutral at green). However, the 2 we look at is Phenolphthalein (yes I spelt it right first time) and Methyl orange. Phenolphthalein is used when the known is alkaline, as it is pink in alkaline, and turns colourless at neutral. Methyl orange is used when the standard solution is acid, as it is red in acid, and orange/yellow in neutral.
+
+Fill the burette with the unknown solution. You need to run it through until the solution gets to the end of the burette, as the measurement includes the end. Record the start measurement. Put the conical flask under the burette, and at a moderate speed piss it in. This is only the rough titre, so it doesn't need to be too accurate. When the solution at the bottom looks like it's going (the colour is nearly fully changed), turn the tap so it drips a bit slower, and stop when the colour change is observed. Record the end measurement. The titre is the difference between the 2 measurements, so write that down. Fill up the burette if necessary, and repeat. Since you know the rough titre, you know when abouts to slow down, so you can precisely drip it in until it goes, and you can get the first accurate titre. Once you've got 2 concordant results (within 0.1 of each other), you can stop. See, that wasn't too bad, was it. Unless it didn't work or went terribly wrong, which isn't preferable, especially during a required practical. However, that's the practical part over, now comes the maths.
+
+Work out the mean titre, with the concordant results. Don't use any anomalies, only the most accurate ones. Now you have the known solution's concentration and volume (value from the conical flask, not the full volumetric flask), and the unknown solution's volume (the titre). With concentration being in mol/dm³ (should be moldm^-3, can't write that nicely on here), it's a mostly simple case of rearranging. To get from cm³ to dm³, you divide by 1000. You also need to know the equation of the reaction, to know the molar ratio.
+
+But yeah, titrations. Not too bad, unless it is a harder question with mixed base solutions or something. For some stuff you might need to know moles=mass/RFM, but idk.
+
+
+
+Lastly is redox reactions. To work out that we need to know how to work out the oxidation number. This is a bit similar to the charge, but isn't the exact same thing. Apparently it can be thought of as the number of electrons involved in bonding to a different element.
+
+Here are the rules:
+*The oxidation number is 0 for pure elements (e.g. Na, Br₂)
+*In a compound (generally true)
+-For group 1 and hydrogen, +1
+-Group 2=+2
+-Group 7=-1
+-Oxygen=-2
+
+e.g. for H₂SO₄, sulfur has a oxidation num of +6
+
+Roman numerals- represents oxidation number. E.g. Iron(III)=Fe³+=oxidation number of +3
+
+Now Redox. The word comes from Reduction and Oxidation, the 2 sides of the reaction. If oxygen is involved, reduction is the loss of oxygen, and Oxidation is the gain. In terms of electrons, remember OILRIG. Oxidation is loss of electrons, reduction is gain of electrons. In terms of oxidation number, Reduction is a decrease in oxi num, and oxidation is an increase. Knowing this, you can work out in a reaction what is reduced, and what is oxidised. Even if you're not sure about the oxidation number, with oilrig you could work it out, and say that generally metals are reduced and non-metals are oxidised. I say generally, because I don't know if tat is the case all the time.
+
+
+Well then, I guess that's that. With there only being 3 kind of sections in this chapter, it might not be too bad, but I guess we'll see. I am hopeful though.
+-Dylan
+

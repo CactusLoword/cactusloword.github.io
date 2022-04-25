@@ -1,0 +1,48 @@
+We are all well versed with graphs by now. But are we? After all the graph stuff from before, this is probably the last part (maybe). Also I think this is a part of the Algebra and functions topic, but I decided to make it it's own review.
+
+
+
+
+
+First of all we will learn how to draw graphs. After GCSE everyone could draw a linear and quadratic graph with their eyes closed (although that isn't hard in the first place, it is just a curve or straight line). It does use those basics though. The starting point for this would probably be to plot the roots of the graph, so where it crosses the x-axis. To do this, you will need a factorised equation. This could be given, or you might need to do some dividing polynomials. Now you have those points, one other thing you can get from the equation is the y-intercept, so why not give that a little plot.
+
+Now you have your points, but it isn't a simple dot-to-dot. You have to remember the shape (there is another method, I'll say later). When you see the shapes you start to see a pattern. Graphs with an odd polynomial degree (the highest power of x in an expression) go upwards (for +a) at an angle. Picture it like a simple y=mx+c graph, but with more curves, but at the end of the day it goes kind of in the same direction. Of course, a positive graph goes upwards, a negative goes down. Picture y=x vs y=-x. On the other hand, graphs with an even polynomial degree are more like a quadratic graph, but again with more curves. One helpful thing is that with a quadric graph, +ax⁴... looks like a w, and -ax⁴ looks like an m. Another thing that might help is that the polynomial degree -1=the amount of curves in the graph (with unique roots), so a quadratic graph has one curve, and cubic has 2 etc. It easier to look at pictures though.
+
+
+
+The other method is to substitute values into the equation. This would be like plotting a normal graph with coordinates, so you find y when x=1, and 2 3 etc. This is still a sketch though, so it doesn't need to be perfect.
+
+One thing that might confuse everything is when 2 roots are the same. When this happens when 2 roots are the same, the graph simply touches the x-axis. It gets more confusing when more roots are the same, but you just have to kind of flatten the curves out. An example would be a cubic graph like (x+3)³, where it will look completely different from another cubic graph. 
+
+
+
+There are also reciprocal graphs to plot. These are quite different to polynomial graphs, as there are 2 lines. An example of a reciprocal would be y=1/x. With this, there is one curve in the bottom left quadrant, and one in the top right. These curves asymptote both the axis. For a y=-1/x graph, the curves are in the opposite quadrants, so top left and bottom right. Also something to note is that the numerator number doesn't really matter when sketching. Things get even weirder when you have y=1/x², as you have a curve in the top left and right. The pattern repeats for each increasing exponent, so odd numbers are in opposite corners, and even are next to each other. Odd opposite, that's how I'll remember it. Of course, the negative is the inverse, so y=-1/x² has curves in the bottom left and right.
+
+
+
+Ah, circles, nearly forgot about those. Circles of course are in the form (x²-a)+(y-b)²=r². With this, the coordinates of the centre are (a,b). r is also the radius, which would need some trig to work out any other coodinates. You could be give some cooridnates which the line lies on. I don't even know if you have to sketch circles, but it doesn't hurt to know.
+
+
+
+
+
+Now we can draw graphs, but now we need to be able to manipulate our creations (AKA transforming graphs). For this there are basically a few rules to remember. Also we are talking in terms of f(x). 
+
+If there is a change inside of the brackets, it affects the x axis, but in the opposite of what you would assume. This seems confusing, but remember that when you solve (x+1), x=-1, so it is basically the same thing. If there is a change outside the brackets, it affects the y axis, and in the way it appears.
+
+If you are plussing or minussing a number, it translates the graph by that amount. f(x+1) translates the graph 1 place to the left (I can't write translation vectors on here, just remember them), and f(x)+1 translates the graph 1 up.
+
+If you are timesing or dividing a number, it stretches the graph. f(2x) stretches the graph by 1/2 in the x direction, whilst 2f(x) stretches the graph by 2 in the y direction.
+
+
+
+Just because, I am going to try to describe the transformations above. We will use f(x)=x²+4x+4 as an example. If you do f(x)+2, this translates the graph by 2 upwards. f(x)+2 means you will do x²+4x+4+2, so x²+4x+6, which is 2 places higher, so is the same as above. Stretching works the same way, so with 2f(x) you do 2(x²+4x+4), which stretches it by 2 in the y direction.
+
+With x, you have to think of the change changing only x. If you had f(x-1), you would do (x-1)²+4(x-1)+4. You don't really see the change well there, so lets do it with the factorised version, (x+2)(x+2). f(x-1) means ((x-1)+2)((x-1)+2), so (x+1)(x+1). You expect f(x-1) to translate the graph one place to the right, as from the factorised equation, you can see the translated roots are x=-1, and the original ones are x=-1, so the graph has been translated a place to the right. Again, the same happens with stretching. f(3x)=(3x+2)(3x+2), so the roots are x=-2/3, which has been stretched by 1/3.
+
+
+
+
+
+Yes, one step closer to mastering graphs. I would probably say at GCSE we were Graph Padawans, and now we are Graph Knights. Uni level would be becoming a master/ grand master. Although using the rules of the jedi, you would have to become a teacher to become a master. Regardless, we have come a long way since being Graph Younglings. I can even imagine little me "boohoo uwu, I cwant do quwadwatics, how do I drwaw lines". What a little bitch. Not that my relative position changed, but I could sketch circles around him. I just hope future me can draw something more advanced around present me. Maybe 4d shapes, who knows.
+

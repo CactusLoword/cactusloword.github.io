@@ -1,0 +1,102 @@
+Half-term holiday revision reviewing! With the newly revealed mocks looming in the distance, I thought it might be a good idea to get a head-start on some reviews. This is also one which I ordinarily would have already written 2 weeks previous, as we had a test on this topic set for Fri Fifth Feb, but luck for me, I had a trip 😎 (also Joe (also Sam but he's not in Chemistry (also the yr 13s but they aren't in the same year as us (also Mr Lee but he's a teacher (also my mum but she's my mum))))). That would make this review a bit of catch up. I'd say this won't be that long of a review, but it will probably be as long as usual, so lets get alkaning.
+
+
+
+
+
+
+To start off with, what is an alkane. This is a term which was defined last topic, but I'll state it here, also I haven't covered the last topic just yet, which might be a problem. I'll cover it next though probably. Alkanes are saturated hydrocarbons containing only sigma bonds. Of course, saturated means it only has single bonds, and a hydrocarbon only contains hydrogen and carbon, so a long-winded version would that alkane only contains single, sigma bonds and H and C atoms. Also alkane chains have the general formula of CₙH₂ₙ₊₂. Cyclo alkanes have the general formula CₙH₂ₙ.
+
+Properties:
+
+Bonding- Sigma? Sigma bonds! But what are sigma bonds? Aside from sounding funny, Sigma (σ) bonds are a type of covalent bond. A σ happens because of 2 overlapping orbitals, which each have an electron. This means a σ bond has 2 electrons. Also, as previously stated, alkanes only have single bonds (unrelated to sigma)
+
+Shapes- Each carbon has 4 bonds, and the bond angles are all 109.5°. This can best be described with methane as an example, which can be pictured as a tetrahedral without to much struggle. Then, you can imagine ethane as 2 tetrahedrals connected to each other, and longer chains go on in that pattern. 
+
+Melting/Boiling point: It is quite simple really, as the longer the chain, the higher the m/b point. This is because as we've discovered in previous topics (Intermolecular forces, periodicity), there are only London forces (as it isn't polar, and it doesn't have lone pairs for hydrogen bonding). And as we also learnt in those topics, the bigger the molecule, the greater London forces, as there is more overlap, meaning more surface contact. This it takes more energy to overcome the forces, so the m/b Ps are higher.
+
+Branches: As we have discovered, molecules are quite complicated, and one aspect of that is that there are branches. This means that with the same amount of each element, there are different combinations they can be arranged (isomers). An isomer of an alkane with branches has a lower boiling point than an unbranched one. This is again because of London forces, and unbranched alkanes have a higher surface area of contact, as branches molecules are more compact.
+
+
+Before we move on, I'm going to say a bit about fractional distillation. There isn't that much description in the textbook, but it is still relevant, so I will tell my story. Fractional distillation is a method to separate crude oil into the different oils. In a fractionating column, there is a temperature gradient, where it is colder at the top. The oils is vaporised, and travels up. At different levels, the oils condense, separating the crude oil. The oils with lower boiling points will condense higher up. This is useful, as different oils have different uses, for example some are fuels.
+
+
+
+
+
+
+Now it's time for the second half of this topic, which is chemical reactions of alkanes.
+
+Alkanes aren't very reactive. One reason for this is that the bonds are strong. Another is the molecule is non-polar, in this case because the individual bonds aren't polar. C-H bonds are considered to be non-polar because their electronegativity is similar.
+
+
+Yay, fire. A quite significant reaction of alkanes is combustion, as alkanes are often for fuel. 
+
+Complete combustion happens with a plentiful supply of oxygen, which produces water and carbon dioxide. There is an equation with variables you could learn, but balancing with trial and error means less to remember. Here is a template:
+
+CₙH₂ₙ₊₂ +O₂→ H₂O+ CO₂ (unbalanced)
+
+e.g. CH₄+2O₂→2H₂O+ CO₂
+
+Incomplete combustion happens when there a lack of oxygen. Another way of saying that is there is Oxygen Debt (Note: I don't if that is an appropriate or accurate here, I wanted to use my GCSE Biology knowledge). This results with the products of water, and either carbon (soot) or carbon monoxide. In real life I guess it would be both, but not in an equation. Here is template for both:
+
+CₙH₂ₙ₊₂ +O₂→ H₂O+ CO (unbalanced)
+
+CₙH₂ₙ₊₂ +O₂→ H₂O+ C (unbalanced)
+
+e.g. CH₄+1.5O₂→2H₂O+ CO
+
+e.g. CH₄+O₂→2H₂O+ C
+
+
+
+
+Now for the second major reaction to know, which is reactions with halogens. The happens with the presence of UV light, and is called radical substitution. There are 3 steps to this:
+
+1) Initiation- This is when the halogen undergoes homolytic fission because of UV light (this was introduced last topic). This results in a halogen molecule (which is made up of 2 halogens) splitting into 2 radicals. Also when writing this, remember to draw the arrows right (with Cl-Cl, have 2 curved arrows coming from the middle of the bond line, going to each atom. Also the end of the arrow has to have one stem, like with a reversible reaction arrow)
+
+2) Propagation- This is when the main products are made. It happens in 2 different steps:
+
+-A halogen radical reacts with the alkane to form a hydrogen halide (an acid), and an alkane radical
+
+-The alkane radical reacts with a halogen molecule to form a haloalkane and a halogen radical.
+
+3) Termination- This step basically just ties up loose ends. For this step you look at the radical products, and think of the different combinations to combine them. With one iteration, you will have alkane and halogen radicals to play around with. This means you can combine 2 alkane radicals to form a longer chain alkane, 2 halogen radicals to form a halogen molecule (most likely the one from the original equation, but not if the initial halogen molecule is made up of 2 elements), and an alkane and a halogen radical to make a haloalkane (could be the same one we made in the second propagation step, could not be for same reason as last brackets)
+
+
+Here is an example:
+
+CH₄+Cl₂→CH₃+HCl
+
+1) Initiation: Cl₂→2Cl•
+
+2)Propagation:
+
+a) CH₄+Cl•→•CH₃+HCl
+
+b) •CH₃+Cl₂→CH₃Cl+Cl•
+
+3) Termination: 
+
+> 2Cl•→Cl₂
+
+> 2•CH₃→CH₃-CH₃
+
+> •CH₃+•Cl→CH₃Cl
+
+
+Extra notes on Radical Substitution:
+
+-It can happen multiple times (like a chain reaction). For example with CH₄+F₂, if it iterates 4 times, you would end up with CF₄+HF (+many side products, as you would have to work out termination for every substitution loop)
+
+-It could happen with a halogen molecule of 2 elements, e.g.C₂H₈+ ClF. With this, look out for which product is asked for in the question, e.g. if the product is 1-Fluoro-ethane, then you know the equation will be CH₃-CH₃+ ClF→CH₂F-CH₃+HCl
+
+-Look out for where the substitution is taking place, i.e. in which branch or chain. An example of this is the one above.
+
+
+
+
+That should be just about everything on alkanes. Who knew that when we learnt about those single-chained hydrocarbons in GCSE we would be here, listing all the steps of radical substitution. It's only the first step in my revision as well, I have many more reviews to do, for Chem alone I have 2. And I need to keep on top of my Irodorimidori anime reviews. If only I was faster, then it would all be done in flash. Or if I could stop time, but then I'd probably get bored. I'll just keep on trudging along at my own pace.
+
+-Sigma bonds
+

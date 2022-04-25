@@ -43,10 +43,10 @@
   </div>
   <div id="controls">
     <button id="closeControls" onclick="closeControls()"><img class="xit" src="x.png" draggable="false"></button>
-    <button id="up" onmousedown="goup()" onmouseup="endcontrol(timeu)">up</button>
-    <button id="down" onmousedown="godown()" onmouseup="endcontrol(timed)">down</button>
-    <button id="left" onmousedown="goleft()" onmouseup="endcontrol(timel)">left</button>
-    <button id="right" onmousedown="goright()" onmouseup="endcontrol(timer)">right</button>
+    <button id="up" onmousedown="goup()" onmouseup="endcontrol(timeu)" ontouchstart="goup()" ontouchend="endcontrol(timeu)">up</button>
+    <button id="down" onmousedown="godown()" onmouseup="endcontrol(timed)" ontouchstart="godown()" ontouchend="endcontrol(timed)">down</button>
+    <button id="left" onmousedown="goleft()" onmouseup="endcontrol(timel)" ontouchstart="goleft()" ontouchend="endcontrol(timel)">left</button>
+    <button id="right" onmousedown="goright()" onmouseup="endcontrol(timer)" ontouchstart="goright()" ontouchend="endcontrol(timer)">right</button>
   </div>
   <div id="blackscreen"></div>
 

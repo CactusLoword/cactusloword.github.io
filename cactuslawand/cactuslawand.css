@@ -143,6 +143,7 @@ body,html{
   right: 50%;
   overflow: hidden;
   transform: translateX(-50%);
+/*   background:red; */
 }
 
 #backtop{

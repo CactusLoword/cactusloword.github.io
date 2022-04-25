@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="icon" href="cactus.png"> -->
+  <link rel="stylesheet" href="../cactusloword.css">
+  <link rel="stylesheet" href="../stories.css">
+  <link rel="stylesheet" href="library.css">
+  <script type="module" src="library.js" defer></script>
+  <script src="../elementClick.js" ></script>
+  <!-- <script src="pearstall.js"></script> -->
+</head>
+
+<body>
+  <div id="gamescreen">
+    <div id="backbotback"></div>
+    <div id="backtop"></div>
+  <main id="library">
+    <a href="https://www.wattpad.com/story/293690434-physics-reviews-a-level" id="coverPhys" class="cover"><img src="physics/cover.jpg"></a>
+    <a href="https://www.wattpad.com/story/291694719-chemistry-reviews-a-level" id="coverChem" class="cover"><img src="chemistry/cover.jpg"></a>
+
+    <img id="cactus" src="../cactus.png" draggable="false">
+    <button id="contentsButtPhys" onclick="contentsShow('contentsPhys')" class="contentsButts">Contents</button>
+    <button id="contentsButtChem" onclick="contentsShow('contentsChem')" class="contentsButts">Contents</button>
+    <button id="contentsButtComp" onclick="contentsShow('contentsComp')" class="contentsButts">Contents</button>
+    <button id="contentsButtMaths" onclick="contentsShow('contentsMaths')" class="contentsButts">Contents</button>
+    <button id="back" onclick="location.assign('../cactusloword.html')">back</button>
+    <button id="contentsExit" class="exitButt" onclick="closeContents()/*;document.getElementById('contentsButt').style.visibility='visible'*/"><img class="xit" src="../x.png" draggable="false"></button>
+    <div id="contentsPhys" class="contents">
+      <ul id="physlist" class="lists">
+        <h2 id="storyNamePhys" class="storyName"></h2>
+      </ul>
+    </div>
+    <div id="contentsChem" class="contents">
+      <ul id="chemlist" class="lists">
+        <h2 id="storyNameChem" class="storyName"></h2>
+      </ul>
+      </div>
+    <div id="contentsComp" class="contents">
+      <ul id="complist" class="lists">
+        <h2 id="storyNameComp" class="storyName"></h2>
+      </ul>
+    </div>
+    <div id="contentsMaths" class="contents">
+      <ul id="mathslist" class="lists">
+        <h2 id="storyNameMaths" class="storyName"></h2>
+      </ul>
+    </div>
+
+    <button id="viewerExit" class="exitButt" onclick="closeElement(this.id,'viewer')"><img class="xit" src="../x.png" draggable="false"></button>
+    <div id="viewer">
+      <h2 id="storyTitle"></h2>
+      <div id="storyText" data-copy="false"><p id="storyText0"></p></div>
+    </div>
+    </div>
+  </main>
+</div>
+  <div id="blackscreen"></div>
+
+<!-- <script src="pearstall.js"></script> -->
+
+</body>
+</html>

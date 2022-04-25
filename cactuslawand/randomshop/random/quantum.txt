@@ -1,0 +1,72 @@
+
+
+Hello my loyal readers, I am back with a review. However, I entered into a predicament. It was getting quite late, and I wanted to write a review, however there was some Physics revision for a test tomorrow which I probably need to do. It was a dilemma: do my revision, and get a good night's sleep, or stay up later to write a review, and then be more tired (or just write a review and then don't revise, but that's not going to happen (or do neither, but that would be dumb)). Despite all this, a lightbulb appeared above my head, and I had a tremendous realisation: I could combine the 2, by writing a review on the physics stuff I need to know. Yes, I know, I am a genius. Before this though, I must complete the questions we were set.
+
+
+Ok, I've finished the Qs now. Also DISCLAIMER: some of what I say might be wrong. I hope it isn't, but I researched into a pdf of a text book, and most of the stuff in the sections to revise are like "Help what the fuck ahh". Also wtf I just got deja vu about writing that last line, that's weird. As a whole, I will be following the order of my notes and work in my notes and work in my book, and most of the time I will be writing pretty much what I've already written in there. Anyway, onwards---->
+
+
+Ok to start off with I'll do the basic atom definition stuff. The relative atomic mass is the average mass of an atom on a scale where Carbon-12 has a mass of 12 units. Relative isotopic mass is the relative mass of an isotope on a scale where Carbon-12 has a mass of 12 units. An isotope of an element has a different number of neutrons, but the same number of protons. The neutrons and protons are contained in a small dense nucleus, which the electrons orbit in energy shells.
+Subatomic particles: I'm sure we all know the relative masses and charges of them, however this year we were introduced to the charge of them. Luckily, they are all on the data sheet thing we're allowed to have. Despite this, it is useful to just know them, however I will not be listing them here. Whilst you don't need to know the actual constants, you will need to know how to use them, which one use of them will be the charge: mass ratio/ specific charge. For this, the equation is just charge/mass. When working it out for an atom, the result will be 0, as the overall charge is 0. However, for an ion, you will need to work out the overall charge, and divide it by the overall mass.
+
+
+Ok, time for radioactive decay. The first one I will describe is alpha decay. An Alpha particle is the same as a helium nucleus, meaning when it is emitted from an element, the element loses 2 neutrons and 2 protons, which when displayed as a symbol equation, the atomic mass/nucleon number will be -4, and the proton/atomic number will be -2. Alpha decay happens in heavier elements, with an unstable nucleus. Alpha particles are very ionising, but have low penetration [lol].
+Beta minus decay: beta particles are fast moving electrons. In beta minus decay, a neutron is an unstable nucleus turns into a proton, which repels an electron. This means that in an equation, the proton number increments. An antineutrino is also is also emitted. Beta decay happens in neutron rich particles. Beta particles have medium ionising and penetrative [hehe] power.
+Gamma: this is an EM wave, with no mass or charge. It is emitted by a nucleus with too much energy (following alpha or beta decay emission). Gamma has a low ionising, but high penetrating [HAHAHA] power.
+
+
+An EM wave is where an electric and magnetic wave travel and vibrate together, at right angles to each other, and are in phase with each other (peak at same point). They are longitudinal waves, and I'm sure the order from long to short wavelength is engraved in all of out brains. An EM wave is emitted when a fast moving electron stops, slows down or changes direction, or an electron in an atom shell moves to a shell of lower energy.
+A photon is a quanta of EM waves. You can work out the energy of a photon with the equation E=hf, with h being Planck's constant (on data sheet) if you don't have the frequency, you can work it out with c=λf, with c being the speed of light in a vacuum, which is also on the data sheet. If it isn't in a vacuum, you can always substitute the c for a v (velocity).
+Sometimes the units for energy might be in eVs. 1eV=1.6*10^-19J (charge of an electron), so to get from eVs to J, you just times it by 1 .6*10^-19. You might have to convert MeVs to eVs, but that's not too bad (just *a mill/10^6).
+
+
+Antiparticles are like the evil twin of a particle. They have the same mass, but the opposite charge. Except the positron/electron, the anti version of a particle has anti before it i.e. proton/antiproton.
+When a particle and an antiparticle collide, they annihilate each other, which created 2 photons, as the particles' masses are converted to energy. We can work out either the energy or frequency with the equation 2E=2hf. There are 2 on each side because there are 2 particles and 2 waves, but it can be simplified to E=hf, but don't forget there are 2 of each. E is the rest energy/ minimum energy.
+The opposite of this is pair production, where a photon creates a particle and an antiparticle. This means the equation for this one is 2E=hf. The minimum energy will be the minimum amount of energy for it to convert its energy to the mass of a particle and antiparticle.
+
+In Beta plus decay, a proton turns into a neutron in a proton rich unstable nucleus, and it emits a positron and a neutrino.
+In electron capture, a proton captures an inner shell electron and becomes a neutron. A neutrino is emitted
+[Not completely sure where that last bit would fit in, but it seemed like something of note]
+
+
+Finally is the 4 fundamental forces.
+Electromagnetic force:
+Relative strength: 10^-2
+Range: Infinite
+Exchange particle: (virtual) photon
+Particle symbol: γ
+Mass: 0
+Charge: + -
+EM waves are responsible for everyday contact forces between objects, like friction (this is because these forces involve atoms touching, so it involves their electrons). It holds atoms and molecules together. The force can either be attractive or repulsive (as it acts on charged particles). EM waves (due to them being photons) are also responsible for or are the product of annihilation and pair production. The strength decreases with range, by the inverse square law.
+
+Strong nuclear force:
+Relative strength: 1
+Range: 0.5fm
+Exchange particles: gluon, pion
+Particle symbol: g, π
+Mass: 125MeV
+Charge: colour
+The strong force is responsible for the nucleus staying together. It has a range of between 0.5 and 3fm, which means that it is attractive between them. Pions act between protons and neutrons in the nucleus, and holds them together. Gluons act within protons and neutrons, and holds the quarks together
+
+Weak nuclear force:
+Relative strength: 10^-5
+Range: 10^-18 m
+Exchange particle: bosons (w^+, w^-, Z^0)
+Particle symbol: w^+, w^-, Z^0
+Mass: 780GeV
+Charge: weak charge + -
+This force is responsible for beta decay and electron capture. w+ is the exchange particle in beta plus decay and electron capture, and w- in beta minus.
+
+Gravitational Force:
+Relative strength: 10^-39
+Range: infinite
+Exchange particle: graviton
+Particle symbol: g
+Mass: no?
+Charge: mass
+The least known. It causes objects with mass to be attracted to each other. The strength decreases with range, by the inverse square law.
+
+Insert info and images of Feymann diagrams. Would write about them but fuck that. It's just squiggley lines and straight lines and shit. Vectors.
+
+Ok I'm done revision time over. I hope I do well, also you too Sam, and of course Michael and everyone else etc. Apparently a good night's sleep makes you more successful for a test, so I'll try to get as much as I can after my late night revising.
+

@@ -135,6 +135,16 @@ body,html{
   /* left:0; */
 }
 
+#sandcover{
+  height:75%;
+  width:100vw;
+  bottom:0;
+  left: 50%;
+  right: 50%;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+
 #backtop{
   background-color:#4ad;
   /* width:2000px; */

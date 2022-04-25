@@ -1,0 +1,191 @@
+span.extra{
+  font-style: italic;
+  color:red;
+}
+
+.game{
+  height:calc(648px/2);
+  width:calc(1152px/2);
+  display: block;
+  /* border:2px solid black; */
+  position:absolute;
+  bottom:0;
+  overflow: hidden;
+  user-select: none;
+}
+
+.fullboard{
+  width:676px;
+  height:calc(648px/2);
+  position: relative;
+  padding:0;
+  border: 2px solid black;
+  user-select: none;
+}
+
+img#bg{
+  height:calc(648px/2);
+  width:calc(1152px/2);
+}
+
+#scorebox{
+  background-color: #6ad;
+  width:664px;
+  height:30px;
+  border: 2px solid black;
+  border-bottom: 0;
+  font: 175% sans-serif;
+  text-align: right;
+  padding:0 6px;
+  user-select: none;
+}
+
+
+div.textbox{
+  padding:2px;
+  height:64px;
+  width: 296px;
+  border: 2px solid black;
+  bottom:5px;
+  right:10px;
+  float: right;
+  position:absolute;
+  font:200% sans-serif;
+  text-align: center;
+  user-select: none;
+}
+
+button{
+  position:absolute;
+  /* height:20px;
+  width:60px; */
+  font: 100% sans-serif;
+  user-select: none;
+}
+
+button#start, button#next, button#escape{
+  top:50px;
+  left:50px;
+  font: 200% sans-serif;
+}
+
+button#next{
+  visibility: hidden;
+}
+
+button#escape{
+  background-color:#800;
+  color:#888;
+  visibility: hidden;
+  z-index: 1;
+}
+
+button#left, button#right, button#third{
+  float:right;
+  height:calc(50%);
+  width:100px;
+  position: absolute;
+  right:0;
+  margin:0;
+  border-radius: 0;
+}
+
+button#left{
+  top:0;
+  background-color:#d6a;
+}
+
+button#right{
+  bottom:0;
+  background-color:#ad6;
+}
+
+button#third{
+  /* height:40px; */
+  height:25%;
+  top:25%;
+  background-color: #6ad;
+  visibility: hidden;
+}
+
+#tompicflip{
+  height:120px;
+  position:absolute;
+  top:40px;
+  left:10px;
+  transform: rotate(-10deg);
+  visibility:hidden;
+}
+
+#tompicnorm{
+  height:120px;
+  position:absolute;
+  top:3px;
+  right:50px;
+  visibility:hidden;
+}
+
+#mysterybox{
+  position:absolute;
+  right:80px;
+  top:-227px;
+  /* top:-100px; */
+  width:100px;
+  height:auto;
+  visibility:hidden;
+}
+
+#guy{
+  position:absolute;
+  top:30px;
+  right:80px;
+  width:100px;
+  height:auto;
+  visibility: hidden;
+}
+
+#tompicflip2{
+  position:absolute;
+  bottom:0;
+  left:-250px;
+  width:250px;
+  height:auto;
+  visibility: hidden;
+}
+
+#blood{
+  position: absolute;
+  bottom:20px;
+  left:75px;
+  width:110px;
+  height:auto;
+  visibility: hidden;
+}
+
+#badguy{
+  position: absolute;
+  bottom:7px;
+  left:84px;
+  width:145px;
+  height:auto;
+  visibility: hidden;
+}
+
+#track{
+  position: absolute;
+  bottom:-30px;
+  /* left:-180px; */
+  left:-425px;
+  height:150px;
+  width:auto;
+  visibility: hidden;
+}
+
+#nonono{
+  position:absolute;
+  left:0;
+  top:0;
+  width:576px;
+  height:auto;
+  visibility: hidden;
+}

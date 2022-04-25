@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="main.css">
+  <title>Title</title>
+  <script>
+    // document.getElementById("happy").style.visibility="hidden"
+    var imgs=document.getElementsByClassName('pic');
+    function anger(){
+      var i=0;
+      while (i<5){
+        imgs[i].src="angrypic.png";
+        i=i+1;
+        document.getElementById("angry").style.visibility="hidden";
+        document.getElementById("happy").style.visibility="visible";
+      }
+    }
+    function happy(){
+      var i=0;
+      while (i<5){
+        imgs[i].src="picture.png";
+        i=i+1;
+        document.getElementById("angry").style.visibility="visible";
+        document.getElementById("happy").style.visibility="hidden";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <ul class="nav">
+    <li class="nav"><a class="nav" href="home.html">Home</a></li>
+    <li class="nav current"><a class="nav current" href="next_page.html">Page 2</a></li>
+    <li class="nav"><a class="nav" href="lists.html">Lists</a></li>
+    <li class="nav"><a class="nav" href="">Old</a></li>
+    <li class="nav"><a class="nav" href="calc.html">Calculator</a></li>
+    <li class="nav"><a class="nav" href="moral.html">Moral test</a></li>
+  </ul>
+  <div class="popup" id="popup">
+    <a class="cross" href="../prank/scammy.html">x</a>
+    <p class="popuptxt">This is a pop u<i onclick="document.getElementById('popup').style.visibility='hidden'">p</i>!</p>
+    <a href="../prank/scammy.html">Click here!</a>
+  </div>
+
+  <main>
+    <h1>General Kenobi</h1>
+    <button id="angry" class="emote" onclick="anger()">ANgy</button>
+    <button id="happy" class="emote" onclick="happy()">haPPy</button><br>
+    <img class="pic" src="picture.png" alt="picture">
+    <img class="pic" src="picture.png" alt="picture"><br>
+    <img class="pic" src="picture.png" alt="picture">
+    <img class="pic" src="picture.png" alt="picture"><br>
+    <img class="pic" src="picture.png" alt="picture"><br>
+    <!-- <p class="word">3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432664821339360726024914127372458700660631558817488152092096282925409171536436789259036001133053054882046652138414695194151160943305727036575959195309218611738193261179310511854807446237996274956735188575272489122793818311949129833673362440656643086021394946395224737190702179860943702770539217176293176752384674818467669405132000568127145263560827785771342757789609173637178721468440901224953430146549585371050792279689258923542019956112129021960864034418159813629774771309960518707211349999998372978049951059731732816096318595024459455346908302642522308253344685035261931188171010003137838752886587533208</p> -->
+  </main>
+
+</body>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="calc.css">
+  <title>My website</title>
+  <script>
+    // var inputs="";
+    // function screen_change(press){
+    //   // var press=document.getElementById()
+    //   inputs=inputs+press;
+    //   document.getElementById('equation').innerHTML=inputs;
+    // }
+    // function clear() {
+    //   document.getElementById('equation').innerHTML="4";
+    // }
+    function myFunction() {
+      document.getElementById('equation').innerHTML='7';
+    }
+    function nothing() {
+      document.getElementById('equation').innerHTML='';
+    }
+  </script>
+</head>
+
+<body>
+  <ul class="nav">
+    <li class="nav"><a class="nav" href="home.html">Home</a></li>
+    <li class="nav"><a class="nav" href="next_page.html">Page 2</a></li>
+    <li class="nav"><a class="nav" href="lists.html">Lists</a></li>
+    <li class="nav"><a class="nav" href="">Old</a></li>
+    <li class="nav current"><a class="nav current" href="calc.html">Calculator</a></li>
+    <li class="nav"><a class="nav" href="moral.html">Moral test</a></li>
+  </ul>
+
+  <main>
+    <h1>Calculator</h1>
+
+    <div class="case">
+      <div id="screen" class="screen">
+        <p id="equation"></p>
+      </div>
+      <div class="numpad">
+        <button class="num" onclick="myFunction()">7</button>
+        <button class="num" onclick="press='8' screen_change(press)">8</button>
+        <button class="num ">9</button>
+        <button class="clear" onclick="nothing()">C</button>
+        <button class="num" onclick="">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="symbol">+</button>
+        <button class="symbol">-</button>
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="symbol">*</button>
+        <button class="symbol">/</button>
+        <button class="gap"></button>
+        <button class="num">0</button>
+        <button class="gap symbol"></button>
+        <button class="equ">=</button>
+      </div>
+    </div>
+    <!-- end calc -->
+    <!-- <button class="change" onclick="document.getElementById('screen').style.backgroundColor='white'">Grey</button> -->
+    <!-- <button class="butt" onclick="body.style.backgroundColor='#fff'">Boop</button> -->
+  </main>
+</body>

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html style="height:100%;height:354px;width:676px;">
+<head>
+  <link rel="stylesheet" href="moral.css">
+  <title>Morality Core</title>
+  <script>
+  var score=0;
+  var gamerun=false;
+  var game=true;
+  var roundcount=0;
+  var gamelen=1; /*actual canon*/
+  // var gamelen=0; /*temp*/
+  // var endingflags=0; unused as of now
+  var badgame=false;
+  var badgamelen=2; /*actual canon*/
+  // var badgamelen=0; /*temp*/
+  var moodswitch=0;
+  var tomgame=false;
+  var boxgame=false;
+  var count2=0;
+
+  /* rounds:
+  0=cat
+  1=fat
+  end
+
+  bad rounds:
+  1=cats
+  2=fats
+
+  */
+
+  /* endingflags: (unused as of now)
+  0=neutral
+  1=good
+  2=bad
+  */
+
+  var bgmain = [
+    "beforecat.png",
+    "beforefat.png"
+    //barney
+  ]
+
+  var bgleft=[
+    "catdead.png",
+
+  ]
+
+  var bgright=[
+    "catsave.png",
+    "fatsave.png",
+  ]
+
+  var bgbadmain = [
+    "badcat.png",
+    "badfat.png",
+  ]
+
+  var bgbadleft=[
+    "badtemp.png",
+    "after1.png",
+    "after2.png",
+
+  ]
+
+  var bgbadright=[
+    "",
+
+  ]
+
+  var textmessmain = [
+    "Oh no! There are some cats on the tracks! Please, help save them!",
+    "Help! Daddy Pig's in trouble!",
+  ]
+
+  var textmessleft = [
+    "AHHHH! Why would you do that!!!",
+    "NOoooOoo, who would kill Daddy Pig?!!?",
+  ]
+
+  var textmessright = [
+    "Nice job, Catastrophe averted",
+    "Hooray, Daddy Pig gets to live another day",
+    // "Phew, nice job! Crisis averted",
+  ]
+
+  var textmessbadmain = [
+    "<b>Protect</b> the cats",
+    "<b>Don't</b> kill Daddy pig",
+  ]
+
+  var textmessbadleft = [
+    "",
+    "<b>PROTECT, NOT RUN OVER!! !</b>",
+    "NOo, wrong",
+  ]
+
+  var textmessbadright = [
+    "What, well ok then"
+  ]
+
+  var speechMysteryBox=[
+    "I will tell you this though.",
+    "It is something quite significant",
+    "It could be your belongings,",
+    "It could be your pet,",
+    "It could even be your parents",
+    "Regardless of what exactly it is, one thing's for sure...",
+    "You couldn't live without it",
+    "Now what will you choose?"
+  ]
+
+  var tomroll=[/*degrees,x,y*//*396, 204*/
+    [270,200,10],
+    [170,100,20],
+    [-10,10,40]
+  ]
+
+  function begin(){
+    document.getElementById("start").style.visibility="hidden";
+    document.getElementById("bg").src="moral pics/main pics/"+bgmain[0];
+    document.getElementById("textbox").style.fontSize="125%";
+    document.getElementById("textbox").innerHTML="Oh no! There are some cats on the tracks! Please, help save them!";
+    document.getElementById("scorebox").innerHTML="Score: "+score;
+    gamerun=true;
+    // end() /*temp*/
+  }
+
+  function next(){
+    document.getElementById("next").style.visibility="hidden";
+    if (game==true){
+      // if (roundcount<gamelen){
+      //   roundcount++;
+      //   document.getElementById("bg").src="moral pics/main pics/"+bgmain[roundcount];
+      //   document.getElementById("textbox").innerHTML=textmessmain[roundcount];
+      // } else{
+      //     end()
+      // }
+      // document.getElementById("scorebox").innerHTML="Score: "+score;
+      // gamerun=true;
+      nextGeneral("main pics/"+bgmain[roundcount+1],textmessmain[roundcount+1],gamelen)/*note: changed to be roundcount+1*/
+    }
+    else if (badgame==true&&tomgame!=true){
+      nextGeneral("bad pics/"+bgbadmain[roundcount],textmessbadmain[roundcount],badgamelen)
+    }else if (tomgame==true){
+      tomgame=false
+      badgame=false
+      document.getElementById("textbox").innerHTML="Ok, final chance. Let's play one last game before we say goodbye."
+      boxgame=true
+      document.getElementById("left").innerHTML="OK";
+      document.getElementById("right").innerHTML="OK";
+      gamerun=true;
+    }
+  }
+
+  function nextGeneral(background,textmessage,gametype){
+    gamerun=true;
+    if (roundcount<gametype){
+      roundcount++;
+      document.getElementById("bg").src="moral pics/"+background;
+      document.getElementById("textbox").innerHTML=textmessage;
+    } else{
+        end()
+    }
+    document.getElementById("scorebox").innerHTML="Score: "+score;
+  }
+
+
+  function left(){
+    if (gamerun==true&&game==true){
+      // document.getElementById("bg").src="moral pics/left pics/"+bgleft[0];
+      // document.getElementById("textbox").innerHTML=textmessleft[roundcount];
+      // document.getElementById("next").style.visibility="visible";
+      // gamerun=false
+      choice("left pics/"+bgleft[0],textmessleft[roundcount],0)
+    }else if (gamerun==true&&badgame==true&&tomgame!=true){
+      choice("bad pics/"+bgbadleft[roundcount],textmessbadleft[roundcount],-1)
+    }else if (gamerun==true&&tomgame==true&&document.getElementById("tompicflip").style.visibility!="visible"){
+      document.getElementById("tompicflip").style.visibility="visible";
+      document.getElementById("tompicnorm").style.visibility="visible";
+      document.getElementById("textbox").innerHTML="Sorry, what?"
+      gamerun=false;
+      setTimeout(function(){document.getElementById("textbox").innerHTML="No, I'm not allowing you to kill Thomas, get him out of here";anima.tomgone()},2000/*canon, 50/*temp*/)
+    }else if (gamerun==true&&tomgame==true&&document.getElementById("tompicflip").style.visibility=="visible"){
+      gamerun=false;
+      document.getElementById("textbox").innerHTML="Well ok then. I hope you enjoy what's up next";
+      document.getElementById("next").style.left="400px";
+      document.getElementById("next").style.visibility="visible";
+    }else if (gamerun==true&&boxgame==true){
+      gamerun=false
+      switch (roundcount){
+        case 0:
+          sameChoice();
+          break;
+        case 1:
+          document.getElementById("textbox").innerHTML="A myst- uh yeah";
+          timeSpeech();
+          break;
+        case 2:
+          end();
+          break;
+    }}
+  }
+
+  function right(){
+    if (gamerun==true&&game==true){
+      // document.getElementById("bg").src="moral pics/right pics/"+bgright[roundcount];
+      // document.getElementById("textbox").innerHTML=textmessright[roundcount];
+      // score++;
+      // document.getElementById("scorebox").innerHTML="Score: "+score;
+      // document.getElementById("next").style.visibility="visible";
+      // gamerun=false
+      choice("right pics/"+bgright[roundcount], textmessright[roundcount], 1)}
+    else if (gamerun==true&&badgame==true&&tomgame!=true){
+      end()}
+    else if (gamerun==true&&tomgame==true&&document.getElementById("tompicflip").style.visibility=="visible"){
+      document.getElementById("textbox").innerHTML="How intriguing. There hasn't been a choice?";
+      gamerun=false;
+      document.getElementById("next").style.left="400px";
+      document.getElementById("next").style.visibility="visible";
+    }else if (gamerun==true&&boxgame==true){
+      gamerun=false
+      switch (roundcount){
+        case 0:
+          sameChoice();
+          break;
+        case 1:
+          document.getElementById("textbox").innerHTML="A mystery, that's what";
+          timeSpeech();
+          break;
+        case 2:
+          gamerun=true;
+          rightBadEnd(0)
+          break;
+    }
+    }
+  }
+
+  function choice(background,textmessage,scrChange){
+    document.getElementById("bg").src="moral pics/"+background;
+    document.getElementById("textbox").innerHTML=textmessage;
+    score=score+scrChange;
+    document.getElementById("scorebox").innerHTML="Score: "+score;
+    document.getElementById("next").style.visibility="visible";
+    gamerun=false
+  }
+
+  function sameChoice(){
+    gamerun=false;
+    document.getElementById("textbox").innerHTML="Good Choice";
+    buttreset();
+    document.getElementById("mysterybox").style.visibility="visible";
+    setTimeout(function(){document.getElementById("textbox").innerHTML="Ok, here's a mystery box";anima.box();},2000/*canon, 50/*temp*/);
+  }
+
+  function timeSpeech(array){
+    let i=0
+    let timebr=speechMysteryBox[i].length*70 /*actually canon, without *50 is temp*/;
+    setTimeout(speechLines,timebr)
+    function speechLines(){
+      if (i==speechMysteryBox.length){
+        clearTimeout()
+        gamerun=true;
+        roundcount++;
+        buttreset()
+      }else{
+        timebr=speechMysteryBox[i].length*70 /*,is canon, without *50 is temp*/;
+        document.getElementById("textbox").innerHTML=speechMysteryBox[i];
+        i++
+        setTimeout(speechLines,timebr)}
+    }
+  }
+
+  function end(){
+    gamerun=false
+    if (score==roundcount+1&&game==true){
+      document.getElementById("textbox").innerHTML="Well Done! Thanks for playing! Bye!";
+      document.getElementById("bg").src="moral pics/start.png";
+      game=false
+    }else if (score==0&&game==true) {
+       badgame=true
+       game=false
+       document.getElementById("textbox").innerHTML="wtf did you just do";
+       document.getElementById("bg").src="moral pics/end pics/bad0.png";
+       moodswitch_fun(0); /*actual canon*/
+       // moodswitch_fun(7); /*temp main skip cutscene*/
+    }else if (game==true){
+      game=false
+      document.getElementById("textbox").innerHTML="You did alright. GG";
+      document.getElementById("bg").src="moral pics/end pics/neutral.png"}
+    else if (badgame==true&&score==-1*roundcount){
+        // document.getElementById("bg").src="moral pics/bad pics/"+bgbadleft[0];
+        document.getElementById("textbox").innerHTML="Ok, we'll try something else";
+        gamerun=false;
+        roundcount=0;
+        tomcutscene();
+    }else if (badgame==true){
+        document.getElementById("bg").src="moral pics/bad pics/"+bgbadleft[roundcount-1]
+        document.getElementById("textbox").innerHTML="What? You finally listened. Well ok, bye then";
+        setTimeout(function (){document.getElementById("textbox").innerHTML="bye"},10000)
+        setTimeout(function (){document.getElementById("textbox").innerHTML="What are you waiting for? A secret ending? Well, not this loop around. Try again *wink wink*"},100000)
+    }else if (boxgame==true){
+      document.getElementById("textbox").innerHTML="Then lets get this train on the road";
+      anima.tomnear();
+    }
+  }
+
+  function tomcutscene(){
+    if (tomgame==false){
+      setTimeout(function(){document.getElementById("textbox").innerHTML="You can choose what goes next.";
+      document.getElementById("left").innerHTML="Thomas";
+      document.getElementById("right").style.visibility="hidden";
+      document.getElementById("left").style.height="100%";
+      gamerun=true; tomgame=true;},2000/*canon, 50/*is temp*/)
+      gamerun=false;
+      document.getElementById("textbox").innerHTML="Ok, we'll try something different";}
+    else if (tomgame==true){
+      document.getElementById("tompicnorm").style.visibility="hidden";
+      document.getElementById("textbox").innerHTML="Where do you get all these crazy ideas from anyway"
+      buttreset()
+      document.getElementById("left").innerHTML="I thirst for blood";
+      document.getElementById("right").innerHTML="I had no choice";
+      gamerun=true;
+    }
+  }
+
+  function moodswitch_fun(num){
+    let frame=setTimeout(function(){
+            document.getElementById("bg").src="moral pics/end pics/bad"+num.toString()+".png";
+            if(num==7){
+              clearTimeout(frame);
+              document.getElementById("textbox").innerHTML="WTF DID YOU JUST DO";
+              setTimeout(function(){document.getElementById("textbox").innerHTML="Let's try that again, shall we?";
+              document.getElementById("next").style.visibility="visible";},4000/*canon, 50/*temp*/)
+              roundcount=0
+              return;}
+            moodswitch_fun(num+1)},1000 /*is canon, 200/*is temp*/)}
+
+  const anima={
+    tomgone: function () {
+      // let x=0;
+      let y=0;
+      let i=30/*is canon, 0/*is temp*/
+      // let time =
+      setTimeout(frame, i);
+      function frame() {
+        // if (y+1>324-120/*||x+8>576-180*/) {
+        if (y>120+3){
+          tomcutscene()
+        } else {
+            // x=x+8
+            y=y+1
+            setTimeout(frame,i)
+            document.getElementById("tompicnorm").style.top = (3-y) + 'px';
+            // document.getElementById("pic").style.left = (10+x) + 'px';
+          }}},
+    box: function () {
+      let y=0;
+      let i=30 /*actual canon*/
+      // let i=1; /*temp*/
+      setTimeout(frame, i);
+      function frame() {
+        if (y>127){
+          document.getElementById("textbox").innerHTML="I hear you ask 'What's inside the box?'"
+          document.getElementById("left").innerHTML="A mystery?"
+          document.getElementById("right").innerHTML="What's inside the box?"
+          gamerun=true;
+          roundcount++;
+        } else {
+            y=y+1
+            setTimeout(frame,i)
+            document.getElementById("mysterybox").style.top = (-227+y) + 'px';
+          }}},
+    boxback: function () {
+      let y=128;
+      let i=30 /*actual canon*/
+      // let i=1; /*temp*/
+      setTimeout(frame, i);
+      function frame() {
+        if (y<0){
+          setTimeout(function(){anima.tomrun();document.getElementById("textbox").innerHTML="Bye Bye";},2000)
+          document.getElementById("textbox").innerHTML="Oh look, it's us"
+          //spooky face transition
+          // document.getElementById("bg").src="moral pics/bad pics/after2noguy.png"
+          // document.getElementById("badguy").style.visibility="visible";
+          // document.getElementById("track").style.visibility="visible";
+        } else {
+            y=y-1
+            setTimeout(frame,i)
+            document.getElementById("mysterybox").style.top = (-227+y) + 'px';
+          }}},
+    trackback: function(){
+      let y=0;
+      setTimeout(frame,20);/*not sure canon yet*/
+      function frame(){
+        if (y>245){
+        }else{
+          y=y+1
+          setTimeout(frame,20);
+          document.getElementById("track").style.left = (-425+y) + 'px';
+        }
+      }
+    },
+    tomnear: function () {
+      let x=0;
+      let y=0;
+      let i=50
+      let fun=0
+      setTimeout(frame, i);
+      function frame() {
+        if (y+4>324-120||((fun+2)**2)*0.25>576-180-180) {
+          document.getElementById("textbox").innerHTML="But wait, shouldn't we first see what's in the box?";
+          anima.tomrollin();
+          document.getElementById("guy").style.visibility="visible";
+          document.getElementById("bg").src="moral pics/bad pics/after2noguy.png";
+          document.getElementById("badguy").style.visibility="visible";
+          document.getElementById("track").style.visibility="visible";
+        } else {
+          if (i>15){
+            i=i-1}
+            fun=fun+2
+            x=(fun**2)*0.25
+            y=(-fun)
+            setTimeout(frame,i)
+            document.getElementById("tompicflip").style.top = (40+y) + 'px';
+            document.getElementById("tompicflip").style.left = (10+x) + 'px';
+          }}},
+    tomrun: function () {
+      let x=0;
+      let y=0;
+      let i=50
+      let fun=0
+      let tom2flag=1
+      // let time =
+      setTimeout(frame, i);
+      function frame() {
+        // if (y+4>324-120||((fun+2)**2)*0.25>576-180) {
+        if (y+4>324/*+120*/||((fun+2)**2)*0.25>576/*+180*/) {
+          // document.getElementById("textbox").innerHTML=""
+          //thomas goes back, spinning around (array of positions), visible player sprite, reveal box, run over
+          document.getElementById("tompicflip").style.visibility="hidden";
+        }
+        else {
+          if (i>15){
+            i=i-1}
+          if (((fun+2)**2)*0.25>576-180-90) {
+            document.getElementById("guy").style.visibility="hidden";
+            document.getElementById("tompicflip").src="moral pics/picture components/thomasflipblood1.png";
+          }
+          if (((fun+2)**2)*0.25>576-180&&tom2flag==1){
+            document.getElementById("tompicflip2").style.visibility="visible";
+            anima.tom2run()
+            tom2flag=0
+          }
+          fun=fun+2
+          x=(fun**2)*0.25
+          y=(-fun)
+          setTimeout(frame,i)
+          document.getElementById("tompicflip").style.top = (40+y) + 'px';
+          document.getElementById("tompicflip").style.left = (10+x) + 'px';
+          }}},
+    tom2run: function (){
+      // let x=document.getElementById("tompicflip2").style.left;
+      let x=0
+      setTimeout(frame,5)
+      function frame() {
+        if (x>576+250){
+          // document.getElementById("tompicflip2").style.visibility="hidden";
+          setTimeout(function (){document.getElementById("textbox").innerHTML="lol u killed urself"},100000)
+        }else{
+          if (x>84){
+            document.getElementById("tompicflip2").src="moral pics/picture components/thomasflipblood2.png"
+            document.getElementById("blood").style.visibility="visible";
+            document.getElementById("badguy").style.visibility="hidden";
+          }
+          x=x+2
+          setTimeout(frame,5)
+          document.getElementById("tompicflip2").style.left = (x-250) + 'px';
+        }
+      }},
+    tomrollin: function(){
+      let i=0
+      setTimeout(frame,500)
+      function frame(){
+        if (i>2){
+          tomflipreset();
+          anima.boxback();
+          anima.trackback();
+        }else{
+          document.getElementById("tompicflip").style.top=tomroll[i][2]+"px";
+          document.getElementById("tompicflip").style.left=tomroll[i][1]+"px";
+          document.getElementById("tompicflip").style.transform="rotate("+tomroll[i][0]+"deg)";
+          i++;
+          setTimeout(frame,500)
+        }}},
+  }
+
+  function buttreset(){
+    document.getElementById("left").innerHTML="Left";
+    document.getElementById("right").innerHTML="Right";
+    document.getElementById("left").style.height="50%";
+    document.getElementById("right").style.height="50%";
+    document.getElementById("left").style.visibility="visible";
+    document.getElementById("right").style.visibility="visible";
+  }
+
+  function tomflipreset(){
+    document.getElementById("tompicflip").style.top="40px";
+    document.getElementById("tompicflip").style.left="10px";
+    document.getElementById("tompicflip").style.transform="rotate(-10deg)";
+  }
+
+  function tomgameset(text,leftText,leftSize,rightVis){
+    document.getElementById("textbox").innerHTML=text;
+    document.getElementById("left").innerHTML=leftText;
+    document.getElementById("left").style.height=leftSize;
+    document.getElementById("right").style.visibility=rightVis;
+  }
+
+  // function timed(par){
+  //   setTimeout(function(){par},2000)
+  // }
+
+  function rightBadEnd(count){
+    if (gamerun==true){
+      switch (count) {
+        case 0:
+          document.getElementById("textbox").innerHTML="It's too late for that now. There's no escape";
+          document.getElementById("escape").style.visibility="visible";
+          break;
+        case 1:
+          document.getElementById("textbox").innerHTML="Didn't you hear? I said there's no escape";
+          document.getElementById("escape").style.visibility="hidden";
+          document.getElementById("third").style.visibility="visible";
+          document.getElementById("left").style.height="25%";
+          break;
+        case 2:
+          document.getElementById("textbox").innerHTML="NO";
+          document.getElementById("right").style.visibility="hidden";
+          document.getElementById("left").style.height="100%";
+          document.getElementById("third").style.visibility="hidden";
+          document.getElementById("nonono").style.visibility="visible";
+          gamerun=false
+          setTimeout(function(){document.getElementById("nonono").style.visibility="hidden";gamerun=true;document.getElementById("badguy").style.visibility="visible";},500)
+          break;}}}
+
+  /*there's no escape
+  Didn't you listen? There's no escape from what you've done
+  NO
+  The choices you've made. It was inevitable that it would lead here.*/
+  </script>
+</head>
+
+<body style="margin:0;height:354px;width:676px;/*height:100%;width:100%;transform: scale(3); transform-origin: 0 0;*/">
+  <div id=scorebox>
+  </div>
+  <div class="fullboard">
+    <div class="game">
+      <img id="bg" draggable="false" src="moral pics/start.png">
+      <button id="start" onclick="begin()">START</button>
+      <button id="next" onclick="next()">NEXT</button>
+      <button id="escape" onclick="rightBadEnd(1)">ESCAPE</button>
+      <div id="textbox" class="textbox">
+        <!-- <p id="flavour">Welcome!!!</p> -->
+        Welcome!!!
+      </div>
+      <img id="track" draggable="false" src="moral pics/picture components/trackshidd.png">
+      <img id="blood" draggable="false" src="moral pics/picture components/bloodguy.png">
+      <img id="badguy" draggable="false" src="moral pics/picture components/badguytranssmile2.png">
+      <img id="tompicflip" draggable="false" src="moral pics/picture components/thomasflip.png">
+      <img id="tompicflip2" draggable="false" src="moral pics/picture components/thomasflipblood1.png">
+      <img id="tompicnorm" draggable="false" src="moral pics/picture components/thomas.png">
+      <img id="guy" draggable="false" src="moral pics/picture components/happyguytrans.png">
+      <img id="mysterybox" draggable="false" src="moral pics/picture components/boxcolour.png">
+      <img id="nonono" draggable="false" src="moral pics/bad pics/NOO.png">
+    </div>
+    <button id="left" onclick="left()">Left</button>
+    <button id="third" onclick="rightBadEnd(2)">Third Option</button>
+    <button id="right" onclick="right()">Right</button>
+  </div>
+</body>
+</html>

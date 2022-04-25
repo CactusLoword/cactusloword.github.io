@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  /* html, body{
+    height:100%;
+  } */
+
+  #box{
+    /* height:50%;
+    width:50%; */
+    height:600px;
+    width:1000px;
+    /* visibility: hidden; */
+  }
+
+  #game{
+    /* height:360px; */
+    /* width:680px; */
+    height: 100%;
+    width: 100%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    /* border:none; */
+    border:1px solid black;
+  }
+  </style>
+
+  <script>
+
+  arry=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,]
+  var i=0
+
+  // var time=setInterval(function(){document.getElementById("box").innerHTML=arry[i];i++}, 1000);
+  var x=0;
+
+  function buttpress(){
+    time=setInterval(frame, 500);
+    x=1
+    function frame(){
+      document.getElementById("box").innerHTML=arry[i];
+      i++;
+    }
+  }
+  function buttend(){
+    clearInterval(time);
+    x=0
+  }
+
+  </script>
+</head>
+<body>
+  <!-- <p id="box" onclick="switch(x){case 0: buttpress();break; case 1: buttend();break;}">Hi</p> -->
+  <!-- <p id="box" onclick="buttpress()">hi</p>
+  <p onclick="buttend()">hoo</p> -->
+  <iframe height="360" width="680" scrolling="no" style="border:none;transform-origin:0 0;transform:scale(1.5);" src="main/moralfs.html"></iframe>
+  <iframe id="box" src="test5.html"></iframe>
+</body>
+</html>

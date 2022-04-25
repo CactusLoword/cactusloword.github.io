@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="moral.css">
+  <title>Morality Core</title>
+  <script>
+  var score=0;
+  var gamerun=false;
+  var game=true;
+  var roundcount=0;
+  // var gamelen=1; /*actual canon*/
+  var gamelen=0; /*temp*/
+  // var endingflags=0; unused as of now
+  var badgame=false;
+  var badgamelen=2;
+  var moodswitch=0;
+  var tomgame=false;
+
+  /* rounds:
+  0=cat
+  1=fat
+  end
+
+  bad rounds:
+  1=cats
+  2=fats
+
+  */
+
+  /* endingflags: (unused as of now)
+  0=neutral
+  1=good
+  2=bad
+  */
+
+  var bgmain = [
+    "beforecat.png",
+    "beforefat.png"
+    //barney
+  ]
+
+  var bgleft=[
+    "catdead.png",
+
+  ]
+
+  var bgright=[
+    "catsave.png",
+    "fatsave.png",
+  ]
+
+  var bgbadmain = [
+    "badcat.png",
+    "badfat.png",
+  ]
+
+  var bgbadleft=[
+    "badtemp.png",
+    "after1.png",
+    "after2.png",
+
+  ]
+
+  var bgbadright=[
+    "",
+
+  ]
+
+  var textmessmain = [
+    "Oh no! There are some cats on the tracks! Please, help save them!",
+    "Help! Daddy Pig's in trouble!",
+  ]
+
+  var textmessleft = [
+    "AHHHH! Why would you do that!!!",
+    "NOoooOoo, who would kill Daddy Pig?!!?",
+  ]
+
+  var textmessright = [
+    "Nice job, Catastrophe averted",
+    "Hooray, Daddy Pig gets to live another day",
+    // "Phew, nice job! Crisis averted",
+  ]
+
+  var textmessbadmain = [
+    "<b>Protect</b> the cats",
+    "<b>Don't</b> kill Daddy pig",
+  ]
+
+  var textmessbadleft = [
+    "",
+    "<b>PROTECT, NOT RUN OVER!! !</b>",
+    "NOo, wrong",
+  ]
+
+  var textmessbadright = [
+    "What, well ok then"
+  ]
+
+  function begin(){
+    document.getElementById("start").style.visibility="hidden";
+    document.getElementById("bg").src="moral pics/main pics/"+bgmain[0];
+    document.getElementById("textbox").style.fontSize="125%";
+    document.getElementById("textbox").innerHTML="Oh no! There are some cats on the tracks! Please, help save them!";
+    document.getElementById("scorebox").innerHTML="Score: "+score;
+    gamerun=true;
+    end() /*temp*/
+  }
+
+  function next(){
+    document.getElementById("next").style.visibility="hidden";
+    if (game==true){
+      // if (roundcount<gamelen){
+      //   roundcount++;
+      //   document.getElementById("bg").src="moral pics/main pics/"+bgmain[roundcount];
+      //   document.getElementById("textbox").innerHTML=textmessmain[roundcount];
+      // } else{
+      //     end()
+      // }
+      // document.getElementById("scorebox").innerHTML="Score: "+score;
+      // gamerun=true;
+      nextGeneral("main pics/"+bgmain[roundcount],textmessmain[roundcount],gamelen)
+    }
+    else if (badgame==true){
+      nextGeneral("bad pics/"+bgbadmain[roundcount],textmessbadmain[roundcount],badgamelen)
+    }
+  }
+
+  function nextGeneral(background,textmessage,gametype){
+    gamerun=true;
+    if (roundcount<gametype){
+      roundcount++;
+      document.getElementById("bg").src="moral pics/"+background;
+      document.getElementById("textbox").innerHTML=textmessage;
+    } else{
+        end()
+    }
+    document.getElementById("scorebox").innerHTML="Score: "+score;
+  }
+
+
+  function left(){
+    while (gamerun==true&&game==true){
+      // document.getElementById("bg").src="moral pics/left pics/"+bgleft[0];
+      // document.getElementById("textbox").innerHTML=textmessleft[roundcount];
+      // document.getElementById("next").style.visibility="visible";
+      // gamerun=false
+      choice("left pics/"+bgleft[0],textmessleft[roundcount],0)
+    }
+    while (gamerun==true&&badgame==true&&tomgame!=true){
+      choice("bad pics/"+bgbadleft[roundcount],textmessbadleft[roundcount],-1)
+    }
+    while (gamerun==true&&tomgame==true){
+      // document.getElementById("bg").src="moral pics/right pics/"+bgright[roundcount];
+    }
+  }
+
+  function right(){
+    while (gamerun==true&&game==true){
+      // document.getElementById("bg").src="moral pics/right pics/"+bgright[roundcount];
+      // document.getElementById("textbox").innerHTML=textmessright[roundcount];
+      // score++;
+      // document.getElementById("scorebox").innerHTML="Score: "+score;
+      // document.getElementById("next").style.visibility="visible";
+      // gamerun=false
+      choice("right pics/"+bgright[roundcount], textmessright[roundcount], 1)}
+    while (gamerun==true&&badgame==true){
+      end()}
+  }
+
+  function choice(background,textmessage,scrChange){
+    document.getElementById("bg").src="moral pics/"+background;
+    document.getElementById("textbox").innerHTML=textmessage;
+    score=score+scrChange;
+    document.getElementById("scorebox").innerHTML="Score: "+score;
+    document.getElementById("next").style.visibility="visible";
+    gamerun=false
+  }
+
+  function end(){
+    gamerun=false
+    if (score==roundcount+1&&game==true){
+      document.getElementById("textbox").innerHTML="Well Done! Thanks for playing! Bye!";
+      document.getElementById("bg").src="moral pics/start.png";
+      game=false
+    }else if (score==0&&game==true) {
+       badgame=true
+       game=false
+       document.getElementById("textbox").innerHTML="wtf did you just do";
+       document.getElementById("bg").src="moral pics/end pics/bad0.png";
+       // moodswitch_fun(0); /*actual canon*/
+       moodswitch_fun(7); /*temp main skip cutscene*/
+    }else if (game==true){
+      game=false
+      document.getElementById("textbox").innerHTML="You did alright. GG";
+      document.getElementById("bg").src="moral pics/end pics/neutral.png"}
+    else if (badgame==true&&score==-1*roundcount){
+        // document.getElementById("bg").src="moral pics/bad pics/"+bgbadleft[0];
+        document.getElementById("textbox").innerHTML="Ok, we'll try something else";
+        gamerun=false;
+        tomcutscene();
+      }
+    else if (badgame==true){
+      document.getElementById("bg").src="moral pics/bad pics/"+bgbadleft[roundcount-1]
+      document.getElementById("textbox").innerHTML="What? You finally listened. Well ok, bye then";
+      setTimeout(function (){document.getElementById("textbox").innerHTML="bye"},10000)
+      setTimeout(function (){document.getElementById("textbox").innerHTML="What are you waiting for? A secret ending? Well, not this loop around. Try again *wink wink*"},100000)}
+  }
+
+  function tomcutscene(){
+    setTimeout(function(){document.getElementById("textbox").innerHTML="You can choose what goes next.";
+    document.getElementById("left").innerHTML="Thomas";
+    document.getElementById("right").style.visibility="hidden";
+    document.getElementById("left").style.height="100%";
+    gamerun=true; tomgame=true;},2000)
+    gamerun=false;
+    document.getElementById("textbox").innerHTML="Ok, we'll try something different";
+  }
+
+  function moodswitch_fun(num){
+    myVar=setTimeout(function(){
+            document.getElementById("bg").src="moral pics/end pics/bad"+num.toString()+".png";
+            if(num==7){
+              clearTimeout(myVar);
+              document.getElementById("textbox").innerHTML="WTF DID YOU JUST DO";
+              setTimeout(function(){document.getElementById("textbox").innerHTML="Let's try that again, shall we?";
+              document.getElementById("next").style.visibility="visible";},1500)
+              roundcount=0
+              return;}
+            moodswitch_fun(num+1)},/*3000*/ 200/*temp*/)}
+
+  function tomgameset(text,leftText,leftSize,rightVis){
+    document.getElementById("textbox").innerHTML=text;
+    document.getElementById("left").innerHTML=leftText;
+    document.getElementById("left").style.height=leftSize;
+    document.getElementById("right").style.visibility=rightVis;
+  }
+
+  function timed(par){
+    setTimeout(function(){par},2000)
+  }
+
+  </script>
+</head>
+
+<body>
+  <ul class="nav">
+    <li class="nav"><a class="nav" href="home.html">Home</a></li>
+    <li class="nav"><a class="nav" href="next_page.html">Page 2</a></li>
+    <li class="nav"><a class="nav" href="lists.html">Lists</a></li>
+    <li class="nav"><a class="nav" href="">Old</a></li>
+    <li class="nav"><a class="nav" href="calc.html">Calculator</a></li>
+    <li class="nav current"><a class="nav current" href="moral.html">Moral test</a></li>
+  </ul>
+
+  <main>
+    <h1>The Morality Test</h1>
+    <div id=scorebox>
+    </div>
+    <div class="fullboard">
+      <div class="game">
+        <img id="bg" src="moral pics/start.png">
+        <button id="start" onclick="begin()">START</button>
+        <button id="next" onclick="next()">NEXT</button>
+        <div id="textbox" class="textbox">
+          <!-- <p id="flavour">Welcome!!!</p> -->
+          Welcome!!!
+        </div>
+        <img id="tompicflip" src="moral pics/picture components/thomasflip.png">
+      </div>
+      <button id="left" onclick="left()">Left</button>
+      <button id="right" onclick="right()">Right</button>
+    </div>
+    <!-- <div class="blurb"> -->
+    <p>Test how moral you really are, and if you would make the <span class="extra" title="subjective to me">right</span> choices under certain circumstances.</p>
+    <p> WARNING: Side Effects include discovering things about yourself you might not want to, severe injury and possibly <span class="extra" title="It only happened once, and that was an accident">death</span></p>
+    <img  src="moral pics/picture components/thomasflip.png">
+    <!-- </div> -->
+    <!-- <p id="test" onclick="tes()">hi</p> -->
+  </main>
+</body>

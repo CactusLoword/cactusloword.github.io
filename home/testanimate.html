@@ -1,0 +1,192 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<script>
+
+// animate(){
+//   document.getElementById("pic").style.left="100px";}
+//   // for (let i=0;i<400;i=i+20){
+//   //   document.getElementById("pic").style.left="100px";
+//   // }}
+
+// var id = null;
+// function anima() {
+//   let x = 0;
+//   let y=0;
+//   let i=100
+//   let id = setInterval(frame, i);
+//   function frame() {
+//     if (y>=324||x>=576) {
+//       clearInterval(id);
+//     } else {
+//       // x++;
+//       // y++;
+//       i=i-100
+//       x=x+4
+//       y=y+4
+//       document.getElementById("pic").style.top = y + 'px';
+//       document.getElementById("pic").style.left = x + 'px';
+//     }}}
+
+// /*version nearly done*/
+// function anima() {
+//   let x=0;
+//   let y=0;
+//   let i=50
+//   // let time =
+//   setTimeout(frame, i);
+//   function frame() {
+//     if (y+4>324-120||x+8>576-180) {
+//     // if (y+8>162||x>379) {
+//       // document.getElementById("pic").style.top = 324-120 + 'px';
+//       // document.getElementById("pic").style.left = 576-180 + 'px';
+//       // clearTimeout(time);
+//     } else {
+//       if (i>15){
+//         i=i-1}
+//       x=x+8
+//       y=y+4
+//       setTimeout(frame,i)
+//       document.getElementById("pic").style.top = y + 'px';
+//       document.getElementById("pic").style.left = x + 'px';
+//     }}}
+
+// just funny
+// awa: function () {
+//   let x=0;
+//   let y=0;
+//   let i=50
+//   let fun=0
+//   // let time =
+//   setTimeout(frame, i);
+//   function frame() {
+//     if (y+4>324-120/*||((fun+2)**2)*0.25>576-180*/) {
+//       // clearTimeout(time);
+//       centreY=y
+//       centreX=fun
+//     } else {
+//       if (i>15){
+//         i=i-1}
+//       fun=fun+2
+//       x=(fun**2)*0.25
+//       y=(-fun)
+//       setTimeout(frame,i)
+//       document.getElementById("pic").style.top = (40+y) + 'px';
+//       document.getElementById("pic").style.left = (10+x) + 'px';
+//     }}},
+
+    var centreY=/*324/2*/0
+    var centreX=/*576/2*/0
+
+    const anim={
+      awa: function () {
+        let x=0;
+        let y=0;
+        let i=50
+        let fun=0
+        // let time =
+        setTimeout(frame, i);
+        function frame() {
+          if (-(y+2)>=38||((fun+2)**2)*0.25>576-180) {
+            // clearTimeout(time);
+            centreY=y
+            centreX=fun
+          } else {
+            if (i>15){
+              i=i-1}
+            fun=fun+2
+            x=(fun**2)*0.25
+            y=(-fun)
+            setTimeout(frame,i)
+            document.getElementById("pic").style.top = (40+y) + 'px';
+            document.getElementById("pic").style.left = (10+x) + 'px';
+          }}},
+        backbac: function () {
+          // let x=centreX;
+          let x=300;
+          let y=38;
+          let i=50;
+          // let fun=centreX
+          // let time =
+          setTimeout(frame, i);
+          function frame() {
+            if (y-2<=0||((y-2)**2)*0.25<=0) {
+              // document.getElementById("pic2").style.top = 40 +'px';
+              //thomas goes back, spinning around (array of positions), visible player sprite, reveal box, run over
+            } else {
+                y=(y-2)
+                x=(y**2)*0.25
+                setTimeout(frame,i)
+                document.getElementById("pic").style.top = 40-y +'px';
+                document.getElementById("pic").style.left = (10+x) + 'px';
+              }}
+            },
+        doodoo: function (){
+          document.getElementById("bod").style.backgroundColor="red";
+        }
+      }
+
+        /*y=1/2 x*/
+
+    // function anima() {
+    //   let x=0;
+    //   let y=0;
+    //   let i=50
+    //   var time = setTimeout(frame, i);
+    //   function frame() {
+    //     while (y>162||x>=379) {
+    //       if (i>15){
+    //         i=i-1}
+    //       x=x+8
+    //       y=y+4
+    //       setTimeout(frame,i)
+    //       document.getElementById("pic").style.top = y + 'px';
+    //       document.getElementById("pic").style.left = x + 'px';
+    //     }clearTimeout(time)}}
+
+    // function anima(){
+    //   let i=0
+    //   while (i<=10){
+    //     setTimeout(function(){document.getElementById("text").innerHTML=i},1000);}
+    // }
+
+    var tomroll=[/*degrees,x,y*//*396, 204*/
+      [270,200,10],
+      [170,100,20],
+      [-10,10,40]
+    ]
+
+    function tomrollin(){
+      let i=0
+      setTimeout(frame,500)
+      function frame(){
+        if (i>2){
+
+        }else{
+          document.getElementById("pic").style.top=tomroll[i][2]+"px";
+          document.getElementById("pic").style.left=tomroll[i][1]+"px";
+          document.getElementById("pic").style.transform="rotate("+tomroll[i][0]+"deg)";
+          i++;
+          setTimeout(frame,500)
+        }}}
+
+</script>
+</head>
+
+<body id="bod">
+
+  <div style="height:324px; width:576px;border:1px solid black;position:relative;">
+    <img draggable="false" style="height:324px; width:576px;position:absolute;user-select:none" src="main/moral pics/start.png">
+    <img id="pic" style="height:120px; position:absolute;top:40px;left:10px" src="main/moral pics/picture components/thomasflip.png">
+    <img id="pic2" style="height:120px; position:absolute;top:/*40px*/204px;left:10px" src="main/moral pics/picture components/thomasflip.png">
+  </div>
+  <button onclick="anim.awa()">press</button>
+  <button onclick="anim.backbac()">butt</button>
+  <button onclick="tomrollin()">roll</button>
+
+
+  <!-- <p id="text">none</p>
+  </div>
+  <div style="border:1px solid black; background-color:rgba(100,5,50,0.5); height:100%;width:100%;"></div> -->
+</body>
+</html>

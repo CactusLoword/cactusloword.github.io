@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var id = null;
+// function anima() {
+//   var elem = document.getElementById("myAnimation");
+//   var pos = 0;
+//   clearInterval(id);
+//   id = setInterval(frame, 10);
+//   function frame() {
+//     if (pos == 350) {
+//       clearInterval(id);
+//     } else {
+//       pos++;
+//       elem.style.top = pos + 'px';
+//       elem.style.left = pos + 'px';
+//     }
+//   }
+// }
+
+// function anima(){
+// document.getElementById("myAnimation").animate([
+//   // keyframes
+//   { transform: 'translateY(0px)' },
+//   { transform: 'translateY(-300px)' }
+// ], {
+//   // timing options
+//   duration: 1000,
+//   iterations: Infinity
+// });}
+
+function anima(){
+  document.getElementById("myAnimation").style.right="50px";
+}
+
+</script>
+</head>
+<body>
+
+<!-- <p>
+<button onclick="myMove()">Click Me</button>
+</p> -->
+<p>
+<button onclick="anima()">press</button>
+</p>
+
+<div id ="myContainer" style="height:324px; width:576px;border:1px solid black;position:relative;">
+<!-- <div id ="myAnimation"></div> -->
+<!-- <img id="myAnimation"  src="main/moral pics/picture components/thomas.png"> -->
+<img id="myAnimation" style="height:50%; position:absolute;" src="main/moral pics/picture components/thomas.png">
+</div>
+
+
+
+</body>
+</html>

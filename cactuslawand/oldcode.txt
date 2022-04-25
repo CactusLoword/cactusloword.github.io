@@ -1,0 +1,30 @@
+// var isKeyDown={
+//   w: false,
+//   s: false,
+//   a: false,
+//   d: false}
+
+// console.log(innerWidth);
+// console.log(innerHeight);
+
+// const screen=document.getElementById("peardoor")
+// // document.getElementById("peardoor").style.border="1px solid black"
+// screen.style.width=innerHeight/9*16;
+// screen.style.border="none"
+// // screen.style.left="50%";
+// // screen.style.transform="translate(0, -50%)"
+//
+// document.getElementById("outside").style.width=innerHeight/9*16;
+// // document.getElementById("outside").style.left="50%";
+// // document.getElementById("outside").style.transform="translate(0, -50%)"
+// // document.getElementById("peardoor").style.width="10px"
+// // screen.style.border="1px solid black"
+
+
+
+// console.log(document.getElementById("cactus").style.width);
+// const screen=document.getElementById("gamescreen")
+// console.log(screen.width);
+// screen.width=innerWidth;
+// console.log(screen.width);
+// console.log(innerWidth)

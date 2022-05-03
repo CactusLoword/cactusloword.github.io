@@ -18,7 +18,7 @@ var physics={
 // console.log(physics["Waves"])
 
 var chemistry={
-  // "Chapter 2: Ions, atoms and compounds":"chap.txt",
+  "Chapter 2: Ions, atoms and compounds":"chap2.txt",
   "Chapter 3: Amount of substance":"chap3.txt",
   "Chapter 4: Acids and Redox":"chap4.txt",
   "Chapter 5: Electrons and Bonding":"chap5.txt",
@@ -27,6 +27,8 @@ var chemistry={
   "Chapter 9: Enthalpy":"chap9.txt",
   // "Chapter 11: Basic Concepts of Organic Chemistry":"chap.txt",
   "Chapter 12: Alkanes":"chap12.txt",
+//   "Chapter 13: Alkenes":"chap13.txt",
+  "Chapter 14: Alcohols":"chap14.txt",
 }
 
 // for(let key in chemistry){

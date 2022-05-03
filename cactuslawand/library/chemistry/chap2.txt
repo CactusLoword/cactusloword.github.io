@@ -1,0 +1,58 @@
+TBH this is quite a simple topic, especially from me from future me, who has nearly covered the AS course. But even at GCSE level most of this stuff was OK, it's mostly basic Chem subject matter (like matter). That is why I skipped this one in the first place, but I thought I might as well cover it. 
+
+Nm, f***uck that, that's too simple, it's just the charges of subatomic particles and stuff, let's get onto the more complicated bits.
+
+
+
+Fist up is how to calculate RFM from isotopes numbers. This is a new concept this year (I think), but luckily it isn't too hard. First I will explain a circumstance where you are given the isotopic mass and abundance of some isotopes, adding to 100%. For this you have to times the percentage by the relative mass for each isotope, and then add it up. One thing of note is that it will usually ask for the answer to 2dp or something like that. This is because on the data sheet Periodic Table the relative atomic mass is to 1dp, so you need to show you didn't just copy that answer. Here is an example:
+
+If the percentage abundance of Cl-35 was 75% and Cl-37 was 25%
+
+0.7578 * 35=26.523
+
+0.2422 * 37=8.9614
+
+26.523 + 8.9614 = 35.4844 =35.48 (2dp)
+
+
+
+However, that isn't the only way the question could be set out. You could be given the atomic mass, and percentage abundance and isotopic masses of the isotopes, except one isotope, which you need to find the relative isotopic mass of. For this, a good starting point is to calculate the total mass of the isotopes you have (percentage*mass), and taking it away from the RAM. Then, just divide that by the abundance, and boom you have an answer.
+
+
+
+Now we'll skip a bit, to molecules we need to memorise. They are apparently polyatomic ions, which makes sense as they are ions made up of multiple atoms. We probably know the charges of single ions like O (hint: the charge rhymes with pinus poo), but these are where is gets confusing, as these ions are made up of multiple non-metals. Working out charges for metals and non-metals is easy enough, but with non-metals it seems a bit trickier, as you are working with multiple atoms with minus charges, and for the over all charge you can't just add it up, otherwise SO₄ would have a charge of -10, which definitely isn't right. I think you could work it out with oxidation number, but I'm not sure about that, and also remembering isn't too bad as there is a method which I'll say later. Also that reminds me, as these ions are ones we have encountered before, as we probably know that Sulphuric acid is H₂SO₄, but now we need to know the charges. I'll just list them here.
+
+NH₄⁺ (this is the only positive ion on the list)
+
+OH⁻ (hydroxide)
+
+NO₃⁻ (Nitrate)
+
+CO₃²⁻ (carbonate)
+
+SO₄²⁻ (sulphate)
+
+SO₃²⁻ (sulfite)
+
+PO₄³⁻ (phosphate)
+
+A way which might help you to remember these ions is to remember the Hydro version of it. Maybe that is actually harder, but it might help. Lets see:
+
+NH₃- ammonia (in this case a H is taken away)
+
+H₂O (water)
+
+HNO₃ (nitric acid)
+
+H₂CO₃ (carbonic acid)
+
+H₂SO₄ (Sulphuric acid)
+
+H₂SO₃ (Sulphurous acid)
+
+H₃PO₄ (phosphoric acid)
+
+
+
+Ok there we go, I think I'm done. I haven't covered the whole of the topic, but the rest is mostly generic Chemistry, so it probably isn't worth covering. Probably.
+

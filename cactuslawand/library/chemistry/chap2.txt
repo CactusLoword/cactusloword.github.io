@@ -18,6 +18,7 @@ If the percentage abundance of Cl-35 was 75% and Cl-37 was 25%
 
 However, that isn't the only way the question could be set out. You could be given the atomic mass, and percentage abundance and isotopic masses of the isotopes, except one isotope, which you need to find the relative isotopic mass of. For this, a good starting point is to calculate the total mass of the isotopes you have (percentage*mass), and taking it away from the RAM. Then, just divide that by the abundance, and boom you have an answer.
 
+One way the isotopic numbers and percentage abundances could be found is with mass spectroscopy. This is a very accurate method which separates a sample of element by mass. The sample is put in a Mass spectrometer, and is vapourised and ionised. They are accelerated around a bend, and heavier ions deflect less than lighter ones, so they separate out. I would show a diagram, but it is extremely bad. I would usually say it looks more penis-like than a mass spectrometer, but it honestly just looks sad and deflated (but not like a flaccid peepee).
 
 
 Now we'll skip a bit, to molecules we need to memorise. They are apparently polyatomic ions, which makes sense as they are ions made up of multiple atoms. We probably know the charges of single ions like O (hint: the charge rhymes with pinus poo), but these are where is gets confusing, as these ions are made up of multiple non-metals. Working out charges for metals and non-metals is easy enough, but with non-metals it seems a bit trickier, as you are working with multiple atoms with minus charges, and for the over all charge you can't just add it up, otherwise SO₄ would have a charge of -10, which definitely isn't right. I think you could work it out with oxidation number, but I'm not sure about that, and also remembering isn't too bad as there is a method which I'll say later. Also that reminds me, as these ions are ones we have encountered before, as we probably know that Sulphuric acid is H₂SO₄, but now we need to know the charges. I'll just list them here.
@@ -51,6 +52,8 @@ H₂SO₄ (Sulphuric acid)
 H₂SO₃ (Sulphurous acid)
 
 H₃PO₄ (phosphoric acid)
+
+<img src="chap2.png">
 
 
 

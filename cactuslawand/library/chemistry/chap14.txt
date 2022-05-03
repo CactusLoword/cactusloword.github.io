@@ -1,0 +1,56 @@
+Alcohols, eh, we all love a good old pint of the booze, right? I personally love going down to the pub every day after school, to get myself hammered so far into the ground I barf out my brains. Jk lol, I've only drunk alcohol fumes from nearby adult-drinks, I'm not a naughty criminal like many other youngsters. But this topic isn't really about the different kinds of spirits, lagers and cock-tails, as that would be quite a disadvantage to people with non-poisoned livers like myself. This topic is about alcohols in the Chemistry sense, which is probably similar to alcohols in the Tesco Wine Aisle sense. I've never done it, but I'd assume that whenever you order a drink at a counter you specify how many OH groups the alcohol has, and what kind of oxidation reaction it goes through. If you don't know what that means, have no fear, as you will learn all that below. Before long you'll be able to order any drink you want, whether it is 2-methyl hexan-2,3-diol,  or simply ethanol.
+
+
+
+
+
+
+
+So the first important part of alcohols is how they are identified, which is with an -ol suffix (or hydroxy- prefix) on a chemical name. If you have 2 alcohols attached to the hydrocarbon chain then it is called diol, and the numbering system matches with how it usually works in organic Chemistry (e.g. pentan-2,3-diol). The functional group of an alcohol is an OH⁻ ion, which attaches to a hydrocarbon chain. They also have relatively high melting and boiling points, because they have hydrogen bonding. They also have permanent dipole-dipole and London forces, but of course Hydrogen is the strongest. This hydrogen bond happens because the O atom (from OH) has 2 lone pairs and is attached to a H atom (hydrogen bonding needs an electronegative atom which is bonded to H, and has a lone pair). Also alcohols are polar molecules. On it's own an alkane or alkene isn't polar, as all the atoms have similar electronegativities, and it is symmetrical. If an OH group is added then because of the larger difference in electronegativities between O and H, then the now alcohol is now electronegative. Also with alcohols being polar comes with those properties, like being more soluble in polar solutions (like water).
+<img src="chap14a.png">
+
+Before we get onto the reactions (I know you're trembling in anticipation), we need to know to classify the alcohols, which shows the number of carbon atoms bonded to the carbon bonded with the OH group. That made it sound complicated, but it isn't really. We classify them as primary, secondary and tertiary, like with alkenes. Primary alcohols have 1 or 0 carbons bonded to the carbon with the OH group. This means an alcohol group bonded to a carbon at the end of a chain or methane it a primary alcohol. For example, the alcohol in butan-1-ol, or any in methantetraol. Secondly, a secondary alcohol has an OH group bonded to a carbon bonded to 2 carbons. This would be in the middle of a carbon chain (without a methyl group on the top). E.g. propan-2-ol. Lastly, a tertiary alcohol has 3 carbons bonded to the carbon bonded to the OH. This would be in the middle of a chain, with a methyl group on the top, e.g. 2-methyl-butan-2-ol.
+
+
+
+
+
+
+
+Now onto the reactions
+
+The first reaction that can happen is combustion. This one isn't too bad to learn, as it is same old reaction we're used to from other topics. I wrote about this most notably in my Chapter 12 review, so it is quite similar, you just need to balance it with an extra OH (or more) in mind. Complete combustion produces water and carbon dioxide, and incomplete produces water and carbon monoxide or carbon.
+
+
+
+The next, and most prominent, is oxidation. This happens with use of an oxidising agent, for example acidified Potassium dichromate (Kr₂Cr₂O₇). The reaction with the oxidising agent depends on the type of alcohol. The different types of alcohol make different products, and also have different colour changes with the oxidising agents. Luckily, we're now masters of the types, thanks to my amazing teaching above.
+
+First of all is the primary alcohol. This is the most complicated one, as it can turn into 2 products, depending on the conditions of the reaction. If the alcohol is distilled with the oxidising agent, then it turns into an aldehyde. If you recall what an aldehyde looks like, they have a carbon with an oxygen double bonded and a H bonded, so it makes sense this could only happen with a primary alcohol, as it at the end of a chain (you couldn't have 3 bonds to non-carbons in the middle of a chain). The colour change for this with Kr₂Cr₂O₇ is orange to green, as the dichromate ions are reduced (this is the case for all orange -> green colour changes). Also, if you weren't sure, distilling the aldehyde means that it goes through a tube and condenses into a separate beaker. This is done as if you keep on heating the aldehyde, it turns into a carboxylic acid, which might not be wanted. If you wanted to go from primary alcohol straight to carboxylic acid, then it will need to be heated under reflux. This still uses the process of distillation, but instead of the condensed chemical being sent into an external container, it is heated, distilled and condensed, and then falls back down into the mixture. There is still the orange to green colour change for this. Also as a side note aldehydes and Carboxylic acids have a lower boiling point than alcohols, as they have no hydrogen bonding. Before we move on, lets have an example. If you start with butan-1-ol, you could distil it with an oxidising agent to make butanal (lol like butt anal). You could then also heat or reflux butanal with an oxidising agent to make butanoic acid. Alternatively, if you refluxed butan-1-ol with an oxidising agent you would get butanoic acid.
+<img src="chap14b.png">
+<img src="chap14c.png">
+
+Second of all is the secondary alcohol. This one is a bit simpler, as there is only one oxidation reaction to know. If you reflux a secondary alcohol with an oxidising agent then it turns into a ketone. With Kr₂Cr₂O₇ this causes a colour change of orange to green. For an example, butan-2-ol when heated under reflux with an oxidising agent forms butan-2-one.
+<img src="chap14d.png">
+
+Last of all is tertiary, which the hardest one of all to learn. I saved the worst for last. JK, tertiary alcohols can't be oxidised. This means there isn't a colour change of Kr₂Cr₂O₇. For an example, 2-methyl-butan-2-ol doesn't oxidise.
+
+Before we get to the next reaction, I will write some rules for writing the equations. For writing a balanced equation, I might be wrong, but I think the structural formula is fine to write. However, one nice and hand thing is that instead of writing the full oxidising agent, and then the products of that, you can just write [O] with the reactants. One thing of note, a primary alcohol to carboxylic acid has 2[O]. Also, One thing I forgot to add is that most of the reactions above also make water, which when balancing makes sense as you have spare hydrogens. The only reaction that doesn't make water is aldehyde to carboxylic acid, as that just adds an O (from the [O]).
+
+
+
+The penultimate reaction is dehydration. That's right, even alcohols can get dehydrated, just like living beings. Don't get them confused though, as I'm pretty sure alcohols aren't alive. Dehydration of an alcohol is when an alcohol is heated under reflux with a hot concentrated acid catalyst, which produces an alkene and water. 2 possible alkenes could be produced, with the double bond being either one side of where the OH group was (unless the OH is on the end). It is called dehydration because a water molecule is removed (elimination) from the molecule, in this case an alcohol (the OH and another H is removed). An example would be butan-2-ol, which when heated under reflux with hot conc H₂SO₄ turns to but-1-ene and but-2-ene.
+<img src="chap14e.png">
+
+
+
+Lastly, the last reaction is substitution. A substitution reaction of alcohols is when it reacts with a hydrogen halide to form a haloalkane. Neither the textbook nor my notes are very clear on all the ways a hydrogen halide can be formed, but one way it can be is with a reaction between a salt containing a halogen and and acid,  which makes another compound we don't want, and a hydrogen halide. The example given is NaBr + H₂SO₄→NaHSO₄ +HBr. Then, HBr can be reacted with prop-2-ol to make 2-bromo-propane + water.
+<img src="chap14f.png">
+(I missed off most of the Hs because I'm lazy)
+
+
+
+
+
+
+Wow, after all that alcohol revision I think I might be feeling a bit drunk. Woah, I am so disorientated 🤪🥴😵🤢🤮. Tomorrow Morn I'm going to have a major hangover. Guess that's what intoxication will do to a minor though, or indeed anyone of any age. This message was brought to you by the Brilliant Anti-alcohol Loving League of Sixth-formers (BALLS). The balls is an organisation made by an anonymous individual (CactusLoword), designed to stop people from drinking. It is very unhealthy, and has many side affects, like dizziness, death, debt, and alcoholism. Many alcoholic drinks are fizzy, which BALLS members do not like, as carbonated drinks feel funny in the mouth. Many boozes also smell, and people who drink them often end up smelling even worse. Orange juice tastes much better, as do any other juices, squashes and smoothies. Milkshake is also nice, which I'm sure any respectable pub would sell. Lastly, what's wrong with tap water? It's quite nice, and there are often times where a nice cup of water is very refreshing. Especially after eating Cadbury's chocolate I find. Or any other time of the day actually. Apparently people also get "pissed" after drinking alcohol, which happens after drinking lots of water too, as you get the urge piss. After drinking water you also have a higher chance of relieving yourself into a toilet, instead of wetting yourself like a drunk person or toddler might do.
+<img src="chap14g.png">

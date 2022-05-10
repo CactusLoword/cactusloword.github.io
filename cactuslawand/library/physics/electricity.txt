@@ -1,0 +1,108 @@
+This review is about to get very electrical, so keep water away. Electricity surrounds us, and without it I wouldn't be writing this on my Wattpad account. Without electricity it is unlikely I would have begun my reviewing career. Even if I did start writing, I would have to write it on paper like in the old black-and-white days, and post a copy to everyone. That would suck, although my handwriting would dramatically improve. Another name for this topic is current electricity, but the name is a bit misleading, as the topic isn't just about current, but all the other stuff as well.
+
+
+
+
+
+This topic starts off with the basics. Interestingly, in the text book it doesn't show the circuit symbols until a bit along, so I'll break the mould and show it first:
+<img src="electricity1.png">
+
+Something of note is that with an ammeter, it needs to be connected in series, and a voltmeter needs to be connected in parallel. This paragraph might not make a lot of sense just yet, but I didn't know where better to put it, so you could skip it if you're confused now.  The optimal resistance of an ammeter is 0, so it doesn't affect the overall resistance, and the optimal resistance of a voltmeter is infinite, so the current flows through the component, and not the voltmeter. 
+
+There we go, now lets going. From GCSE I'm sure many have a certain level of understanding of electricity, but the A-level course goes a bit deeper than that on all areas. This also helped me to understand the concepts of electricity, which I think before I didn't really understand. I still don't completely get everything, but I think at least I get it more.
+
+
+
+The first term I'll cover is charge, as this seems to be the most fundamental value. Charge, Q,  is measured in coulombs/C, and is kind of hard to define (without referring to equations, as they kind of define the other values relative to charge), as it is the property of something which explains how charged it is. One fact that helped me to understand charge (which is funnily enough probably more complicated than GCSE) it that an electron has a charge of 1.6 *10⁻¹⁹ C. This means that in a circuit, the charge is caused by the overall charges of all the electrons. This means you could also work out the number of electrons with the charge, by doing Q/(1.6*10⁻¹⁹).
+
+Now we are charged with knowledge about charge, we can move onto the next term, current. Current, I, is measured in Amps/A, and is described as the rate of flow of charge. Here, we can bring in our well-loved equations to help describe it, with Q=It. I like to remember it that way, as it is like a word (quit) to easy to remember, but this is on the data sheet anyway. The equation can be rearranged to I=Q/t, so basically current is charge per time. On the data sheet it says change of charge over change in time, but it's the same thing pretty much (it isn't, but still).
+
+That's enough values for now. Now we're talking about charge carriers. This is pretty self-explanatory (to an extent), as as expected, charge carriers carry charge. In metals, and therefore  a traditional circuit we would use, charge carriers are electrons. In a salt solution, charge carriers are ions, but we don't do electrolysis (fortunately). Next on charge carriers, we have insulators and conductors, which are slightly more complicated than before thought. The reason why insulators are so insulative is because the electrons are attached to the atoms of the material. This means that when voltage is applied (we'll get onto V later), there isn't any current because there aren't any charge carriers. In contrast, with metal conductors, the delocalised electrons function as charge carriers (in the material most the electrons are attached to the atoms, but they aren't charge carriers, only the delocalised ones are). Semiconductors are materials where the number of charge carriers increases with temperature. An intrinsic semiconductor is one where the increased heat causes electrons to break from the atoms, which causes conduction.
+
+Conventional current is that the direction of current goes from positive to negative. This is just the agreed standard, but in actuality current could go either way unless there is a diode, which restricts current to one way. 
+
+
+
+Now we have some more values to learn. First up is energy, which is brought up in many topics. Energy is measured in joules/j, and is AKA work done. This means the symbol used is E or W. Voltage, V, is measured in volts (which is easy remember), and is also referred to as potential difference (PD). An equation involving voltage, which kind of defines it, is E=QV (that's how I remember it). This is rearranged to V=E/Q, or V=W/Q. This means that PD is is the work done per unit charge. If you imagine a circuit, the cell will have a specific voltage, so this says the energy per charge in that circuit. The cell will supply the charge carriers with energy, which go around and supply that energy to the components with energy, and go back round to be re-energised.
+
+Another value, which is very similar to PD, is electromotive force/emf/ε. This is measured in volts, and the emf of a source is defined as the energy produced per unit charge passing through the source. The main difference is that emf is the energy given to each coulomb, whereas PD is the energy used per coulomb. This also means that emf is used in reference to an energy source, like a cell or battery, whereas PD is used when talking about components.
+
+
+
+Next up is power. In mechanics, an equation for it is P=W/t, so we know that power is energy per time, measured in Watts. However, that equation isn't too useful in electricity, so another equation is needed. Using Q=It, E=QV and P=W/t, P=IV is derived. There are also other equations (found in the data sheet), but they are found by putting V=IR into that equation, depending on the desired value (V=IR is something I'll get onto later). One other aspect which might be relevant is how electrical objects often have a power rating. This relates to the P=W/t equation, so says the energy per time.  
+
+
+
+Don't resist to this next part, despite it being a big one. Resistance is another value, which measures how well a component resists to current. The equation for this is V=IR, or R=V/I, so is volts per amperes. It is measured in ohms/Ω.
+
+Ohm's law states the PD across a metal conductor is proportional to the current through it, provided the physical conditions don't change. This is essentially V=IR, with R being constant (as long as the physical conditions are constant). An ohmic conductor is a conductor which follows ohm's law. The I-V graph for an ohmic conductor will be a straight line. Also for an IV graph the gradient will be 1/R, whereas for a VI graph the gradient will be R.
+<img src="electricity2.jpg">
+
+For specific ohmic resistors, like a thermistor, the gradient is still constant (at constant physical conditions), but different conditions give different gradients. With a thermistor, an increase in temperature means a decrease in resistance, so more current can get though. This means on an IV graph of a thermistor, a higher temperature will have a steeper gradient than a lower temperature, with a smaller gradient. With a VI graph, the opposite is the case (so the graph is rotated 90° and flipped). With an ohmic LDR, a higher light intensity will have a higher gradient on an IV graph.
+<img src="electricity3.png">
+<img src="electricity4.png">
+
+What if a component doesn't follow Ohm's law? We need to know these graphs too. The first example is a filament bulb. At lower values of I and V, it does actually obey Ohm's law, so I∝V (constant gradient). However, after certain values, the temperature gets too hot, and the graph curves. This means that now, as temperature increases, resistance increases. This means V increases more than I, so on an IV graph, the gradient gets smaller. 
+<img src="electricity5.png">
+
+A diode is another non-ohmic conductor (this includes LEDs). With a diode, a simple description is that it only lets current flow one-way. A more descriptive description is that in one direction, resistance is low, but in the other direction resistance is very high. On an IV graph, this is shown that with negative values the gradient is 0 (I guess on a VI graph the gradient is infinite). Then, at a certain voltage, the graph curves into a constant gradient, so I guess after this point it supports Ohm's law.
+<img src="electricity6.png">
+
+
+
+We have one last value, which is resistivity. Although it looks similar, it isn't the same thing as resistance, but it is heavily related. Resistivity is a measure of the resistance of a material, so the opposition of current of a material. The equation for this is ρ=(RA)/L. Just because there are lots of values, I'll explain it. ρ represents resistivity (the symbol Rho is also used for density, they really need to invent more Greek letters). R is the resistance, and A is the cross-sectional area of the material, and length is the length of the material. As Ωm²/m=Ωm, resistivity is measured in Ωm. This seems like a simple enough sub-topic, but there are 2 related aspects which make this bigger than it probably should be.
+
+The first thing is that on practice papers there have been many questions related to the equation, but not to do with substituting in values. There are often questions about doubling the values, and saying whether the answer changes, which is a common multiple choice question. An example could be that if the diameter is doubled and the length halved, how does resistivity change. With that example, you will need to account for the radius being squared (πr²), so overall it will change by 4/0.5, so 8ρ. There are also similar questions, like with rearranging the equation or substituting in V=IR, so keep that in mind.
+
+The second thing is that the equation is also related to a Required practical! Yay. This required practical especially went swimmingly for me. Definitely didn't get a percentage error in the billions. Anyway, this practical tests the resistivity of a wire. Before anything is plugged in, the wire's diameter needs to be measured, with either a micrometer or vernier calipers. With a micrometer, millimeters are viewed on the sleeve scale (the horizontal one), with the measurement being where the thimble/ the twisty bit meets the nearest line viewable. Then, the thimble scale (vertical one) signifies each 0.01, so 11 would be .11 mm. The line than meets to long horizontal line is the right measurement. That sounds confusing, or wasn't explained well, but when it comes to it you can kind of work it out anyway. Unfortunately vernier calipers aren't too much easier, as you have a main scale, but then for the vernier scale you have to see what line most lines up, and record that. Again, badly explained. but just remember to find the lined up lines. But now you found the diameter (and from that found the surface area for later), it's time to plug in. For this you need an ammeter and voltmeter, as those are the values being noted down to find the resistance. You need crocodile clips, and at regular lengths (like every 0.1m), record the I and V. When you have an appropriate set of results, work out the resistance for each length. Now, you need to plot a graph of resistance against length. Draw a line of best fit, find the gradient, and times it by the A found earlier, and that is the resistivity. You could also compare it with the actual value if you want to damage your confidence. But at least in theory this practical isn't too bad. 
+
+Who's your favourite superhero? If you're a super-fan of mine you might know it is superposition, but superconductor might be my second favourite. Superconductors are conductors which have zero resistance. Because V=IR, this means that there isn't a PD, which means there isn't any heat loss, so there is 100% efficiency. A superconductor becomes this way when the temperature is lowered to what is called the critical temperature. This critical is extremely low though, hence why is isn't used everywhere, unless you want to live in a climate 100* colder than the arctic. 
+
+
+
+
+
+This marks the halfway point (it is the end of chapter in the textbook), so you can have a little interval if you want. Get a drink, relieve yourself, take a break. After this we're straight back onto physics though. 
+
+
+
+
+
+Ok back to physics. This section goes through the series and parallel parts of electricity, as well as new stuff. First up we return to current and Voltage, and the rules related to them, called Kirchhoff's rules.
+
+Kirchhoff's first rule states that the total current into a junction equals the total current out. A explanation of this is that if you have 2 wires coming off one wire, the added currents of the 2 wires equals the current from the first wire. This is also the case vice versa. The main application of this is in series and parallel circuits, as this describes how currents acts in them. In a series circuit, the current is the same all around the circuit. In parallel, the current is split between the loops. If you think about what current is, rate of charge, that makes sense, as a charge carrier could only flow down one route, so the overall amount of charge carriers is split up. And of course, the current is the rate of charge, so if the charge is split up then the current is split up.
+
+Kirchhoff's second, and last, rule (there are surprisingly only 2 rules), is about voltage. The rule states that the sum of emfs around a loop in a circuit equals the sum of potential drops around the loop. This sounds a bit confusing, but it basically says that in a loop the emf equals the pd across each component in that loop. So basically for components in series you add the voltages. For parallel circuits, the voltage is the same in every loop. This is because, going back the the equation V=E/Q, even though the charge is split between the loops, each unit charge still has the same amount of energy. 
+
+Now we've done those 2, it's onto resistance. In series, total resistance is easy enough, as you just add them up (Rₜ=R₁+R₂+...). This also means that if a resistor is added, the total resistance increases. However, in parallel, total resistance is a bit trickier. The equation is actually 1/Rₜ=1/R₁+1/R₂+.... This means that if a resistor is added in parallel, the overall resistance actually decreases. 
+<img src="electricity7.png">
+
+
+
+In the textbook there's a bit about P=I²R, but that just comes from putting V=IR into P=IV. The context for this extra clarification was to do with the heating effect due to current, which is used for heating machines like kettles and irons. 
+
+
+
+This next section is potentially divisive, as it is kind of a tricky concept. A potential divider consists of 2 (or more) resistors connected in series, and connected to a fixed source of pd so that the pd is split between the resistors. There are different uses for a potential divider, which I'll go through below.
+
+The first is to supply a fixed pd (at any value between 0 and the emf). This use needs the most calculations, which is a bit tedious and seems bad, but it isn't too terrible. For this it is easiest to imagine 2 resistors, with resistances R₁ and R₂. The pd source is labelled V₀, which I guess is also the emf. If we wanted the current, with V=IR we can do V₀/(R₁ + R₂), as R₁ + R₂ is the total resistance. If you wanted to construct an equation which shows the relation of the voltage and resistances of the 2 resistors, you could first construct 2 equations, V₁=IR₁ and V₂=IR₂. As I is the same for across both components, you can say V₁/R₁=V₂/R₂. This can be rearranged to V₁/V₂=R₁/R₂, and this equation shows that the ratio of the pds of the 2 resistors is the same as the ratio of the resistance of the 2 resistors. What is useful about all that maths is that a question could for example give you the V in (emf) and the resistances of the resistors, and you have to find the V out (the pd across a specific resistor). There is also specific notation for these circuits, which can only really be shown with a diagram.
+<img src="electricity8.png">
+
+The next type is to supply a variable pd. This is basically like a variable resistor, but you move a clip along a wire, a bit like with the resistivity experiment. There are also potential dividers involving thermistors or LDRs with a variable resistor.
+<img src="electricity9.png">
+
+
+
+Last, but not least, we have the final sub-topic of electricity. This one is unfortunately quite big as well. It is fortunately not incredibly difficult though, as it involves emf, which we've touched on before, and also internal resistance, which does make things a bit more drawn out, but not too complicated. 
+
+Here's some more info on emf. As we already know, emf is the total energy per charge given, and pd is energy taken per charge of each component. The emf is given by cells, but what if there are multiple cells? A battery is multiple cells in series, and if the cells are in the same direction, you just have to add the voltages of each cell for the overall emf, as we know from Kirchhoff's 2nd law. If the cells are facing the opposite direction, then you need to find the difference between the cell voltages. Cells in parallel is where it is more confusing though. We do know that in each loop the pd is the same though, so from there I guess you have to work each loop emf out separately.
+
+Ok, lets end the review with a new concept which isn't too difficult. Thinking realistically, all components must have at least some resistance, even components which provide energy. This is where internal resistance comes in, as it is basically the resistance in a cell. In a circuit, this is shown with a resistor next to a cell, labelled with a lowercase r. A dotted line box in drawn around the cell and r resistor. In series, to find the total resistance you add them up, so this goes for internal resistance as well. You also won't have the internal resistance in parallel, which is easier. If a proper description was desired, then you could say that internal resistance of a source is the loss of pd per unit current, when the current passes through the power supply. This relates to an equation on the datasheet, ε=I(R+r). This is very similar to V=IR, and imagines a circuit with a cell with internal resistance and a resistor. ε is the emf from the cell, and R+r is the total resistance from internal resistance and resistor's resistance. There's also power to think about, but that's nothing we don't know (P=IV). Moreover, I guess in questions which don't mention internal resistance it is just negligible.  
+<img src="electricity10.png">
+
+
+
+
+
+Wow, wasn't that review electrifying and stimulating. At most, I hope it helped you (and me) with learning and revising electricity. At the very least, I hope it didn't make you want to electrocute yourself. Though, fun fact, electrocution in water happens because of mineral ions in water, as pure water can't conduct electricity. In this case the ions would be charge carriers, which the current flows along. Wow, using science to explain death methods. That's when you know you've succeeded in a topic.  
+

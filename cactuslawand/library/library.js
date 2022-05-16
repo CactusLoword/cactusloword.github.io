@@ -30,7 +30,7 @@ var chemistry={
   // "Chapter 10: Rates of Reaction":"chap10.txt",
   // "Chapter 11: Basic Concepts of Organic Chemistry":"chap11.txt",
   "Chapter 12: Alkanes":"chap12.txt",
-//   "Chapter 13: Alkenes":"chap13.txt",
+  "Chapter 13: Alkenes":"chap13.txt",
   "Chapter 14: Alcohols":"chap14.txt",
   // "Chapter 15: Haloalkanes":"chap15.txt",
 }

@@ -1,0 +1,85 @@
+I hope all readers are keen for alkenes, as this is today's topic. 
+
+
+
+
+
+
+
+As we probably know, alkenes are unsaturated hydrocarbons, with at least one double bond. "What is a double bond?", is a question everyone hoped wouldn't need to be answered. Yet here we are, ready to answer it now. I covered sigma bonds a bit in my alkanes review, which I will reiterate. A sigma bond is a covalent bond with 2 overlapping orbitals. Single bonds are always a sigma bond, but when you get onto double bonds, only one of them is a sigma bond. The other is called a pi bond, which is made from the sidewards overlap of p-orbitals. Whereas σ bonds are inbetween the 2 atoms, π bonds are above and below where the σ bond. The result of this is that the 2 carbon atoms either side can't turn around the bond, so are locked in place (this is more relevant later on). Other things about alkenes is that all the atoms connected to the double-bonds are in the same plane, with a trigonal planar shape on each carbon (120 deg between atoms on either side).
+<img src="chap13a.png">
+
+
+We've met isomers before (they're molecules with the same molecular formula, but different arrangements of atoms. Here we have a special type of isomerism, called stereoisomers. 2 types of stereoisomers are E/Z isomers and optical isomers. There isn't that much on optical isomers here, and I'm not even sure sure if we need to know it for this section, but it is basically where you have a mirror image of a molecule, which is actually structurally different. With a simple carbon chain this wouldn't be the case, as the mirrored version is the same, but with for example a tetrahedral molecule, with all different groups/atoms, you might start to see how a flipped version would actually be different. If not, don't worry, it isn't too relevant here anyway. 
+
+E/Z isomerism is the one we need to learn. When you get the hang of it though, it is quite easy. Also, whenever I say something is 'easy', that isn't a pun of E/Z, as E/Z is canonically pronounced eee/zed, so that pun wouldn't make any sense. E/Z is a contraction of the German words entgegen and zusammen. This notation was made because in an organic molecule with a double bond, as we said the carbons can't spin around the bond, so whether the groups are attached to the bottom or top matters. Entgegen means opposite in german (didn't know), and zusammen means together (I knew that one!), and this explains how the molecule is. If you take 2 groups with the same priority (we'll get onto that later), with one on the left and one on the right of the bond, and they are on the same side, so both on the top or both on the bottom, that is a Z isomer (the groups are together). With E isomers, the groups are on opposite sides, so one on the top and one on the bottom. There are 2 ways that help me to remember this. The first is that I know that zusammen means together because of German GCSE, so Z is same side and E is the other one. The other way that helps me, that is sadly confusing, is to do with the shape of the letters. If the groups are on the same side, it looks like an E, but it is the opposite of that, so Z. For opposite groups it is like a z, but the isomerism is the opposite letter so that is E isomerism. I know, it's confusing, but it helps me. 
+<img src="chap13b.png">
+
+That's not the end of E/Z though, as we've got cis/trans isomerism. Not sure about you, but it was inevitable to turn to the next page and not thing about cis and trans in the gender sense.  Whilst this isn't to do with that, it is quite helpful, as cis is on the same side, like Z, and trans is on the opposite side, like E. The distinction of cis/trans and E/Z is that with cis/trans, one of the groups on either side is the same, like if there was a hydrogen on each side.
+<img src="chap13c.png">
+
+I mentioned priority a bit earlier, and here is where I explain it. Maybe I had the order of priority wrong, but that's how it is in my notes and the textbook, so that's why. The method of priority assignment is called Cahn-Ingold-Prelog nonmenculture. Weird name, but the system itself is fine. Basically, on either side of the bond, one group will be called higher priority, and the other is lower (so on LHS there is a high and low, one on top and bottom, and the same for the RHS). The priority is based on atomic number, so the group with the higher atomic mass/ relative atomic mass has the higher priority. Then, the E/Z notation is based on the organisation of the priorities, so if 2 same priorities are on the same side, it is Z, and 2 same priorities on the opposite side is E. 
+
+
+
+
+
+
+
+Now that's out the way, it's straight onto the reactions. No hesitation. Ok, maybe a second, but that's it. Before we get onto any specific reactions, in general, alkenes are actually more reactive than alkanes, because of the double bond. This is because the pi bond is exposed, with the electrons being concentrated above and below, so this is easier to break. If you look at the overall bond enthalpy of the double bond, it is of course larger than a single bond, but the enthalpy of a pi bond is less than the enthalpy of a sigma bond. This is why a lot of the reactions turn the double bond to a single bond, as the pi bond isn't as hard to break. Also all the reactions below are addition reactions (2 molecules join to form one), which is related to the double to single bond as if the double bond breaks, there is room for 2 new bonds, so an ethene plus diatomic molecule works well.
+
+First is hydrogenation. This is when an alkene is mixed with hydrogen, passed over a nickel catalyst at 423K. This reacts to form an alkane. You can imagine this quite well, as adding 2 Hs to an alkene makes it an alkane. Just don't forget the hot Nickel catalyst in a question though. 
+
+Halogenation next. This looks quite similar to the last -ogenation, but this can happen at room temp, so no catalyst needed. It happens when an alkene is mixed with a halogen molecule to make a haloalkane.
+
+Test for unsaturation- this seems like a weird slotted in little bit, but it is still technically a reaction, as that is how the unsaturation (has a multiple bond, like alkenes) is detected. This happens when bromine, an orange liquid, is added to the supposed alkene. If the solution is clear after, then there is/were double bonds. If not then the mixture will go orange. I guess this test is basically halogenation, specifically bromination. 
+
+Addition with hydrogen halides is next (guess they couldn't invent a fun name for this one). This happens at room temp, and the hydrogen halide is a gas. If the alkene is a gas, the reactants can just be mixed, but if the alkene is a liquid then the H halide has to be bubbled through the alkene. It could also be concentrated and aqueous, so just mix it up then. The hydrogen halide reacts in the way we've seen a bunch of times, with a H attaching to a C and the halogen attaching to the other. The only thing is that there are 2 possible products😱, with the 2 atoms from the hydrogen halide being organised in either way. What happens here 😬? In this there is a major and the minor product, which is determined with Markownikoff's rule. Don't worry though, we'll get onto that, and electrophillic addition, later.
+
+We've reached the last reaction , so sad😭. This one like the others isn't too bad, but does have 2 possible products like the last one. This has a better name though: hydration. Like the name implies, this involves water reacting with alkenes. Specifically though it has to be steam, with a phosphoric acid (H₃PO₄) catalyst. The product of this is an alcohol, with an alcohol group attaching to one C and a simple H to the other. As the water molecule splits unsymmetrically, there are 2 possible products, with OH and H being possibly attached to either. Again, there is a major and minor product, Markownikoff electrophillic blah blah etc. Luckily for everyone, that's all up next, so let's jump right into it.
+
+
+
+Electrophilic addition is the name of the topic. The name makes sense, but because of the notorious -philes, everyone with a large love of something is ruined. Damn paedos, ruining everything. Electrophilic addition is named so because there is a high electron density in the pi bond of the double bond, which electrophiles are attracted to, cause they love electrons (so there's nothing noncey about it). Electrophiles are positive ions, or molecules with a partially positive charge (delta plus). This reaction is also where we have mechanisms, which is like the displayed formula with more weird notations, like 𝛿+ and 𝛿-, and our arrows. There aren't any funny fishhook arrows though. In the first step, it is shown that the electrons from the hydrogen halide bond go to the halogen, and the electrons from the double bond of the alkene go to the H. In the second, carbocation, stage, the double bond is broken (to single), the H has joined to one of the C, and on the other C there is a plus in a circle, indicating it is a positive ion (hence the name carbocation). The halogen is an ion, but an arrow from the halogen to the spare place on the Carbon shows what's up next. In the last stage, the haloalkane is complete. This is also the case for hydration, with OH instead of a halogen.
+<img src="chap13d.png">
+
+So who's this Markownikoff guy then? He invented the system of determining the major and minor product of electrophilic addition. Also, if you aren't sure what the major and minor products are, basically in a reaction there is a higher yield of major than minor product. There is a scale of 3 types of carbocation: primary, secondary and and tertiary. This is a carbocation we are talking about, so we focus on a carbon attached to 3 groups, with a space spare for either the H or halogen or OH (depending on the reaction). If the C is attached to 2 Hs and one other group (is often carbon, or other). The C being attached to 3 Hs is also primary, but this is methyl, with room for only one bond, so that isn't relevant for electrophilic addition. Secondary carbocations have one H and 2 other groups, and are more stable. Last is tertiary, with the C attached to no Hs, and this is the most stable. The major product will be have the halogen/OH connect to the most stable carbocation of the 2 options, so tertiary, then secondary then primary. Lets do a quick example. If you had but-1-ene, which is mixed with Hydrogen Chloride, the major product will be 2-chlorobutane, and the minor will be 1-chlorobutane. This is because when the bond is broken, on the left the carbocation is primary and the right is secondary, so the major product is where the chlorine bonds to the right carbocation, and so the H is on the left. 
+<img src="chap13e.png">
+
+
+
+
+
+
+
+Time for the last major section of alkenes, which is on the subject of alkenes. Polymers are extremely long molecules, with repeating units called monomers. This means it looks quite simple, like an ethane with groups off it. For a polymer though you need to have horizontal lines coming off the 2 carbons to show the chain carries on, and put square brackets around the whole thing (called the repeating unit). A number is also put to the bottom right of the square brackets (outside it) which shows how many repeating units there are. 
+
+But what's this got to do with alkenes? When a number of alkenes undergo addition polymerisation, the double bonds are all broken, and the ex-alkenes all join up to make a big chain. This needs high temps, high pressures and catalysts, but the result is useful properties. For the name, poly() is put outside the alkene name, like poly(chloroethene), which is actually PVC. 
+<img src="chap13f.png">
+
+
+
+Polymers are great, aren't they. Well, perhaps not, as there is 2 pages of environmental issues here. What's even worse than the issues themselves is that I have to note them down, but I'm sure I can rush through it.
+
+Polymers are cheap, which means they are produced a lot. However, they aren't reactive, which makes disposing of them not very convenient. They also aren't biodegradable.
+
+Luckily, polymers can be recycled. This conserves fossil fuels, which are finite, and also reduces landfill. However, to recycle them they need to be sorted, chopped up, washed, melted down and then remoulded into whatever, which is a bit of an ordeal. Though that's just the cost of being responsible and environmentally friendly.
+
+PVC is unique, as it can't recycled as well as other polymers. It is also hazardous when burnt (because it contains chlorine), so it shouldn't go to landfill, as HCl is released. It can however be ground down or dissolved to recycle it.
+
+For polymers which are hard to recycle, they can be incinerated, which produces heat, and steam turns turbines which produce electricity. This means waster polymers can be used as a fuel source.
+
+This one is called feedstock recycling, and it is where chemical and thermal processes are used to reclaim monomers, gases or oil from waste polymers. This can then be used as raw materials to make new polymers. This method also handles unsorted and unwashed used polymers, so less processes are needed than with the other polymer recycling.
+
+Some polymers are biodegradable, and they can be broken down by microorganisms in water, and made into biological compounds. Compostable polymers degrade anywhere, so these are specifically made to biodegrade. Bioplastics are alternatives which are sustainable as they're made by plants.
+
+Photodegradable polymers are specifically made with bonds which are more easily weakened by light. This can be used in cases where plant-based polymers can't be used.
+
+
+
+
+
+
+
+And that's all for alkenes. We've gone through the properties, reactions, and polymers, plus all the sub-sub-topics inside those. So quite a lot. A lot more than the simple alkenes from GCSE, which didn't really go any deeper than being 2 lines. But that's AS/A level for you. Ok, I'm now al-keen to finish this review, so bye. 
+

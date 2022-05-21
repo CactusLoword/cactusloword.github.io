@@ -1,0 +1,35 @@
+
+@media (orientation: portrait) {
+  #gamescreen{
+    width:100vw;
+    /* border:1px solid black; */
+  }
+  #area,#outside,#pearstall,#library,#irodorimidori{
+    width:100vw;}
+  #contents,.contents{
+    height: 90%;
+    width:90%;
+    left:5%;
+    top:5%;
+  }
+  #viewer{
+    height:90%;
+    width:90%;
+    left:5%;
+    top:5%;
+  }
+  .exitButt{
+    top:2.5%;
+    height:2.5%;
+    width:3%;
+  }
+  #contentsExit{
+    right:5%;
+  }
+  #back{
+    width:30%;
+  }
+  .contentsButts{
+    font-size: 2vh;
+  }
+}

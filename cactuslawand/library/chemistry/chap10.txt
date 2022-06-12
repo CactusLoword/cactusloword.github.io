@@ -1,0 +1,80 @@
+Wow, we've reached the 10th chapter, what an achievement. In actuality this isn't much of a anniversary, as this is like the 15th Chem review I've done. Also it's not even the 10th chronologically, as I guess chapter 1 doesn't exist or something. Regardless, this chapter is quite a big one. I'd count what chapter is the biggest, but that would probably be procrastination. The topic covers not only RoR (the official abbreviation of rates of reaction), but also equilibrium, a fan-favourite from GCSE which thankfully has returned this year. 
+
+
+
+
+
+
+
+As it could be assumed by the name, RoR is the rate of a reaction, so how fast a reaction happens. If you wanted to say it another way you could say it is how fast a product is formed/ reactant is used up. This is often as seen of a graph, which with time on the x axis and the measured value on the Y, the graph looks like a log graph. How does one calculate the rate of reaction? This is done with the graph (we'll get to how the graph is made later). If you want the rate at a point, you need to find the tangent of the point, and work out the gradient of the tangent. If you need to find the mean over a time, then you draw a line from the 2 points, and find that gradient.
+
+Before you draw a graph though, you need to actually do the experiment. There are a couple of different ways to do this. One way is with a solution that turns from colourless to not, by drawing an X (or any other shape or marker) underneath the flask, and timing the time for it to disappear. The only thing is that you can't really plot a graph for this one, as the rate of reaction will be just measured in time, like secs. There are 2 methods which involve another value to measure aside from time. The first is by using a gas syringe, and measuring the volume of gas released. The low-cost version of this would be with a measuring cylinder filled with water, and putting a tube connected to the experiment up the cylinder. The other method is by putting the experiment on a balance, and measuring the mass loss (from the gas releasing into the air). For this one the empty equipment will need to be measured. Also, for the graph of this, you could either measure the mass lost (graph will go down), or the gas mass over time. You will make recordings every set time interval, and when you get 2 results of the same. Then, plot the points, and draw a line of best fit (the line will be curved). 
+
+
+
+What affects rate of reaction? There is a list of 4 things: pressure (if gases), temperature, concentration, catalysts and surface area of solid reactants (if applicable). Increasing any or all of these will increase the RoR. This is because of collision theory, which basically describes the reaction happening by the particles bashing into each other. For the reaction to happen in the collision, the particles have to be orientated the right way, and they have to have enough energy to be equal to or exceed the activation energy. If there are more collisions then the reaction happens faster. Increasing pressure increases collisions as the gas particles are contained in a smaller volume, so are closer together so more collisions occur. With concentration it is kind of the opposite initial change (for the same result), as you increase the amount of particles in the same volume, and therefore there are more collisions. Increasing temperature means the particles have more energy, which increases collisions (there's also a bit more about temp later on). With increased surface area, there is more chance of collision. For the opposite cause, there are less collisions, so there will be a lower RoR.
+<img src="chap10a.png">
+<img src="chap10b.png">
+
+Of course catalysts have to be special, and have a bunch more info. One handy aspect is that we haven't covered this part in lessons, which isn't especially helpful. Catalysts act as an intermediate in a reaction, and speed up the RoR without being used up. This is because they provide an alternate pathway for the reaction to happen, which has a lower activation energy. Going back to the last topic, this can be seen on the energy profile, as with a catalyst the curve is smaller. There are 2 types of catalyst, homogeneous and heterogeneous. Homogeneous catalysts have the same physical state as the reactants, and the catalyst reacts with the reactants, forming an intermediate. This intermediate breaks down, and the products are formed, plus the catalyst is regenerated. On the other hand, heterogeneous catalysts are a different state to the reactants, which is very often a solid catalyst in gas reactants. This means the reactants are absorbed by the catalyst, the reaction happens, and then the products are desorbed (apparently that's a word). As a last little catalyst fact, they are quite environmentally friendly, as they provide the need for less energy being used up. That's nice of them.
+
+
+
+New Scientist incoming. This section was inspired by Boltzmann, who was named after the Boltzmann distribution, which coincidentally he invented. The Boltzmann distribution is a graph, of energy (x) against number of molecules (y). Also these molecules are specified to have energy. The thing that's special about this graph is that we need to know the shape of it, and be able to sketch it. This means there aren't any values on the axis, except a marker on the x-axis we need to know, which is the activation energy. The area under the graph is the total number of molecules. With this graph, you can basically see the comparison of the amount of molecules with each energy. The graph starts at the origin, as no molecules have 0 energy, but it doesn't meet the x-axis at this end.
+
+At the standard temp, the graph curves up, and then curves down. The graph curves up first, showing that at these conditions, there are lots of molecules with a moderate amount of energy. Then, you go down, so there are less molecules with lots of energy. Somewhere near-ish the end, you have a marker on the x-axis, which is the activation energy, Eₐ. This shows that most the molecules are below the activation, but after that point those molecules are above Eₐ, and these molecules (which is only a small fraction of the overall population) can react.
+
+This is just the standard distribution, so the graph differs for different circumstances. If temperature is increased, then the graph height lowers, but as there are still the same number of molecules (so the area must be the same), the graph width fattens. This means that at and above the activation energy there are more molecules, so the reaction is faster. If temperature is decreased, the graph increases near the start, so more molecules have less energy. This also means there are less molecules with energy ≥ Eₐ. 
+
+The next factor that could be changed is concentration. This one seems quite simple, as a change in the amount of molecules changes the graph size by that, e.g halving the concentration of molecules, means the graph area is half the size, so the graph is half the size. This graph looks different to the temperature ones as with those the area is the same. 
+
+What about pressure. Funnily enough, this doesn't change the graph shape. Change in pressure does change RoR, but that isn't shown with distribution graph.
+
+The last factor we go through is catalyst, which is a bit different, catalysts don't change the actual graph part of the graph. What they do add though is a new marker, which is the new activation energy due to the catalyst. This means that a catalyst increases RoR not because of changing particles' energies, but by decreasing the minimum energy, so more molecules have enough energy to react.  
+<img src="chap10c.png">
+
+
+
+
+
+
+
+And that's half way. RoR is done, now we're onto equilibrium. The basis of equilibrium happens because of reversible reactions. Most reactions go one way, with reactants and products, and it isn't that simple to just to back to the reactants, as you'd probably have to other reactions to get back there. With reversible reactions, the reaction can happen forwards and/or backwards, so products can turn back into reactants (directly). In equilibrium, AKA dynamic equilibrium, the reaction is in a closed system, and the forwards and backwards reaction happen at the same rate. This also means that the concentrations of reactants stay the same and the concentration of products stay the same, but that doesn't mean that the separate reactant and product concentrations can't be different, e.g. more reactants than products.
+
+
+
+That's what equilibrium is, but the big chunk of equilibrium is about le Chatelier's principle. This was invented by le Chalelier, and describes what happens the the position of equilibrium if the equilibrium conditions are changed, to counteract the changes. The position of equilibrium is a way to explain the ratio of reactants to products in the system. If there are more products than reactants, then the position is shifted to the right, in the forwards direction.  If there are more reactants than products, then the position is shifted to the left, in the backwards direction. This means that momentarily, the concentrations of each reactants and products do change, but then the stay constant, unless another change is made.
+
+There are 3 factors we go through which affect the position, which are concentration temperature, pressure. 
+
+With concentration, it is probably the most simple to remember, as there really isn't anything to remember. If the concentration of one side is increased, then the equilibrium position shifts in the opposite direction. E.g. if you increase the reactants, the position shifts towards the product side. If you decrease a side, then that side's concentration will increase, e.g. if you decrease reactants then the position shifts to the reactants side, so their concentration is increased.
+
+For temperature, we give a nod back to enthalpy, and endo/exothemic reactions. If temperature increases, then the equilibrium shifts in the endothermic direction, as this absorbs energy from the surroundings to bring the temperature back down. If you decrease temp, then the equilibrium shifts shifts in the exothermic direction.
+
+Now for the last, but not least factor (no pressure) is pressure. For this you need to look at the number of molecules on each side, including the moles ratio number. If the pressure is increased, then the equilibrium shifts to the side with the least molecules. If the pressure is lowered, the equilibrium shifts to the position of most molecules.
+
+Before we move on, there is one note about equilibrium, which is that catalysts don't affect the position of equilibrium. Catalysts increase the RoR, so in equilibrium will increase the forwards and backwards reaction equally, but there isn't an affect to do with the position, which is what this sub-topic is mostly. 
+
+One aspect heavily related to equilibrium is the Haber process. This is something from GCSE which I guess didn't make it to A-level. It is in the textbook, but it's in a green box, so I thinks it's like not an experiment we need to know, but it is a good example of equilibrium. I guess that means it could come up on an exam, but perhaps just as likely as any other reversible reaction. With the Haber process it basically just says how the conditions need to balanced for the maximum yield. They want to decrease the pressure as there will be more ammonia, but not so small pressure it's dangerous. The same goes for temperature. Another thing taken into account, which isn't so relevant with the haber process, but is that small pressure and temperature increase the rate of reaction, but you might have a reaction where the maximum yield would be in the endothermic direction with more molecules, so with this the factors balance would need to be considered.
+
+
+
+There's just one last thing to do with equilibrium, or indeed the whole topic. It's kind of like a finale of equilibrium, as there isn't much to do with actual reactions, more like the comparison of different equilibriums, a bit like the refractive index in physics. It's called the Equilibrium constant (K꜀ (that's K with a subscript c)), and it tells you which way the equilibrium position favours. The only thing is that it's a bit weird as usually in an equation, the magnitude of the molar ratios doesn't matter, as long as the ratio stays equal, e.g. you could have 2NaCl+F₂→2NaF+Cl₂ or 20NaCl+10F₂→20NaF+10Cl₂. But with this, you have to have the simplest whole number ratio, otherwise the result changes. There's also an equation we need to know (not on data sheet). 
+
+In the equation, the concentrations are put to the power of their molar ratios. Then the products (on the RHS) are multiplied by each other, and put over the reactants times'd together. That answer is the equilibrium. That was the best I could do with words, so here it is in a probably better way:
+
+If we take the equation as: aA + bB⇌cC + dD, then the equation for the equilibrium constant will be written as ([C]ᶜ[D]ᵈ)/([A]ᵃ[B]ᵇ). This is the first step, and then when/if you have concentrations of each molecule, you substitute that in, and work it out.
+<img src="chap10d.png">
+
+One thing to note is that the units vary for different equations. This instantly makes it more inferior than RI (from Physics), as that doesn't have any units, as they cancel out. But with the K꜀, you need to think about it more carefully. The concentrations are in moldm⁻³ (or gdm⁻³ I guess, but for this I'll just use moldm⁻³), which means if you had to square it, it would become mol²dm⁻⁶. You then might have to times that by another molecule on the same side. Finally, you'd have to divide the 2 units. This means the units could be anything like mol⁻⁴dm¹², or simply moldm⁻³, or even nothing. Luckily, we don't need to know this for AS. But at the end of the day, it's just laws of indices, which aren't too bad.
+
+How can we actually use the equilibrium constant though? There are some rules about it, based around 1. If K꜀ is 1, then the position of equilibrium is exactly halfway between the reactants and products. If K꜀ >1, then the position is towards the products. If K꜀<1, the position if towards the reactants side. The good thing is that this is basically just fractions. If the numerator is bigger than the denominator (so in this case the products num is more than reactants) then it is a number bigger than 1. If the reactants are bigger than products, so denominator>numerator, then the result is a smaller than 1. If they're the same than it's 1. With this, all you need to know is the equation, and it's products over reactants, and then you can figure out where the position of equilibrium is. 
+
+
+
+
+
+
+
+That's the end of RoR and equilibrium. Overall, a lot of the topic is stuff from GCSE, with new stuff like Boltzmann and K꜀. It also isn't too bad, which I guess is good. I'm spending too long long thinking about this conclusion, so I'm going to wrap it up here. Goodbye RoR, back to writing the full Rates of Reaction. There wasn't really a way to shorten equilibrium.
+

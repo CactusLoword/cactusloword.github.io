@@ -1,0 +1,35 @@
+I hadn't planned to a review at the moment, as I thought I should focus on re-reviewing. However, I had the impulse to do this review, mostly because I don't know it. We didn't really cover it much in lessons, so what better way to learn than reviewing it. Let's get some momentum going, as we get on writing/reading (whichever's applicable).
+
+
+
+
+
+Momentum is first up. This is heavily to with Newton's laws, as the actual definitions are all to do with momentum. The laws can also be interpreted in different ways, like if one value changes then another one in turn changes, which are the one's I remember. Newton defined momentum as mass * velocity, and this is used to explain force as well. The symbol for momentum is a p (for some reason, so p=mv (in data sheet). The units are kgms⁻¹, so already you can tell why this isn't a favourite. 
+
+Here's where we go through Newton's laws again, but now in terms of momentum. The first law states that objects stay at rest or constant velocity (a=0) unless a force acts on the object. As p=mv, this means that momentum is constant until a force is acted on it. This also means that if mass changes, velocity changes to make momentum still constant. 
+
+Ok, 2nd law. It is basically f=ma, but the actual law is that the rate of change of momentum is proportional to the force. This relates to the first law, as it says if force changes, momentum changes, but it specifies that they are proportional, so you can use them in equations. The equation version of this is F=Δp/t, but f=ma is actually derived from this. F=(mv-mu)/t, (m(v-u))/t, ma. Some astute peeps may have noticed this means that alternate units for p is Ns, and both units are valid.
+
+This is also where impulse comes in. Impulse is change in momentum, so rearranging the 2nd law equation above, fΔt=Δp, or fΔt=Δ(mv). On a force-time graph, the area under the graph will be the impulse.
+
+Impact force is the impulse/contact time
+
+This bit is a little weird, but kind of makes sense if you think about it (or don't think about it). It is to do with an object, like a ball, hitting a wall and rebounding. For this, lets assume momentum is conserved, so the momentum, speed (and mass) is the same before and after. The momentum before will be p, but after the momentum will be -p, as it is travelling the opposite way (momentum is a vector). The change of momentum is final-initial, so it will be -p-p, so -2p. This also equates to -2mv. 
+
+
+
+Yes, what we've all been waiting for, conservation of momentum. This links to newtons 3rd law, which is that when objects interact, they exert equal and opposite forces on each other. I was watching a video (SnapRevise), and it gave a good example. It said that if you punch a wall, you exert a force on the wall, so the wall exerts a force back at you, which is why it hurts
+
+The principle of conservation of momentum says that in a system of interacting objects, the total momentum remains constant, , unless an external force acts on the system. This means that in a system where momentum is conserved, the total momentum before and after a collision is the same. The mass could change, but if we said m was constant, then the speeds could change, but as long as overall the momentum was the same, it is correct. 
+
+
+
+Elastic and inelastic collisions are to do with the kinetic energy conservation. In an elastic collision, the kinetic energy before and after is the same. Realistically, this is rare, as even a little bit of kinetic energy would be lost, but hypothetically, this is perfect elastic collision. Also remember Eₖ=½mv². However, if kinetic energy is lost, this is an inelastic collision. The Eₖ could be lost as heat and/or sound, but that is a bit irrelevant, as the energy change is really what matters. 
+
+
+
+Woah, explosions, that sounds cool. Unfortunately there isn't much more to add, as this is basically about momentum and kinetic energy again
+
+
+
+Done

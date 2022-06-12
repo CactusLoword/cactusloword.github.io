@@ -1,0 +1,50 @@
+Welcome to work, energy and power. This section kind of rounds off the mechanics full topic. Except materials, but who cares about that, it just causes unnecessary stress and strain. I'll get on with the review, as it is going to take some work, energy and power to write.
+
+
+
+
+
+
+
+First up is the work and energy of the work, energy and power topic. That is one thing I noticed only when I wrote the title, which was that ⅔ of the topic name is basically saying the same thing, as work done and energy are essentially the same thing. Technically they are slightly different, but that is mostly the definition, as they are both measured in joules. Although, perhaps the difference is more significant than I realise, which might solve some of my difficulties. Even google says there is a significant difference, but I would dispute that. I guess we'll find out.
+
+When energy is talked about, it is often about energy being transferred. This is referring to the energy stores, like chemical, heat, kinetic, etc, so energy is transferred from one store to another. Luckily I don't think we need to know the stores and stuff. I also think that was a recent occurrence of science being changed, which isn't very helpful. An example of energy transfer would be a lightbulb, which has energy electrically transferred from chemical (like in a battery or something) to light and heat. Energy can also be described as a measure of work done, so I guess they are extremely similar.
+
+Also remember conservation of energy, so energy isn't created or destroyed.
+
+Work done is defined as when force is acted on an object, resulting in energy being transferred. This is where an equation comes in, W=Fs, so work done=force * displacement. The angle of the force could be different to the displacement though, so it is also referred to as W=Fscosθ, with θ being the angle between the s and F. If the lines are in the same direction, then θ=0 so cosθ=1, so W=Fs. This also means that if the force is perpendicular to the displacement, then cos90=0 so there isn't any work done. On a force-distance graph, area under is work done.
+
+So basically, work done and energy aren't the same thing, but they actually kind of are.
+
+
+
+Now for 2 specific types of energies, Kinetic and Gravitational Potential.
+
+Kinetic energy is the energy of an object because of movement. The equation of this is Eₖ=½mv². This means that with more mass and/or velocity, you have more kinetic energy.
+
+Gravitational potential is the energy of an object because of where it is above the ground. The equation for this is Eₚ=mgh (potential energy=mass*gravitational field strength*height).
+
+Because of how they are kind of opposites in a way, kinetic and potential energy work well together. For example, a falling ball will at first, with 0 velocity, have a certain amount of potential energy. As the ball falls, Eₚ decreases as h decreases, and Eₖ increases as v increases. Eₚ decreases at the same rate as Eₖ increases, so at the end when h=0 (with the ball is still moving), Eₖ= Eₚ at the start. If the ball stopped at the ground, I guess the kinetic energy would be transferred the ground and surroundings, but if the ball bounced back up, then Eₖ would decrease and Eₚ will increase.
+
+
+
+
+
+Now it's power time 💪 RRRRRR. I personally have a lot of power, I could smash my fist straight through 5 walls. But Watt is power (joke explanation- the units for power is watts)? Power itself is described as the rate of energy transfer, so the equation is P=E/t. Of course, could be W instead of E, but I've had enough of the E/W having to write everything twice, it's just dumb. Power is also referred to a bit in electricity, so there is some overlap there (there is also energy in electricity, but I didn't mention it). That would be how to work out the electrical power, with those values. The other energy equations could also be used to work out the energy, if needed. 
+
+Uh oh, another power equation? I've often though it looked quite confusing on the datasheet, but it actually isn't too bad. It is derived from P=W/t, by putting W=Fs into it. You get P=Fs/t, and s/t=v to it is P=Fv. This useful for situations where you have a force with a speed. Actually I don't know why I specified, it was quite obvious from the equation, but oh well, it's written in stone now, can't be changed.
+
+
+
+
+
+Last up in this topic (quite a small one, isn't it?) is efficiency. This a percentage, saying basically how efficient something is, so how much of the total energy used is useful. The equation is useful energy output/total energy output, and then *100 for %. The useful energy output is the energy used for the desired output, like heat energy in a kettle. The total energy used will be the useful energy used, plus the wasted energy, like sound energy with a kettle. This might be hard to calculate though, but as energy is conserved, the total energy output=energy input, so with the kettle example the electrical energy input can be used for the denominator. Also for the kettle example, the useful energy could be calculated with the specific heat capacity equation (Q=mcΔT/energy=mass*specific heat capacity of substance*temp change). That would be unusual though. Also that equation is bad as it introduces another character to represent energy. Q, W and E, what's next? In other circumstances the useful energy output could be kinetic or potential, or even electrical. 100% efficiency is most desired, as all the inputted energy is used for the desired energy purpose. Although if everything was 100% efficient, general things wouldn't make sound or emit heat, which would be kind of weird. 0% efficiency is just shit, you should just give up then. This percentage would be strictly between 0 and 100, as anything below or above would mean energy would be destroyed or created, which isn't possible.
+
+
+
+
+
+
+
+There we go, the end of the Energy and Power topic. Also I've shortened the name now, the 'work' was unnecessary. In GCSE there was more on energy, like renewable fuels and more content stuff, but that has been relegated to extension activities, so not necessary. Overall, not an especially long topic, and not too tricky either. You'd think that would make it a fan favourite topic, but personally it doesn't stand out too much, and isn't especially exciting. It can basically be simplified to a few equations in the data sheet, so some might say this review has been a waste of time and unnecessary. However, is anything really a waste of time if you try to regret nothing and stay positive? Probably, but I'll try to not think about it. 
+

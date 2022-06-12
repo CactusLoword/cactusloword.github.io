@@ -1,0 +1,88 @@
+As the title suggests, this section is based on Newton and his laws. It isn't exclusively about him though, as it is about the implementation of his laws. It is just the name of the topic, don't blame me. 
+
+
+
+
+
+
+
+Newton's laws of motion:
+
+1) An object stays at rest or constant velocity unless a force is exerted upon it
+
+2) Rate of change of momentum of an object is directly proportional to force applied to it, at a constant mass (f=ma)
+
+3)When 2 objects interact, they  exert equal and opposite forces on each other
+
+
+
+
+
+Since forces in equilibrium, we know about force, measured in Newtons. F=ma is the main equation associated with it, and that equation is derived from newton's 2nd law. This equation is similar to where weight comes from. The equation is sometimes written as W=mg, with g being gravitational field strength. This is similar to f=ma though, as acceleration due to gravity is 9.81, so the weight is the force of the falling object.
+
+
+
+
+
+Unfortunately, the resultant force isn't as easy as f=ma. It is alright when you just have the forces, e.g. if they were in the same plane they would go against each other and you would subtract them. Even if they aren't in the same plane, you can use trig or Pythagoras to figure it out. Things like objects being towed are then kind of hard.
+
+The proper equation for resultant force is F₁-F₂=ma. This is when you have a forward force and a resisting force, which solve to make the resultant force. For each force on their own, there will be a different acceleration (we are assuming mass is constant), so when the forces act they partially cancel out so we have a resultant acceleration as well. Also with this example on one plane, other forces like weight will still act. However, law 3 says that every force has an equal and opposite force, so weight is counteracted by the resistive force, which is why the object doesn't sink into the ground or start floating. The horizontal forces don't fully cancel out though, so there is a resultant force so the object accelerates. In the textbook there are lots of examples involving this problem. These aren't necessarily things necessary to know, as you can probably work it out, but just as I'm not very confident on this topic, I'm going to go through them all.
+
+This situation imagines an object pulling another object with a rope, like a car pulling a trailer. The car and trailer each have their own masses (M and m), but as they are connected they have the same acceleration. The forwards force is the driving force of the car, and the resistive force is the tension in the rope. This means the resultant force on the car is F-T=Ma. The only force on the trailer is the tension from the rope, so T=ma. When the 2 equations are combined, F=(M+m)a.
+<img src="newton1.png">
+(Ignore the inner drawings)
+<img src="newton2.png">
+
+For an object moving up, the upthrust exceeds the weight of the object, so T-mg=ma.
+<img src="newton3.png">
+
+The same thing happens for a lift moving up, but T is the tension. However, depending on the movement of the lift, the tension may be more or less than the weight. If the lift is moving up and accelerating or moving down and decelerating, then the tension is more than the weight. This makes sense as in both those cases the movement is going against gravity. If the lift is moving up and decelerating or moving down and accelerating, then the weight is more than the tension. This means that the weight is the dominant force, so gravity is acting how you would expect on a normal object, so it accelerates down (or decelerates up, then accelerates down). Of course, no acceleration means that T=mg, so the tension equals the weight. 
+
+With pulleys, you will have two object moving against each other, but with both objects' force being gravity. This means the force of each is the weight, so Mg-mg=(M+m)a. This is derived from the forces on each mass, with Mg-T=Ma and T-mg=ma.
+
+The last force equation thing is on a slope. Here, we have the weight moving against friction. The acceleration will be parallel to the slope, and so will the friction (but in the opposite direction). For this mgsinθ-F₀=ma, with F₀ being the friction and θ being the angle of the slope. There could also be a driving force if it's a vehicle, and that force will be added onto the resultant force, so the acceleration will be more.
+
+Also I mentioned driving force a bit, which of course will be in N. However, a question might be more complicated than that, and instead give the engine power, in Watts. Luckily though, with P=Fv, that might not be too bad, as long as you have the speed.
+
+
+
+
+
+As you probably know, an object moving down accelerates due to gravity. However, air resistance isn't always negligible, so there is drag on the object. Drag is increases with surface area (how parachutes work), speed, and also the viscosity of the fluid the object is travelling. The ball accelerates due to gravity, so it speeds up. As the speed increases, the drag increases, so the resultant force decreases, so the acceleration increases. The speed keeps increasing (at a gradually slower rate), so drag keeps increasing, so acceleration keeps decreasing, until the acceleration is no more. At this point, the object is diagnosed with speed, and I'm very sorry to say that it's terminal. Terminal velocity happens when the drag equals the weight, so there is no resultant force, so speed is constant.
+
+There is also an experiment, with a ball in a tube of water, probably so it is easier viewed for humans, as drag is more so the overall acceleration is less. This also uses light gates or something to find the speed at different points. This then can be used to plot a graph, which will show a decreasing gradient, as acceleration decreases until 0.
+<img src="newton4.png">
+
+There's a bit about cars here, but it's very similar to resultant force bit so I'll cover it concisely. With a car (object moving horizontally, with a driving force), the driving force has to exceed the drag, so it can accelerate. If they equal each other, speed is constant. If drag becomes larger than driving force, then the car decelerates.
+
+
+
+
+
+Now we get onto the last section, which is about real life physics, and road stuff. Boo, safety, who needs it? We don't need to know all the safety features and such about cars though, as this is physics, not a driving test.
+
+
+
+First up is stopping distances, which is about the distance it takes for a car a stop. This can be split up into 2 parts, thinking and braking distance. For both distances, the faster a car is travelling, the more distance it takes to stop, but there are more factors at play.
+
+Reaction time is the time taken for the driver to press the brakes, so accounts for thinking to brake, and then actually pressing it. Thinking distance is the distance travelled by the car during the reaction time. To work out thinking distance, it is a simple s=vt, with thinking distance=velocity*reaction time. Factors which may increase the reaction time (so thinking distance is more) are distractions (disruptive passengers, birds, phone usage), drugs (alcohol, other), lack of sleep, or I guess even simply slower reactions, but that can't really be controlled, whereas the others very much can. 
+
+Braking distance, not to be confused with breaking distance (which isn't a real thing). This is the distance travelled from the first pressing of the brakes to the car stopping. For this, the equation v²=u²+2as, rearranged to s=-(u²)/2a. For this, v=0, and a is negative (as it's deceleration), but u² is made negative so in the end s is positive. Except from initial speed, the cause for a larger braking distance will be caused by a smaller deceleration (meaning it decelerates less so takes longer to stop). Less deceleration could be caused by lack of friction (e.g. icy roads, worn-out tyres (less grippy)), or broken brakes (if brakes break then you can't break into a brake).
+
+The overall stopping distance is found by adding the thinking and braking distances. Usually, the braking distance is bigger than the thinking distance, just because of circumstances.
+<img src="newton5.png">
+
+
+
+And now, we end the topic on high note, with car crashes. A crash is often measured with impact force, which is basically the force someone/thing is hit with. Of course, with f=ma, a larger mass will mean a bigger force. But acceleration also has an effect. Impact time is the time taken during the impact, and as a=v/t, the smaller the impact time, the larger the acceleration, so the larger the impact force. Technically, if we are talking about the object moving then the impact force will be negative, as it decelerates (a is – so F is -), so a smaller impact time will mean a more minus impact force, and a more positive impact force on the object hit. With equal and opposite forces and all they would both experience force though.
+
+From a safety standpoint, like with airbags, the impact time wants to be as large as possible, as this means the impact force on the object is less.
+
+
+
+
+
+
+
+And there we go, we've finished the topic. It didn't seem to be much about Newton's laws, mainly about forces in general. Of course it relies on his rules though, but I don't think that justifies the name, as that's like calling the topic maths. I will now give myself some time to think about this topic, as I find it quite confusing. I might even go through some questions, who knows.
+

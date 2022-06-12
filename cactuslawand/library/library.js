@@ -10,6 +10,9 @@ var physics={
   "Mechanics in motion":"motion.txt",
   "Optics":"optics.txt",
   "Electricity":"electricity.txt",
+  "Force and Momentum":"momentum.txt",
+  "Newton's Laws":"newton.txt",
+  "Work, Energy and Power":"enerpow.txt",
 }
 
 // console.log(physics["Waves"]);
@@ -27,12 +30,12 @@ var chemistry={
   "Chapter 7: Periodicity":"chap7.txt",
   // "Chapter 8: ":"chap8.txt",
   "Chapter 9: Enthalpy":"chap9.txt",
-  // "Chapter 10: Rates of Reaction":"chap10.txt",
+  "Chapter 10: Rates of Reaction":"chap10.txt",
   // "Chapter 11: Basic Concepts of Organic Chemistry":"chap11.txt",
   "Chapter 12: Alkanes":"chap12.txt",
   "Chapter 13: Alkenes":"chap13.txt",
   "Chapter 14: Alcohols":"chap14.txt",
-  // "Chapter 15: Haloalkanes":"chap15.txt",
+  "Chapter 15: Haloalkanes":"chap15.txt",
 }
 
 // for(let key in chemistry){

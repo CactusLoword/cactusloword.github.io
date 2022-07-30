@@ -209,7 +209,113 @@ Documentation
 
 Software Development Methodologies 
 
+Waterfall
+
+-Sequential
+
+-Not flexible
+
+-Distinct Stages
+
+-Doesn't respond well to requirement changes (unlike other methodologies)
+
+-Simple and very clear
+
+-Runs one way (like a waterfall). This means one stage leads to the next, so a stage only starts when the last has been completed.
+
+-In a revised version, tasks can be sent backwards if it needs to be fixed
+
+-At some stages there isn't much proof of work, which means keeping to schedule is harder, which could lead to over spending
+
+Spiral
+
+-The model is split into quadrants, with each stage having unique objectives
+
+-The process is iterative, so the 4 stages are repeated. The first iterations is smaller scale, and as you go on the project gets bigger, the prototype gets more complicated and you have more risks
+
+-The first stage is basically where a plan of this iteration is made, with clear objectives
+
+-The second stage is where a prototype is made, so this is where the project itself is developed.
+
+-The third stage is where the prototype is tested
+
+-The fourth and final stage is where the prototype is evaluated, and the next one planned, and then the first stage starts again
+
+-It copes well with a changing specification.
+
+RAD (Rapid Application Development)
+
+-This methodology is basically a constant loop of a prototype being made and shown to the client, and then and amendments are made. This repeats until the client is happy.
+
+-Iterative
+
+-Constant client contact is necessary
+
+-This is useful where requirements aren't clear
+
+-Efficiency of code is unimportant
+
+Agile (XP)
+
+-Units are developed and tested, and then integrated into the overall project
+
+-Iterative
+
+-At each stage client feedback is given, meaning requirements can change
+
+-Uses paired programming, which results in more efficient code.
+
+
+
 Testing
 
+White Box testing:
+
+•AKA structural testing
+
+•This is where the program is tested relative to the code
+
+•The test makes sure you cover every path the program could go
+
+•It won't test for the desired purpose of the program
+
+Black Box testing:
+
+•AKA functional testing
+
+•This is where program is tested relative to the specification
+
+•This doesn't involve looking at the code
+
+•It makes sure the program covers the specification
+
+•It tests the inputs and outputs of the program functions
+
+<img src="software2.png">
 
 
+Alpha testing:
+
+-Done by testers at the company who didn't work on the software
+
+-They use the software to simulate the target audience, and in a way which would be different to how programmers would test it (like white and black)
+
+-Test cycles are performed iteratively
+
+-It tests functionality and usability
+
+Beta Testing:
+
+-This comes after alpha testing
+
+-Performed by testers outside the company, and are part of the target audience
+
+-This can't really be actively controlled
+
+-Testers provide feedback to the developers
+
+-Shows how successful the software will be, as there is feedback from the audience
+
+-Only one or two test cycles are done
+
+-This tests functionality, usability, reliability and security

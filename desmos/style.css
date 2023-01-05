@@ -222,7 +222,7 @@ h2{
   margin:0 0 0 5%;
   border-left:2px solid #083;
   padding:1%;
-  /* word-wrap: break-word; */
+  word-wrap: break-word;
   /* overflow: scroll; */
 }
 

@@ -1,0 +1,273 @@
+
+html{
+  width:100%;
+  background-color: #ada;
+}
+
+body{
+  width:100%;
+  margin:0;
+  height: 100%;
+}
+
+#background{
+  background: #fff url(grid4.png) center/10% repeat;
+  position: fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index: -1;
+}
+
+#mainBackground{
+  background-color: #ada;
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  z-index: -1;
+}
+
+main{
+  box-sizing: border-box;
+  padding:1%;
+  /* width:60vw; */
+  /* margin:0 5%; */
+  /* border: 1px solid black; */
+  font: 150% verdana, sans-serif;
+  background-color: #ada;
+  /* position: relative; */
+}
+
+
+/* wider screens */
+/* @media screen and (min-width:calc(100vh*4/3)) {
+  main{
+    width:calc(100vh*4/3);
+    margin:0 calc(calc(100vw - (100vh*4/3))/2);
+  }
+
+  #mainBackground{
+    width:calc(100vh*4/3);
+    margin:0 calc(calc(100vw - (100vh*4/3))/2);
+  }
+} */
+
+/* @media screen and (max-width:calc(100vh/9*16)) {
+  main{
+    width:100%;
+  }
+} */
+
+/*for thin screens*/
+/* @media screen and ((max-width:calc(100vh*4/3)) or (max-width:800px)) {
+  main{
+    width:100%;
+    margin:0;
+  }
+
+  #mainBackground{
+    width:100%;
+    margin:0;
+  }
+} */
+
+
+
+h1{
+  /* text-decoration: underline; */
+  text-align: center;
+  font: 300% verdana, sans-serif;
+  margin:0;
+}
+
+form{
+  /* position: relative; */
+  width:100%;
+  /* border: 1px solid black; */
+  /* height:30%; */
+  overflow: hidden;
+  /* display: flow-root; */
+  display: block;
+}
+
+fieldset#letterSet{
+  width:40%;
+  /* left:0; */
+  /* position: absolute; */
+  /* top:20%; */
+  /* border: none; */
+  float: left;
+}
+
+fieldset#coordinateSet{
+  width:40%;
+  /* right:0; */
+  /* position: absolute; */
+  /* top:0; */
+  height:100%;
+  float: right;
+  margin: 0;
+}
+
+#inputs{
+  float:left;
+  width:100%;
+}
+
+label{
+  font: 100% verdana, sans-serif;
+}
+
+input.inputText{
+  font: 100% verdana, sans-serif;
+  width:40%;
+  margin:1% 0;
+}
+
+button,.button{
+  width:20%;
+  font: 100% verdana, sans-serif;
+  color:#063;
+  margin:1%;
+  margin-top: 0;
+  padding:2% 1%;
+  float: left;
+
+  /* border: 1px solid #083;
+  border-radius: 2px;
+  background-color: #8b8; */
+}
+
+h2{
+  margin-top: 3%;
+  border-top: 3px solid #083;
+  color: #063;
+  width:20%;
+  font: 150% verdana, sans-serif;
+  margin: 1% 0 1% 0;
+}
+
+
+#history{
+  display:block;
+  width: 100%;
+  margin: 5% 0 0 0;
+  border-top: 3px solid #083;
+  /* border:1px dashed #beb; */
+  /* background-color: #4b8; */
+  background-color: #7c7;
+  background-color: #495;
+  background-color: #5a6;
+  /* background-color: #083; */
+}
+
+#history:hover{
+  width: 100%;
+  background-color: #8b8;
+  user-select: none;
+  border-top: 3px solid #083;
+  /* transition: border-top 2s; */
+}
+
+#history:hover #historyTitle{
+  border-top: none;
+}
+
+#historyTitle{
+  margin: 0 0 1% 1%;
+  border-top: none;
+  color:  #052;
+}
+
+#historyTitle:hover{
+  border-top: none;
+}
+
+#historyArea{
+  box-sizing: border-box;
+  visibility: visible;
+  display:default;
+  padding: 1%;
+  border-left: 2px solid #083;
+  opacity: 1;
+  /* transition: opacity 1s; */
+}
+
+.letterOutput{
+  box-sizing: border-box;
+  width:100%;
+  padding:1%;
+  border-top:5px solid #083;
+}
+
+.letterPartOutput{
+  width:100%;
+  border:2px solid #083;
+  position: relative;
+}
+
+.letterPart{
+  width:5%;
+  float:left;
+  height:100%;
+  text-align: center;
+}
+
+.equation{
+  box-sizing: border-box;
+  width:95%;
+  /* float:left; */
+  margin:0 0 0 5%;
+  border-left:2px solid #083;
+  padding:1%;
+  /* word-wrap: break-word; */
+  /* overflow: scroll; */
+}
+
+.copyBox{
+  box-sizing: border-box;
+  /* width: 10%; see below */
+  height:100%;
+  right:0;
+  top:0;
+  position: absolute;
+  border-left:2px solid #083;
+  display: block;
+  text-align: center;
+  padding: 3% 0 1% 0;
+  background-color: #ada;
+  background-color: rgba(170, 221, 170, 0.6);
+  /* background-color: #9d9; */
+  visibility: hidden;
+  display:block;
+  overflow: hidden;
+  width:0;
+}
+
+.copyTitle{
+  box-sizing: border-box;
+  width: 80%;
+  height:30%;
+  left:10%;
+  top:0;
+  position: absolute;
+  border:1px solid #083;
+  padding: 0 0 0 0;
+  background-color: #9c9;
+  font-size: 75%;
+}
+
+.letterPartOutput:hover .copyBox{
+  visibility: visible;
+  display:block;
+  width:10%;
+  transition: width 0.5s;
+}
+
+@media screen and (max-width:calc(100vh*4/5)) /*or (max-width:800px))*/ {
+  .letterPartOutput:hover .copyBox{
+    width:20%;
+  }
+}

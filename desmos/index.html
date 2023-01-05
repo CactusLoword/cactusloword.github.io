@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Desmos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="background"></div>
+    <div id="mainBackground"></div>
+    <main id="main">
+      <h1>Desmos Letters</h1>
+      <p>Supported Letters: A, C, K, O, S</p>
+      <p>Letters are on average 6 units high and 6 wide. Remember to account for letter spacing.</p>
+      <form autocomplete="off" onsubmit="return false;">
+        <div id="inputs">
+        <fieldset id="letterSet">
+          <label for="letter">Letter:</label>
+          <input class="inputText" type="text" maxlength="1" id="letter">
+        </fieldset>
+        <fieldset id="coordinateSet">
+          <legend>Coordinates</legend>
+          <label for="x">x-coordinate:</label>
+          <input class="inputText" type="text" id="x">
+          <br>
+          <label for="y">y-coordinate:</label>
+          <input class="inputText" type="text" id="y">
+        </fieldset>
+        </div>
+        <!-- <input type="submit" onclick="output()"> -->
+      <button onclick="output()">Submit</button>
+      <input class="button" type="reset">
+      </form>
+      <!-- <button onclick="copyText()">CLick</div> -->
+      <h2>Output</h2>
+
+      <div id="outputArea">
+
+      </div>
+      <div id="history" onclick="historyReveal()" onmouseenter="historyHover()" onmouseleave="historyUnhover()">
+        <h2 id="historyTitle" >History</h2>
+        <div id="historyHighlight"></div>
+      </div>
+      <div id="historyArea">
+        <!-- <pre>
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+        Letter not supported
+      </pre> -->
+      </div>
+      <!-- <div style="border:1px solid black;"> -->
+      <!-- <div style="border:1px solid black;position:relative;height:100px;"> -->
+        <!-- <div style="height:100px;width:100px;border:1px solid black;position:absolute;top:0;left:0"></div>
+        <div style="height:100px;width:100px;border:1px solid black;position:absolute;top:0;left:0"></div> -->
+        <!-- <div style="height:100px;width:100px;border:1px solid black;top:0;left:0"></div>
+        <div style="height:100px;width:100px;border:1px solid black;float:right;"></div> -->
+        <!-- <form>
+        <label for="x">x-coordinate:</label>
+        <input type="text" name="x">
+        <br>
+        <label for="y">y-coordinate:</label>
+        <input type="text" name="y">
+        <form> -->
+      <!-- </div> -->
+    </main>
+  </body>
+</html>

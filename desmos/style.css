@@ -40,6 +40,11 @@ main{
   /* position: relative; */
 }
 
+media screen and (max-width:450px) {
+  main{
+    font-size: 200%;
+  }
+}
 
 /* wider screens */
 /* @media screen and (min-width:calc(100vh*4/3)) {

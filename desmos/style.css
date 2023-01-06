@@ -40,7 +40,7 @@ main{
   /* position: relative; */
 }
 
-media screen and (max-width:450px) {
+media screen and (max-device-width:450px) {
   main{
     font-size: 200%;
   }

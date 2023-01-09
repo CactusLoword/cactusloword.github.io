@@ -28,9 +28,17 @@ function resetLetters() {
     },
     "C": {"C": "\\left(1.1\\left(x-"+x+"\\right)\\right)^{2}+\\left(y-"+y+"\\right)^{2}\\le10\\ \\left\\{\\left(1.1\\left(x-"+x+"\\right)\\right)^{2}+\\left(y-"+y+"\\right)^{2}\\ge4\\right\\}\\left\\{\\left|y-"+y+"\\right|\\ge\\frac{1.1\\left(x-"+x+"\\right)}{2}\\right\\}"
           },
+    "D": {
+      "|":String.raw`x\ge-2+${x}\left\{x\le-0.75+${x}\right\}\left\{y\le\sqrt{10}+${y}\right\}\left\{y\ge-\sqrt{10}+${y}\right\}`,
+      "ↄ":String.raw`\left(\left(0.9\left(x+0.75-${x}\right)\right)\right)^{2}+\left(y-${y}\right)^{2}\le10\ \left\{\left(\left(0.9\left(x+0.75-${x}\right)\right)\right)^{2}+\left(y-${y}\right)^{2}\ge4\right\}\left\{x\ge-0.75+${x}\right\}`
+    },
+    "I": {
+      "=":String.raw`x\ge-1.5+${x}\left\{x\le1.5+${x}\right\}\left\{y\ge-3+${y}\right\}\left\{y\le3+${y}\right\}\left\{x\ge\left\{-1.5+${y}\le y\le1.5+${y}:1.5+${x},-1.5+${x}\right\}\right\}`,
+      "|":String.raw`x\ge-0.5+${x}\left\{x\le0.6+${x}\right\}\left\{y\ge-1.5+${y}\right\}\left\{y\le1.5+${y}\right\}`
+    },
     "K": {
-      "|":String.raw`x\ge-1.5+${x}\left\{x\le-0.4+${x}\right\}\left\{y\le3.1+${y}\right\}\left\{y\ge-3.1+${y}\right\}`,
-      "<":String.raw`\left|y-${y}\right|\ge x-${x}\left\{\left|y-${y}\right|\le x+1.5-${x}\right\}\left\{y\le3.1+${y}\right\}\left\{y\ge-3.1+${y}\right\}`
+      "|":String.raw`x\ge-2+${x}\left\{x\le-0.9+${x}\right\}\left\{y\le3.1+${y}\right\}\left\{y\ge-3.1+${y}\right\}`,
+      "<":String.raw`\left|y-${y}\right|\ge x+0.5-${x}\left\{\left|y-${y}\right|\le x+2-${x}\right\}\left\{y\le3.1+${y}\right\}\left\{y\ge-3.1+${y}\right\}\left\{x\ge-0.9+${x}\right\}`
     },
     "O": {"O":"\\left(1.1\\left(x-"+x+"\\right)\\right)^{2}+\\left(y-"+y+"\\right)^{2}\\le10\\ \\left\\{\\left(1.1\\left(x-"+x+"\\right)\\right)^{2}+\\left(y-"+y+"\\right)^{2}\\ge4\\right\\}"},
     "S": {
